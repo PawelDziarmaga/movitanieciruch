@@ -1,0 +1,98 @@
+.nav {
+	padding: 2vh 10%;
+	position: fixed;
+	width: 100%;
+	font-size: 0.9em;
+
+	background-image: linear-gradient(
+		45deg,
+		rgb(198, 42, 105, 0.4),
+		rgb(80, 149, 205, 0.8)
+	);
+	box-shadow: 0px 0px 5px #393e46;
+}
+.nav__container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.nav__element {
+	list-style: none;
+}
+.nav__logo-container {
+	padding-right: 10%;
+}
+.nav__logo {
+	height: 50px;
+}
+.nav__list-item {
+}
+.nav__link {
+	display: block;
+	height: 100%;
+	width: 100px;
+	line-height: 50px;
+
+	text-align: center;
+	text-decoration: none;
+	color: black;
+
+	transition: 0.2s;
+}
+.nav__link:hover {
+	font-size: 1.1em;
+}
+.nav__hamburger {
+	display: none;
+}
+
+@media screen and (max-width: 1200px) {
+	.nav {
+		padding: 2vh 5%;
+	}
+	.nav__logo-container {
+		padding-right: 5%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.nav {
+		padding: 2vh 2%;
+	}
+	.nav__logo-container {
+		padding-right: 2%;
+	}
+}
+@media screen and (max-width: 980px) {
+	.nav {
+		padding: 2vh 10%;
+	}
+	.nav__list-item {
+		display: none;
+	}
+	.nav__hamburger {
+		align-self: center;
+		display: block;
+		position: absolute;
+		right: 50px;
+		height: 3px;
+		width: 40px;
+		background-color: black;
+	}
+
+	.nav__hamburger:before,
+	.nav__hamburger:after {
+		display: block;
+		position: absolute;
+		height: 3px;
+		width: 40px;
+		background-color: black;
+		content: "";
+	}
+	.nav__hamburger:before {
+		top: 10px;
+		transition: top 100ms 250ms ease-in, transform 220ms ease-in-out;
+	}
+	.nav__hamburger:after {
+		bottom: 10px;
+		transition: bottom 100ms 250ms ease-in, transform 220ms ease-in-out;
+	}
+}

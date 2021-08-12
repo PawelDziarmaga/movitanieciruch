@@ -1,7 +1,16 @@
+import { BrowserRouter } from "react-router-dom";
+
+import Navigation from "./layauts/navigation/Navigation";
 import "./App.css";
 
 function App() {
-	return <div className='App'></div>;
+	return (
+		<BrowserRouter>
+			<div className='app'>
+				<Navigation />
+			</div>
+		</BrowserRouter>
+	);
 }
 
 export default App;

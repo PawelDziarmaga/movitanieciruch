@@ -1,1 +1,1 @@
-Movie taniec i ruch
+Movi – Studio tańca i fitness
