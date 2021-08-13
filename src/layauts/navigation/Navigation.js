@@ -29,7 +29,7 @@ function App() {
 	};
 
 	return (
-		<div className='nav-container'>
+		<div className='nav-container visible'>
 			<nav className='nav'>
 				<Logo />
 				<Menu />

@@ -27,7 +27,7 @@
 }
 
 .visible .MenuMobile__container {
-	transform: translateX(-100vw);
+	transform: translateX(200vw);
 }
 @media screen and (min-width: 980px) {
 	.MenuMobile__container {

@@ -29,4 +29,12 @@
 	.nav {
 		padding: 10px 10%;
 	}
+	.nav {
+		justify-content: space-between;
+	}
+}
+@media screen and (max-width: 250px) {
+	.nav {
+		padding: 10px 0%;
+	}
 }
