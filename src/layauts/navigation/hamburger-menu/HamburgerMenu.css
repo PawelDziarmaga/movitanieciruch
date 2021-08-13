@@ -1,0 +1,51 @@
+.nav__hamburger-container {
+	display: none;
+
+	height: 50px;
+	width: 50px;
+
+	cursor: pointer;
+}
+.nav__hamburger {
+	top: 35px;
+	position: absolute;
+	height: 3px;
+	width: 40px;
+	background-color: black;
+	transition: 0.2s 0.2s ease-in-out;
+}
+
+.nav__hamburger:before,
+.nav__hamburger:after {
+	position: absolute;
+	height: 3px;
+	width: 40px;
+	background-color: black;
+	content: "";
+	transition: transform 0.2s 0.2s ease-in-out;
+}
+.nav__hamburger:before {
+	top: 10px;
+}
+.nav__hamburger:after {
+	bottom: 10px;
+}
+
+/*************	aktywne menu	************/
+
+.active .nav__hamburger:before {
+	transform: translateY(-10px) rotate(45deg);
+}
+
+.active .nav__hamburger:after {
+	transform: translateY(10px) rotate(-45deg);
+}
+.active .nav__hamburger {
+	background-color: transparent;
+}
+
+@media screen and (max-width: 980px) {
+	.nav__hamburger-container {
+		display: block;
+	}
+}

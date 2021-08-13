@@ -1,56 +1,42 @@
+import React, { useEffect, useState } from "react";
 import "./Navigation.css";
-import logo from "../../Image/LOGO-NAV.png";
+import HamburgerMenu from "./hamburger-menu/HamburgerMenu";
+import Logo from "./logo/Logo";
+import Menu from "./menu/Menu";
+import MenuMobile from "./MenuMobile/MenuMobile";
 
 function App() {
+	const [mobileMenu, setMobileMenu] = useState("");
+
+	const [henuHamburger, setMenuHamburger] = useState("");
+
+	useEffect(() => {
+		setMobileMenu(document.querySelector(".nav-container").classList);
+		setMenuHamburger(
+			document.querySelector(".nav__hamburger-container").classList
+		);
+	}, []);
+
+	const handleHamburgerMenu = () => {
+		setMobileMenu(
+			document.querySelector(".nav-container").classList.toggle("visible")
+		);
+		setMenuHamburger(
+			document
+				.querySelector(".nav__hamburger-container")
+				.classList.toggle("active")
+		);
+	};
+
 	return (
-		<nav className='nav'>
-			<ul className='nav__container'>
-				<span className='nav__element nav__logo-container'>
-					<img className='nav__logo' src={logo} alt='logo'></img>
-				</span>
-				<li className='nav__element nav__list-item'>
-					<a className='nav__link' href='./'>
-						Aktualności
-					</a>
-				</li>
-				<li className='nav__element nav__list-item'>
-					<a className='nav__link' href='./'>
-						Fitnes
-					</a>
-				</li>
-				<li className='nav__element nav__list-item'>
-					<a className='nav__link' href='./'>
-						Taniec
-					</a>
-				</li>
-				<li className='nav__element nav__list-item'>
-					<a className='nav__link' href='./'>
-						Grafik
-					</a>
-				</li>
-				<li className='nav__element nav__list-item'>
-					<a className='nav__link' href='./'>
-						Cennik
-					</a>
-				</li>
-				<li className='nav__element nav__list-item'>
-					<a className='nav__link' href='./'>
-						Instruktorzy
-					</a>
-				</li>
-				<li className='nav__element nav__list-item'>
-					<a className='nav__link' href='./'>
-						O nas
-					</a>
-				</li>
-				<li className='nav__element nav__list-item'>
-					<a className='nav__link' href='./'>
-						Kontakt
-					</a>
-				</li>
-				<span className='nav__element nav__hamburger'></span>
-			</ul>
-		</nav>
+		<div className='nav-container'>
+			<nav className='nav'>
+				<Logo />
+				<Menu />
+				<HamburgerMenu click={handleHamburgerMenu} />
+			</nav>
+			<MenuMobile />
+		</div>
 	);
 }
 
