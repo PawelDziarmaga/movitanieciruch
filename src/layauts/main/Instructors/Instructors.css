@@ -1,0 +1,16 @@
+.instructors {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.instructors__box {
+	width: 20%;
+	order: 3;
+	text-align: center;
+}
+.instructors__name {
+}
+
+.instructors__picture {
+	width: 80%;
+}

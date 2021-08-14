@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 
 import Navigation from "./layauts/navigation/Navigation";
+import Main from "./layauts/main/Main";
 import "./App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 		<BrowserRouter>
 			<div className='app'>
 				<Navigation />
+				<Main />
 			</div>
 		</BrowserRouter>
 	);

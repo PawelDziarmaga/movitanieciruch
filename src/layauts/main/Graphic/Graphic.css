@@ -1,0 +1,12 @@
+.graphic {
+	padding: 5vh 0%;
+}
+.graphic-link {
+	padding: 5vh 10%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.graphicImg {
+	height: 20vw;
+}
