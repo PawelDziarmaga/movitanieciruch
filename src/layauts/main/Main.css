@@ -1,5 +1,5 @@
 .main-element {
-	min-height: 90vh;
+	min-height: 50vh;
 }
 .main-element:first-child {
 	padding-top: 90px;
@@ -9,4 +9,5 @@
 }
 h1 {
 	margin: 0 20%;
+	color: rgb(198, 42, 105);
 }

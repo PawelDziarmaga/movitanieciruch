@@ -26,7 +26,7 @@ function News() {
 	};
 
 	return (
-		<div className='news main-element'>
+		<div id='idNews' className='news main-element'>
 			<div className='news__slider '>
 				<div className='news__slide first-news active'>
 					<img src={firstNewsPicture} alt='First news'></img>

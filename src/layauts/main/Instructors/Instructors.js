@@ -4,12 +4,12 @@ import iwonaPictures from "../../../Image/Instructors/Iwona-L.jpg";
 import kamilPictures from "../../../Image/Instructors/Kamil-S.jpg";
 import marekPictures from "../../../Image/Instructors/Marek-W.jpg";
 import martaPictures from "../../../Image/Instructors/Marta-W.jpg";
-import michalPictures from "../../../Image/Instructors/Michal-J.jpg";
+
 import patrykPictures from "../../../Image/Instructors/Patryk-Z.jpg";
 import zosiaPictures from "../../../Image/Instructors/Zosia-H.jpg";
 function Instructors() {
 	return (
-		<div className=' main-element'>
+		<div id='idInstructors' className='instructors main-element'>
 			<h1>Nasi instruktorzy:</h1>
 			<div className='instructors'>
 				<div className='instructors__box'>
@@ -47,13 +47,7 @@ function Instructors() {
 						alt='Marta'
 						className='instructors__picture'></img>
 				</div>
-				<div className='instructors__box'>
-					<h2 className='instructors__name'>Michał</h2>
-					<img
-						src={michalPictures}
-						alt='Michał'
-						className='instructors__picture'></img>
-				</div>
+
 				<div className='instructors__box'>
 					<h2 className='instructors__name'>Patryk</h2>
 					<img

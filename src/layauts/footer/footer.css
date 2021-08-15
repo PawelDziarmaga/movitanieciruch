@@ -1,0 +1,13 @@
+.footer {
+	background-color: rgb(37, 36, 36);
+	color: white;
+}
+.footer ul {
+	padding: 3% 10%;
+	list-style: none;
+}
+.footer__two {
+	font-size: 10px;
+	text-align: center;
+	background-color: black;
+}
