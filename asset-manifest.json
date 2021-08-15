@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/movitanieciruch/static/css/main.028081fd.chunk.css",
+    "main.css": "/movitanieciruch/static/css/main.11042d75.chunk.css",
     "main.js": "/movitanieciruch/static/js/main.67fc06a4.chunk.js",
     "main.js.map": "/movitanieciruch/static/js/main.67fc06a4.chunk.js.map",
     "runtime-main.js": "/movitanieciruch/static/js/runtime-main.6cef2f73.js",
@@ -8,7 +8,7 @@
     "static/js/2.c615d3bb.chunk.js": "/movitanieciruch/static/js/2.c615d3bb.chunk.js",
     "static/js/2.c615d3bb.chunk.js.map": "/movitanieciruch/static/js/2.c615d3bb.chunk.js.map",
     "index.html": "/movitanieciruch/index.html",
-    "static/css/main.028081fd.chunk.css.map": "/movitanieciruch/static/css/main.028081fd.chunk.css.map",
+    "static/css/main.11042d75.chunk.css.map": "/movitanieciruch/static/css/main.11042d75.chunk.css.map",
     "static/js/2.c615d3bb.chunk.js.LICENSE.txt": "/movitanieciruch/static/js/2.c615d3bb.chunk.js.LICENSE.txt",
     "static/media/Ania-K.004f17fa.jpg": "/movitanieciruch/static/media/Ania-K.004f17fa.jpg",
     "static/media/FirstNews.845f9dda.jpg": "/movitanieciruch/static/media/FirstNews.845f9dda.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.6cef2f73.js",
     "static/js/2.c615d3bb.chunk.js",
-    "static/css/main.028081fd.chunk.css",
+    "static/css/main.11042d75.chunk.css",
     "static/js/main.67fc06a4.chunk.js"
   ]
 }
