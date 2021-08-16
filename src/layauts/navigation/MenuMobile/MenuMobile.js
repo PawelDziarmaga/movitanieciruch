@@ -11,7 +11,7 @@ function MenuMobile() {
 			</li>
 			<li className='MenuMobile__element'>
 				<a className='MenuMobile__link' href='#idFitnes'>
-					Fitnes
+					Fitness
 				</a>
 			</li>
 			<li className='MenuMobile__element'>

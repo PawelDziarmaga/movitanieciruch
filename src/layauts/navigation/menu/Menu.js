@@ -11,7 +11,7 @@ function Menu() {
 			</li>
 			<li className='nav__element nav__list-item'>
 				<a className='nav__link' href='#idFitnes'>
-					Fitnes
+					Fitness
 				</a>
 			</li>
 			<li className='nav__element nav__list-item'>
