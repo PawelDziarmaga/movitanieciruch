@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/movitanieciruch/static/css/main.11042d75.chunk.css",
-    "main.js": "/movitanieciruch/static/js/main.67fc06a4.chunk.js",
-    "main.js.map": "/movitanieciruch/static/js/main.67fc06a4.chunk.js.map",
+    "main.css": "/movitanieciruch/static/css/main.b1fe537a.chunk.css",
+    "main.js": "/movitanieciruch/static/js/main.561323db.chunk.js",
+    "main.js.map": "/movitanieciruch/static/js/main.561323db.chunk.js.map",
     "runtime-main.js": "/movitanieciruch/static/js/runtime-main.6cef2f73.js",
     "runtime-main.js.map": "/movitanieciruch/static/js/runtime-main.6cef2f73.js.map",
     "static/js/2.c615d3bb.chunk.js": "/movitanieciruch/static/js/2.c615d3bb.chunk.js",
     "static/js/2.c615d3bb.chunk.js.map": "/movitanieciruch/static/js/2.c615d3bb.chunk.js.map",
     "index.html": "/movitanieciruch/index.html",
-    "static/css/main.11042d75.chunk.css.map": "/movitanieciruch/static/css/main.11042d75.chunk.css.map",
+    "static/css/main.b1fe537a.chunk.css.map": "/movitanieciruch/static/css/main.b1fe537a.chunk.css.map",
     "static/js/2.c615d3bb.chunk.js.LICENSE.txt": "/movitanieciruch/static/js/2.c615d3bb.chunk.js.LICENSE.txt",
     "static/media/Ania-K.004f17fa.jpg": "/movitanieciruch/static/media/Ania-K.004f17fa.jpg",
-    "static/media/FirstNews.845f9dda.jpg": "/movitanieciruch/static/media/FirstNews.845f9dda.jpg",
+    "static/media/FifthNews-CanvaPlakat-PNG-1587x2245.4b207ba9.png": "/movitanieciruch/static/media/FifthNews-CanvaPlakat-PNG-1587x2245.4b207ba9.png",
+    "static/media/FirstNews-CanvaPlakat-PNG-1587x2245.ef8b9831.png": "/movitanieciruch/static/media/FirstNews-CanvaPlakat-PNG-1587x2245.ef8b9831.png",
+    "static/media/FourthNews-CanvaPlakat-PNG-1587x2245.4d5e8cbc.png": "/movitanieciruch/static/media/FourthNews-CanvaPlakat-PNG-1587x2245.4d5e8cbc.png",
     "static/media/Iwona-L.d6435529.jpg": "/movitanieciruch/static/media/Iwona-L.d6435529.jpg",
     "static/media/Kamil-S.f02171d5.jpg": "/movitanieciruch/static/media/Kamil-S.f02171d5.jpg",
     "static/media/Marek-W.84fe1671.jpg": "/movitanieciruch/static/media/Marek-W.84fe1671.jpg",
     "static/media/Marta-W.0ceff078.jpg": "/movitanieciruch/static/media/Marta-W.0ceff078.jpg",
     "static/media/Patryk-Z.8f7ceba4.jpg": "/movitanieciruch/static/media/Patryk-Z.8f7ceba4.jpg",
-    "static/media/SecondNews.1cfb95b1.jpg": "/movitanieciruch/static/media/SecondNews.1cfb95b1.jpg",
-    "static/media/ThirdNews.28c18457.jpg": "/movitanieciruch/static/media/ThirdNews.28c18457.jpg",
+    "static/media/SecondNews-CanvaPlakat-PNG-1587x2245.8e2c94ee.png": "/movitanieciruch/static/media/SecondNews-CanvaPlakat-PNG-1587x2245.8e2c94ee.png",
+    "static/media/ThirdNews-CanvaPlakat-PNG-1587x2245.6dbbc127.png": "/movitanieciruch/static/media/ThirdNews-CanvaPlakat-PNG-1587x2245.6dbbc127.png",
     "static/media/Zosia-H.a05d6201.jpg": "/movitanieciruch/static/media/Zosia-H.a05d6201.jpg",
     "static/media/first-hall.58588bae.jpg": "/movitanieciruch/static/media/first-hall.58588bae.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6cef2f73.js",
     "static/js/2.c615d3bb.chunk.js",
-    "static/css/main.11042d75.chunk.css",
-    "static/js/main.67fc06a4.chunk.js"
+    "static/css/main.b1fe537a.chunk.css",
+    "static/js/main.561323db.chunk.js"
   ]
 }
