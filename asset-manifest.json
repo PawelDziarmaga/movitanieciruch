@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/movitanieciruch/static/css/main.b1fe537a.chunk.css",
+    "main.css": "/movitanieciruch/static/css/main.bb5a7f51.chunk.css",
     "main.js": "/movitanieciruch/static/js/main.561323db.chunk.js",
     "main.js.map": "/movitanieciruch/static/js/main.561323db.chunk.js.map",
     "runtime-main.js": "/movitanieciruch/static/js/runtime-main.6cef2f73.js",
@@ -8,7 +8,7 @@
     "static/js/2.c615d3bb.chunk.js": "/movitanieciruch/static/js/2.c615d3bb.chunk.js",
     "static/js/2.c615d3bb.chunk.js.map": "/movitanieciruch/static/js/2.c615d3bb.chunk.js.map",
     "index.html": "/movitanieciruch/index.html",
-    "static/css/main.b1fe537a.chunk.css.map": "/movitanieciruch/static/css/main.b1fe537a.chunk.css.map",
+    "static/css/main.bb5a7f51.chunk.css.map": "/movitanieciruch/static/css/main.bb5a7f51.chunk.css.map",
     "static/js/2.c615d3bb.chunk.js.LICENSE.txt": "/movitanieciruch/static/js/2.c615d3bb.chunk.js.LICENSE.txt",
     "static/media/Ania-K.004f17fa.jpg": "/movitanieciruch/static/media/Ania-K.004f17fa.jpg",
     "static/media/FifthNews-CanvaPlakat-PNG-1587x2245.4b207ba9.png": "/movitanieciruch/static/media/FifthNews-CanvaPlakat-PNG-1587x2245.4b207ba9.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.6cef2f73.js",
     "static/js/2.c615d3bb.chunk.js",
-    "static/css/main.b1fe537a.chunk.css",
+    "static/css/main.bb5a7f51.chunk.css",
     "static/js/main.561323db.chunk.js"
   ]
 }
