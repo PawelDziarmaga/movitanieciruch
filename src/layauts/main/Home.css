@@ -7,8 +7,12 @@
 .main-element:nth-child(2n) {
 	background-color: #eeeeee;
 }
+.main-element h1 {
+	margin: 0 20%;
+	color: rgb(198, 42, 105);
+}
 h1 {
 	margin: 0 20%;
-	padding: 20% 0;
+
 	color: rgb(198, 42, 105);
 }
