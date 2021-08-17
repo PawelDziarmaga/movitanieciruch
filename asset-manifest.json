@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/movitanieciruch/static/css/main.c936893a.chunk.css",
-    "main.js": "/movitanieciruch/static/js/main.cc406d89.chunk.js",
-    "main.js.map": "/movitanieciruch/static/js/main.cc406d89.chunk.js.map",
+    "main.js": "/movitanieciruch/static/js/main.ce84f434.chunk.js",
+    "main.js.map": "/movitanieciruch/static/js/main.ce84f434.chunk.js.map",
     "runtime-main.js": "/movitanieciruch/static/js/runtime-main.6cef2f73.js",
     "runtime-main.js.map": "/movitanieciruch/static/js/runtime-main.6cef2f73.js.map",
     "static/js/2.eba9dcaa.chunk.js": "/movitanieciruch/static/js/2.eba9dcaa.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.6cef2f73.js",
     "static/js/2.eba9dcaa.chunk.js",
     "static/css/main.c936893a.chunk.css",
-    "static/js/main.cc406d89.chunk.js"
+    "static/js/main.ce84f434.chunk.js"
   ]
 }
