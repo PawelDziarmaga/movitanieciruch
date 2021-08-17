@@ -43,7 +43,7 @@
 	background-color: transparent;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1300px) {
 	.nav__hamburger-container {
 		display: block;
 	}

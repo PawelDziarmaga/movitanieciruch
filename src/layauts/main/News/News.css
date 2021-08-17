@@ -1,11 +1,11 @@
 .news {
-	height: 100vh;
-	overflow: hidden;
+	height: 95vh;
 }
 .news__slider {
+	height: 75vh;
+	position: relative;
 	display: block;
 	margin: 0 auto;
-	overflow: hidden;
 }
 .news__slide {
 	z-index: 1;
@@ -21,8 +21,8 @@
 .news__slide img {
 	display: block;
 	margin: 0 auto;
-	height: 70vh;
-	border-radius: 5px;
+	height: 60vh;
+	border-radius: 10px;
 }
 
 .news__slide h3 {
@@ -30,7 +30,7 @@
 	text-align: center;
 	padding: 10px;
 	border-radius: 5px;
-	font-size: 45px;
+	font-size: 5vh;
 	text-transform: uppercase;
 }
 
@@ -38,7 +38,7 @@
 	z-index: 2;
 	position: absolute;
 	display: flex;
-	bottom: 5%;
+	bottom: 0px;
 	left: 50%;
 	transform: translate(-50%);
 }
@@ -55,56 +55,19 @@
 	background-color: rgb(198, 42, 105, 0.5);
 	border: 1px solid rgb(198, 42, 105, 0.9);
 }
-@media screen and (max-width: 600px) {
-	.news__slide h3 {
-		padding: 10px;
-		font-size: 30px;
-	}
-	.news__navigation {
-		bottom: 10%;
-	}
-}
-@media screen and (max-width: 350px) {
+
+@media all and (max-width: 350px) {
 	.news {
-		height: 90vh;
-		overflow: hidden;
+		height: 220vw;
+	}
+	.news__slider {
+		height: 180vw;
 	}
 	.news__slide h3 {
-		padding: 10px;
-		font-size: 20px;
+		font-size: 10vw;
 	}
 	.news__slide img {
-		height: 60vh;
-	}
-
-	.news__navigation {
-		bottom: 20%;
-	}
-	.news__navigation-btn {
-		width: 15px;
-		height: 15px;
-		margin: 0 15px;
-	}
-}
-@media screen and (max-width: 260px) {
-	.news {
-		height: 75vh;
-		overflow: hidden;
-	}
-	.news__slide h3 {
-		padding: 10px;
-		font-size: 15px;
-	}
-	.news__slide img {
-		height: 50vh;
-	}
-
-	.news__navigation {
-		bottom: 30%;
-	}
-	.news__navigation-btn {
-		width: 10px;
-		height: 10px;
-		margin: 0 10px;
+		width: 80vw;
+		height: auto;
 	}
 }

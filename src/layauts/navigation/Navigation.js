@@ -27,6 +27,16 @@ function App() {
 				.classList.toggle("active")
 		);
 	};
+	const handleHamburgerMenuClick = () => {
+		setMobileMenu(
+			document.querySelector(".nav-container").classList.add("visible")
+		);
+		setMenuHamburger(
+			document
+				.querySelector(".nav__hamburger-container")
+				.classList.remove("active")
+		);
+	};
 
 	return (
 		<div className='nav-container visible'>
@@ -35,7 +45,7 @@ function App() {
 				<Menu />
 				<HamburgerMenu click={handleHamburgerMenu} />
 			</nav>
-			<MenuMobile />
+			<MenuMobile click={handleHamburgerMenuClick} />
 		</div>
 	);
 }

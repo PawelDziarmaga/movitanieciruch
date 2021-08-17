@@ -1,31 +1,24 @@
 import "./News.css";
 
-import SingleItem from "./SingleItem/News";
+import SingleItem from "./SingleItem/SingleItem";
 
-import FirstNews from "../../../Image/News/FirstNews-CanvaPlakat-PNG-1587x2245.png";
-import SecondNews from "../../../Image/News/SecondNews-CanvaPlakat-PNG-1587x2245.png";
-import ThirdNews from "../../../Image/News/ThirdNews-CanvaPlakat-PNG-1587x2245.png";
-import FourthNews from "../../../Image/News/FourthNews-CanvaPlakat-PNG-1587x2245.png";
-import FifthNews from "../../../Image/News/FifthNews-CanvaPlakat-PNG-1587x2245.png";
+import FirstNews from "../../../Image/News/1News-CanvaInstagram-1080x1920.png";
+import SecondNews from "../../../Image/News/2News-CanvaInstagram-1080x1920.png";
+import ThirdNews from "../../../Image/News/3News-CanvaInstagram-1080x1920.png";
+import FourthNews from "../../../Image/News/4News-CanvaInstagram-1080x1920.png";
+import FifthNews from "../../../Image/News/5News-CanvaInstagram-1080x1920.png";
 
 function News() {
-	const currentSlide = 1;
 	const manualNav = (event) => {
 		const chosenElementClass = event.target.classList[1];
 
 		const slides = document.getElementsByClassName("news__slide");
-		console.log(slides);
-		slides[0].classList.remove("active");
-		slides[1].classList.remove("active");
-		slides[2].classList.remove("active");
-		slides[3].classList.remove("active");
-		slides[4].classList.remove("active");
 		const btms = document.getElementsByClassName("news__navigation-btn");
-		btms[0].classList.remove("active");
-		btms[1].classList.remove("active");
-		btms[2].classList.remove("active");
-		btms[3].classList.remove("active");
-		btms[4].classList.remove("active");
+
+		for (let i = 0; i < slides.length; i++) {
+			slides[i].classList.remove("active");
+			btms[i].classList.remove("active");
+		}
 
 		const chosenElement =
 			document.getElementsByClassName(chosenElementClass);
@@ -39,7 +32,7 @@ function News() {
 				<SingleItem
 					NuberOfItem='first-news active'
 					ImgItem={FirstNews}
-					NewsTitle='UWAGA RUSZAMY!'
+					NewsTitle='UWAGA RUSZAMY!!'
 				/>
 				<SingleItem
 					NuberOfItem='second-news'

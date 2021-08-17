@@ -1,48 +1,89 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./MenuMobile.css";
 
-function MenuMobile() {
+function MenuMobile(props) {
 	return (
 		<ul className='MenuMobile__container visible'>
-			<li className='MenuMobile__element'>
-				<a className='MenuMobile__link' href='#idNews'>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<NavLink
+					to='/aktualnosci'
+					className='MenuMobile__link'
+					href='#idNews'>
 					Aktualności
-				</a>
+				</NavLink>
 			</li>
-			<li className='MenuMobile__element'>
-				<a className='MenuMobile__link' href='#idFitnes'>
-					Fitness
-				</a>
-			</li>
-			<li className='MenuMobile__element'>
-				<a className='MenuMobile__link' href='#idDance'>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<NavLink
+					to='/taniec'
+					className='MenuMobile__link'
+					href='#idDance'>
 					Taniec
-				</a>
+				</NavLink>
 			</li>
-			<li className='MenuMobile__element'>
-				<a className='MenuMobile__link' href='#idGraphic'>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<NavLink
+					to='/fitness'
+					className='MenuMobile__link'
+					href='#idFitnes'>
+					Fitness
+				</NavLink>
+			</li>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<NavLink
+					to='/ofertaslubna'
+					className='MenuMobile__link'
+					href='#idGraphic'>
+					Oferta ślubna
+				</NavLink>
+			</li>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<NavLink
+					to='/ofertaspecjalna'
+					className='MenuMobile__link'
+					href='#idGraphic'>
+					Oferta Specjalna
+				</NavLink>
+			</li>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<NavLink
+					to='/grafik'
+					className='MenuMobile__link'
+					href='#idGraphic'>
 					Grafik
-				</a>
+				</NavLink>
 			</li>
-			<li className='MenuMobile__element'>
-				<a className='MenuMobile__link' href='#idPrice'>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<NavLink
+					to='/cennik'
+					className='MenuMobile__link'
+					href='#idPrice'>
 					Cennik
-				</a>
+				</NavLink>
 			</li>
-			<li className='MenuMobile__element'>
-				<a className='MenuMobile__link' href='#idInstructors'>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<NavLink
+					to='/instruktorzy'
+					className='MenuMobile__link'
+					href='#idInstructors'>
 					Instruktorzy
-				</a>
+				</NavLink>
 			</li>
-			<li className='MenuMobile__element'>
-				<a className='MenuMobile__link' href='#idAbout'>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<NavLink
+					to='/oNas'
+					className='MenuMobile__link'
+					href='#idAbout'>
 					O nas
-				</a>
+				</NavLink>
 			</li>
-			<li className='MenuMobile__element'>
-				<a className='MenuMobile__link' href='#idConcact'>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<NavLink
+					to='/kontakt'
+					className='MenuMobile__link'
+					href='#idConcact'>
 					Kontakt
-				</a>
+				</NavLink>
 			</li>
 		</ul>
 	);
