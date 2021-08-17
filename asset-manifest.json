@@ -1,33 +1,32 @@
 {
   "files": {
-    "main.css": "/movitanieciruch/static/css/main.bb5a7f51.chunk.css",
-    "main.js": "/movitanieciruch/static/js/main.561323db.chunk.js",
-    "main.js.map": "/movitanieciruch/static/js/main.561323db.chunk.js.map",
+    "main.css": "/movitanieciruch/static/css/main.c936893a.chunk.css",
+    "main.js": "/movitanieciruch/static/js/main.cc406d89.chunk.js",
+    "main.js.map": "/movitanieciruch/static/js/main.cc406d89.chunk.js.map",
     "runtime-main.js": "/movitanieciruch/static/js/runtime-main.6cef2f73.js",
     "runtime-main.js.map": "/movitanieciruch/static/js/runtime-main.6cef2f73.js.map",
-    "static/js/2.c615d3bb.chunk.js": "/movitanieciruch/static/js/2.c615d3bb.chunk.js",
-    "static/js/2.c615d3bb.chunk.js.map": "/movitanieciruch/static/js/2.c615d3bb.chunk.js.map",
+    "static/js/2.eba9dcaa.chunk.js": "/movitanieciruch/static/js/2.eba9dcaa.chunk.js",
+    "static/js/2.eba9dcaa.chunk.js.map": "/movitanieciruch/static/js/2.eba9dcaa.chunk.js.map",
     "index.html": "/movitanieciruch/index.html",
-    "static/css/main.bb5a7f51.chunk.css.map": "/movitanieciruch/static/css/main.bb5a7f51.chunk.css.map",
-    "static/js/2.c615d3bb.chunk.js.LICENSE.txt": "/movitanieciruch/static/js/2.c615d3bb.chunk.js.LICENSE.txt",
+    "static/css/main.c936893a.chunk.css.map": "/movitanieciruch/static/css/main.c936893a.chunk.css.map",
+    "static/js/2.eba9dcaa.chunk.js.LICENSE.txt": "/movitanieciruch/static/js/2.eba9dcaa.chunk.js.LICENSE.txt",
+    "static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png": "/movitanieciruch/static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png",
+    "static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png": "/movitanieciruch/static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png",
+    "static/media/3News-CanvaInstagram-1080x1920.03995672.png": "/movitanieciruch/static/media/3News-CanvaInstagram-1080x1920.03995672.png",
+    "static/media/4News-CanvaInstagram-1080x1920.8d02dabc.png": "/movitanieciruch/static/media/4News-CanvaInstagram-1080x1920.8d02dabc.png",
+    "static/media/5News-CanvaInstagram-1080x1920.6e2ddeb7.png": "/movitanieciruch/static/media/5News-CanvaInstagram-1080x1920.6e2ddeb7.png",
     "static/media/Ania-K.004f17fa.jpg": "/movitanieciruch/static/media/Ania-K.004f17fa.jpg",
-    "static/media/FifthNews-CanvaPlakat-PNG-1587x2245.4b207ba9.png": "/movitanieciruch/static/media/FifthNews-CanvaPlakat-PNG-1587x2245.4b207ba9.png",
-    "static/media/FirstNews-CanvaPlakat-PNG-1587x2245.ef8b9831.png": "/movitanieciruch/static/media/FirstNews-CanvaPlakat-PNG-1587x2245.ef8b9831.png",
-    "static/media/FourthNews-CanvaPlakat-PNG-1587x2245.4d5e8cbc.png": "/movitanieciruch/static/media/FourthNews-CanvaPlakat-PNG-1587x2245.4d5e8cbc.png",
     "static/media/Iwona-L.d6435529.jpg": "/movitanieciruch/static/media/Iwona-L.d6435529.jpg",
     "static/media/Kamil-S.f02171d5.jpg": "/movitanieciruch/static/media/Kamil-S.f02171d5.jpg",
     "static/media/Marek-W.84fe1671.jpg": "/movitanieciruch/static/media/Marek-W.84fe1671.jpg",
     "static/media/Marta-W.0ceff078.jpg": "/movitanieciruch/static/media/Marta-W.0ceff078.jpg",
     "static/media/Patryk-Z.8f7ceba4.jpg": "/movitanieciruch/static/media/Patryk-Z.8f7ceba4.jpg",
-    "static/media/SecondNews-CanvaPlakat-PNG-1587x2245.8e2c94ee.png": "/movitanieciruch/static/media/SecondNews-CanvaPlakat-PNG-1587x2245.8e2c94ee.png",
-    "static/media/ThirdNews-CanvaPlakat-PNG-1587x2245.6dbbc127.png": "/movitanieciruch/static/media/ThirdNews-CanvaPlakat-PNG-1587x2245.6dbbc127.png",
-    "static/media/Zosia-H.a05d6201.jpg": "/movitanieciruch/static/media/Zosia-H.a05d6201.jpg",
-    "static/media/first-hall.58588bae.jpg": "/movitanieciruch/static/media/first-hall.58588bae.jpg"
+    "static/media/Zosia-H.a05d6201.jpg": "/movitanieciruch/static/media/Zosia-H.a05d6201.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6cef2f73.js",
-    "static/js/2.c615d3bb.chunk.js",
-    "static/css/main.bb5a7f51.chunk.css",
-    "static/js/main.561323db.chunk.js"
+    "static/js/2.eba9dcaa.chunk.js",
+    "static/css/main.c936893a.chunk.css",
+    "static/js/main.cc406d89.chunk.js"
   ]
 }
