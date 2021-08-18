@@ -30,7 +30,7 @@
 .visible .MenuMobile__container {
 	transform: translateX(200vw);
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1300px) {
 	.MenuMobile__container {
 		display: none;
 	}

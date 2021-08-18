@@ -41,7 +41,7 @@ function App() {
 	return (
 		<div className='nav-container visible'>
 			<nav className='nav'>
-				<Logo />
+				<Logo click={handleHamburgerMenuClick} />
 				<Menu />
 				<HamburgerMenu click={handleHamburgerMenu} />
 			</nav>

@@ -1,38 +1,74 @@
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import Home from "./home";
 
-import AboutPage from "../../Pages/AboutPage/AboutPage";
-import ConcactPage from "../../Pages/ConcactPage/ConcactPage";
-import DancePage from "../../Pages/DancePage/DancePage";
-import FitnesPage from "../../Pages/FitnesPage/FitnesPage";
-import GraphicPage from "../../Pages/GraphicPage/GraphicPage";
-import InstructorsPage from "../../Pages/InstructorsPage/InstructorsPage";
-import NewsPage from "../../Pages/NewsPage/NewsPage";
-import OfertaSlubnaPage from "../../Pages/OfertaSlubnaPage/OfertaSlubnaPage";
-import OfertaSpecjalnaPage from "../../Pages/OfertaSpecjalnaPage/OfertaSpecjalnaPage";
-import PricePage from "../../Pages/PricePage/PricePage";
+import ONas from "../../Pages/AboutPage/AboutPage";
+import Kontakt from "../../Pages/ConcactPage/ConcactPage";
+import Taniec from "../../Pages/DancePage/DancePage";
+import Fitness from "../../Pages/FitnesPage/FitnesPage";
+import Grafik from "../../Pages/GraphicPage/GraphicPage";
+import Instruktorzy from "../../Pages/InstructorsPage/InstructorsPage";
+import Aktualnosci from "../../Pages/NewsPage/NewsPage";
+import Ofertaslubna from "../../Pages/OfertaSlubnaPage/OfertaSlubnaPage";
+import Ofertaspecjalna from "../../Pages/OfertaSpecjalnaPage/OfertaSpecjalnaPage";
+import Cennik from "../../Pages/PricePage/PricePage";
 
 function Main() {
 	return (
 		<div className='main'>
-			<Route path='/' exact component={Home} />
-			<Route path='/oNas' exact component={AboutPage} />
-			<Route path='/kontakt' exact component={ConcactPage} />
-			<Route path='/taniec' exact component={DancePage} />
-			<Route path='/fitness' exact component={FitnesPage} />
-			<Route path='/grafik' exact component={GraphicPage} />
-			<Route path='/instruktorzy' exact component={InstructorsPage} />
-			<Route path='/aktualnosci' exact component={NewsPage} />
-			<Route path='/ofertaslubna' exact component={OfertaSlubnaPage} />
-			<Route
-				path='/ofertaspecjalna'
-				exact
-				component={OfertaSpecjalnaPage}
-			/>
-			<Route path='/cennik' exact component={PricePage} />
+			<Switch>
+				<Route exact path='/'>
+					<Home />
+				</Route>
+				<Route path='/ONas'>
+					<ONas />
+				</Route>
+				<Route path='/Kontakt'>
+					<Kontakt />
+				</Route>
+				<Route path='/Taniec'>
+					<Taniec />
+				</Route>
+				<Route path='/Fitness'>
+					<Fitness />
+				</Route>
+				<Route path='/Grafik'>
+					<Grafik />
+				</Route>
+				<Route path='/Instruktorzy'>
+					<Instruktorzy />
+				</Route>
+				<Route path='/Aktualnosci'>
+					<Aktualnosci />
+				</Route>
+				<Route path='/Ofertaslubna'>
+					<Ofertaslubna />
+				</Route>
+				<Route path='/Ofertaspecjalna'>
+					<Ofertaspecjalna />
+				</Route>
+				<Route path='/Cennik'>
+					<Cennik />
+				</Route>
+				<Route path='*'>
+					<Home />
+				</Route>
+			</Switch>
 		</div>
 	);
 }
 
 export default Main;
+/*
+			<Route path='/' exact component={Home} />
+			<Route path='/oNas' component={AboutPage} />
+			<Route path='/kontakt' component={ConcactPage} />
+			<Route path='/taniec' component={DancePage} />
+			<Route path='/fitness' component={FitnesPage} />
+			<Route path='/grafik' component={GraphicPage} />
+			<Route path='/instruktorzy' component={InstructorsPage} />
+			<Route path='/aktualnosci' component={NewsPage} />
+			<Route path='/ofertaslubna' t component={OfertaSlubnaPage} />
+			<Route path='/ofertaspecjalna' component={OfertaSpecjalnaPage} />
+			<Route path='/cennik' component={PricePage} />
+*/

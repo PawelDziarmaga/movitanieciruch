@@ -7,7 +7,7 @@ function MenuMobile(props) {
 		<ul className='MenuMobile__container visible'>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink
-					to='/aktualnosci'
+					to='/Aktualnosci'
 					className='MenuMobile__link'
 					href='#idNews'>
 					Aktualności
@@ -15,7 +15,7 @@ function MenuMobile(props) {
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink
-					to='/taniec'
+					to='/Taniec'
 					className='MenuMobile__link'
 					href='#idDance'>
 					Taniec
@@ -23,7 +23,7 @@ function MenuMobile(props) {
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink
-					to='/fitness'
+					to='/Fitness'
 					className='MenuMobile__link'
 					href='#idFitnes'>
 					Fitness
@@ -31,7 +31,7 @@ function MenuMobile(props) {
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink
-					to='/ofertaslubna'
+					to='/Ofertaslubna'
 					className='MenuMobile__link'
 					href='#idGraphic'>
 					Oferta ślubna
@@ -39,7 +39,7 @@ function MenuMobile(props) {
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink
-					to='/ofertaspecjalna'
+					to='/Ofertaspecjalna'
 					className='MenuMobile__link'
 					href='#idGraphic'>
 					Oferta Specjalna
@@ -47,7 +47,7 @@ function MenuMobile(props) {
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink
-					to='/grafik'
+					to='/Grafik'
 					className='MenuMobile__link'
 					href='#idGraphic'>
 					Grafik
@@ -55,7 +55,7 @@ function MenuMobile(props) {
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink
-					to='/cennik'
+					to='/Cennik'
 					className='MenuMobile__link'
 					href='#idPrice'>
 					Cennik
@@ -63,7 +63,7 @@ function MenuMobile(props) {
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink
-					to='/instruktorzy'
+					to='/Instruktorzy'
 					className='MenuMobile__link'
 					href='#idInstructors'>
 					Instruktorzy
@@ -71,7 +71,7 @@ function MenuMobile(props) {
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink
-					to='/oNas'
+					to='/ONas'
 					className='MenuMobile__link'
 					href='#idAbout'>
 					O nas
@@ -79,7 +79,7 @@ function MenuMobile(props) {
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink
-					to='/kontakt'
+					to='/Kontakt'
 					className='MenuMobile__link'
 					href='#idConcact'>
 					Kontakt
