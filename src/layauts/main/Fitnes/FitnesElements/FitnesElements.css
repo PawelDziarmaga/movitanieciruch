@@ -1,0 +1,66 @@
+.FitnesElements {
+	display: flex;
+	margin: 5% 0;
+}
+.FitnesElements__box {
+	height: 100px;
+	width: 100px;
+	background-image: linear-gradient(
+		45deg,
+		rgb(198, 42, 105, 0.8),
+		rgb(80, 149, 205, 0.8)
+	);
+	box-shadow: 0px 0px 5px #393e46;
+	border-radius: 50%;
+}
+.FitnesElements__box img {
+	height: 60px;
+	margin: 20px;
+}
+.FitnesElements h3 {
+	line-height: 80px;
+	margin: 2%;
+	color: rgb(80, 149, 205);
+}
+@media screen and (max-width: 1000px) {
+	.FitnesElements__box {
+		height: 80px;
+		width: 80px;
+	}
+	.FitnesElements__box img {
+		height: 50px;
+		margin: 15px;
+	}
+	.FitnesElements h3 {
+		font-size: 1em;
+		line-height: 70px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.FitnesElements__box {
+		height: 60px;
+		width: 60px;
+	}
+	.FitnesElements__box img {
+		height: 30px;
+		margin: 15px;
+	}
+	.FitnesElements h3 {
+		font-size: 0.9em;
+		line-height: 50px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.FitnesElements__box {
+		height: 40px;
+		width: 40px;
+	}
+	.FitnesElements__box img {
+		height: 20px;
+		margin: 10px;
+	}
+	.FitnesElements h3 {
+		font-size: 0.7em;
+		line-height: 25px;
+	}
+}

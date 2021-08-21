@@ -6,20 +6,23 @@ import Price from "./Price/Price";
 import Graphic from "./Graphic/Graphic";
 import Fitnes from "./Fitnes/Fitnes";
 import Dance from "./Dance/Dance";
-import Concact from "./Concact/Concact";
-import About from "./About/About";
+import WeddingOffer from "./WeddingOffer/WeddingOffer";
+import SpecialOffer from "./SpecialOffer/SpecialOffer";
+
+import Break from "./Break/Break";
 
 function Home() {
 	return (
 		<div className='Home'>
 			<News />
-			<Fitnes />
 			<Dance />
-			<Graphic />
+			<Fitnes />
+			<Break text='Sprawdz Grafik!!' />
+			<WeddingOffer />
+			<SpecialOffer />
+			<Break text='Zapisz się już teraz!!' />
 			<Price />
 			<Instructors />
-			<About />
-			<Concact />
 		</div>
 	);
 }
