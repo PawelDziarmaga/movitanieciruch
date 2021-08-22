@@ -3,10 +3,10 @@ import "./Home.css";
 import News from "./News/News";
 import Instructors from "./Instructors/Instructors";
 import Price from "./Price/Price";
-import Graphic from "./Graphic/Graphic";
 import Fitnes from "./Fitnes/Fitnes";
 import Dance from "./Dance/Dance";
 import WeddingOffer from "./WeddingOffer/WeddingOffer";
+
 import SpecialOffer from "./SpecialOffer/SpecialOffer";
 
 import Break from "./Break/Break";

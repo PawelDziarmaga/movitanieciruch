@@ -6,9 +6,9 @@ function Menu() {
 	return (
 		<ul className='nav__container '>
 			<li className='nav__element nav__list-item'>
-				<NavLink to='/Aktualnosci' className='nav__link'>
+				<a href='#idNews' className='nav__link'>
 					Aktualnosci
-				</NavLink>
+				</a>
 			</li>
 			<li className='nav__element nav__list-item'>
 				<NavLink to='/Taniec' className='nav__link'>

@@ -2,9 +2,7 @@ import "./SpecialOffer.css";
 
 import SpecialOfferElements from "./SpecialOfferElements/SpecialOfferElements";
 
-import kcal from "../../../Image/Fitness/kcal.png";
-import idea from "../../../Image/Fitness/idea.png";
-import muscles from "../../../Image/Fitness/muscles.png";
+import rent from "../../../Image/SpecialOffer/rent.png";
 
 function SpecialOffer() {
 	return (
@@ -13,10 +11,10 @@ function SpecialOffer() {
 
 			<div className='SpecialOffer__col'>
 				<div className='SpecialOffer__col1'>
-					<SpecialOfferElements img={kcal} text='Wynajem Sali' />
-					<SpecialOfferElements img={idea} text='Wieczór Panieński' />
+					<SpecialOfferElements img={rent} text='Wynajem Sali' />
+					<SpecialOfferElements img={rent} text='Wieczór Panieński' />
 					<SpecialOfferElements
-						img={muscles}
+						img={rent}
 						text='Organizacja imprez'
 					/>
 				</div>
