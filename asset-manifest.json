@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cf7e774.chunk.css",
-    "main.js": "/static/js/main.2b4cc16a.chunk.js",
-    "main.js.map": "/static/js/main.2b4cc16a.chunk.js.map",
+    "main.css": "/static/css/main.670867d6.chunk.css",
+    "main.js": "/static/js/main.93765ab5.chunk.js",
+    "main.js.map": "/static/js/main.93765ab5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.308bbc13.js",
     "runtime-main.js.map": "/static/js/runtime-main.308bbc13.js.map",
     "static/js/2.9fe9c5a2.chunk.js": "/static/js/2.9fe9c5a2.chunk.js",
     "static/js/2.9fe9c5a2.chunk.js.map": "/static/js/2.9fe9c5a2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1cf7e774.chunk.css.map": "/static/css/main.1cf7e774.chunk.css.map",
+    "static/css/main.670867d6.chunk.css.map": "/static/css/main.670867d6.chunk.css.map",
     "static/js/2.9fe9c5a2.chunk.js.LICENSE.txt": "/static/js/2.9fe9c5a2.chunk.js.LICENSE.txt",
     "static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png": "/static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png",
     "static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png": "/static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png",
@@ -31,7 +31,6 @@
     "static/media/Solo.1c08fd69.jpg": "/static/media/Solo.1c08fd69.jpg",
     "static/media/TaniecUzytkowy.4dbbe705.png": "/static/media/TaniecUzytkowy.4dbbe705.png",
     "static/media/Zosia-H.a05d6201.jpg": "/static/media/Zosia-H.a05d6201.jpg",
-    "static/media/arrow.21727cb8.png": "/static/media/arrow.21727cb8.png",
     "static/media/idea.ded57c27.png": "/static/media/idea.ded57c27.png",
     "static/media/kcal.7a22c4d0.png": "/static/media/kcal.7a22c4d0.png",
     "static/media/loading-process1-4.550d0501.png": "/static/media/loading-process1-4.550d0501.png",
@@ -44,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.308bbc13.js",
     "static/js/2.9fe9c5a2.chunk.js",
-    "static/css/main.1cf7e774.chunk.css",
-    "static/js/main.2b4cc16a.chunk.js"
+    "static/css/main.670867d6.chunk.css",
+    "static/js/main.93765ab5.chunk.js"
   ]
 }
