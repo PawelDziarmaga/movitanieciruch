@@ -6,9 +6,8 @@ function Break({ text }) {
 	return (
 		<div className='break'>
 			<h2>{text}</h2>
-			<div className='break__box'>
-				<img src={img} alt={text}></img>
-			</div>
+
+			<img src={img} alt={text}></img>
 		</div>
 	);
 }

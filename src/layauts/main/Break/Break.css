@@ -8,7 +8,8 @@
 		rgb(136, 192, 238)
 	);
 	box-shadow: 0px 0px 5px #393e46;
-	padding: 2vh 0;
+	padding: 1vh 0;
+	cursor: pointer;
 }
 .break h2 {
 	text-align: center;
@@ -17,22 +18,14 @@
 	line-height: 60px;
 	text-shadow: 0 0 30px #eeeeee;
 }
-.break__box {
+
+.break img {
 	height: 60px;
-	width: 60px;
-	background-color: #dddddd;
-	box-shadow: 0px 0px 5px #393e46;
-	border: 1px solid black;
-	border-radius: 50%;
-	transition: 0.3s;
 	cursor: pointer;
+	transition: 0.2s;
 }
-.break__box img {
-	height: 40px;
-	margin: 10px;
-}
-.break__box:hover {
-	transform: scale(1.1);
+.break img:hover {
+	transform: scale(1.3);
 }
 @media screen and (max-width: 700px) {
 	.break h2 {

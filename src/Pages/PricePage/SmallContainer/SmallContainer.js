@@ -2,12 +2,12 @@ import "./SmallContainer.css";
 
 import PriceElement from "../PriceElement/PriceElement";
 
-import oneOfFour from "../../../../Image/Price/loading-process1-4.png";
-import twoOfFour from "../../../../Image/Price/loading-process2-4.png";
-import threeOfFour from "../../../../Image/Price/loading-process3-4.png";
-import fourOfFour from "../../../../Image/Price/loading-process4-4.png";
+import oneOfFour from "../../../Image/Price/loading-process1-4.png";
+import twoOfFour from "../../../Image/Price/loading-process2-4.png";
+import threeOfFour from "../../../Image/Price/loading-process3-4.png";
+import fourOfFour from "../../../Image/Price/loading-process4-4.png";
 
-import arrow from "../../../../Image/Price/arrow-down.png";
+import arrow from "../../../Image/Price/arrow-down.png";
 
 function SmallContainer({
 	classElement,

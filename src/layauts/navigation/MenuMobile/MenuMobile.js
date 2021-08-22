@@ -6,12 +6,9 @@ function MenuMobile(props) {
 	return (
 		<ul className='MenuMobile__container visible'>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink
-					to='/Aktualnosci'
-					className='MenuMobile__link'
-					href='#idNews'>
+				<a href='#idNews' className='MenuMobile__link'>
 					Aktualności
-				</NavLink>
+				</a>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink

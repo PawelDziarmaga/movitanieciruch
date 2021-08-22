@@ -1,0 +1,28 @@
+.concact-page {
+	padding-top: 100px;
+	margin-bottom: 5vh;
+}
+.concact-page h1 {
+	text-align: center;
+	color: rgb(80, 149, 205);
+}
+.concact-page__map-box {
+	margin: 0 20%;
+}
+.concact-page__map-box h2 {
+	margin-left: 10%;
+	padding: 2vh;
+	color: rgb(198, 42, 105);
+}
+.concact-page__map {
+	display: flex;
+	justify-content: center;
+}
+
+.concact-page__map iframe {
+	border: 0;
+}
+.concact-page__map ul {
+	padding: 10vh 5%;
+	list-style: none;
+}

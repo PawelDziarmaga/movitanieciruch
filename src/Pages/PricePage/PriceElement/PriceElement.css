@@ -1,0 +1,100 @@
+.PriceElement {
+	width: 25%;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 5px;
+	background-color: rgb(238, 238, 238);
+	box-shadow: 0 0 5px rgb(131, 124, 124);
+}
+.PriceElement img {
+	display: block;
+	margin: 3vh auto;
+	height: 10vh;
+}
+.PriceElement h3 {
+	margin: 3vh 0;
+	text-align: center;
+	font-size: 40px;
+	color: rgb(198, 42, 105);
+}
+.PriceElement h2 {
+	margin: 3vh 0;
+	text-align: center;
+	font-size: 60px;
+	color: rgb(80, 149, 205);
+}
+.PriceElement p {
+	margin: 3vh;
+	text-align: justify;
+}
+@media all and (max-width: 1000px) {
+	.PriceElement img {
+		height: 10vh;
+	}
+	.PriceElement h3 {
+		margin: 3vh 0;
+		font-size: 30px;
+	}
+	.PriceElement h2 {
+		font-size: 50px;
+	}
+	.PriceElement p {
+		font-size: 20px;
+	}
+}
+@media all and (max-width: 850px) {
+	.PriceElement h3 {
+		font-size: 25px;
+	}
+	.PriceElement p {
+		font-size: 15px;
+		margin: 1vh;
+	}
+}
+@media all and (max-width: 650px) {
+	.PriceElement h3 {
+		font-size: 20px;
+	}
+	.PriceElement h2 {
+		font-size: 40px;
+	}
+	.PriceElement p {
+		font-size: 13px;
+	}
+}
+@media all and (max-width: 550px) {
+	.PriceElement h3 {
+		font-size: 15px;
+	}
+	.PriceElement h2 {
+		font-size: 30px;
+	}
+	.PriceElement p {
+		font-size: 13px;
+	}
+}
+@media all and (max-width: 450px) {
+	.PriceElement img {
+		height: 10vw;
+	}
+	.PriceElement h3 {
+		font-size: 15px;
+	}
+	.PriceElement h2 {
+		font-size: 30px;
+	}
+	.PriceElement p {
+		font-size: 8px;
+	}
+}
+@media all and (max-width: 400px) {
+	.PriceElement h3 {
+		font-size: 10px;
+	}
+	.PriceElement h2 {
+		font-size: 20px;
+	}
+	.PriceElement p {
+		display: none;
+	}
+}
