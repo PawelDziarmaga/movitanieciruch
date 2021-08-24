@@ -1,5 +1,3 @@
-import "./Home.css";
-
 import News from "./News/News";
 import Instructors from "./Instructors/Instructors";
 import Price from "./Price/Price";

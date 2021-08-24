@@ -1,0 +1,85 @@
+@import "../../../../scss/colors";
+.fitnes__col1 {
+	.FitnesElements {
+		&:nth-child(1n) .FitnesElements__box {
+			background-image: $purple-color;
+		}
+		&:nth-child(2n) .FitnesElements__box {
+			background-image: $red-color;
+		}
+		&:nth-child(3n) .FitnesElements__box {
+			background-image: $green-color;
+		}
+	}
+}
+.fitnes__col2 {
+	.FitnesElements {
+		&:nth-child(1n) .FitnesElements__box {
+			background-image: $yelow-color;
+		}
+		&:nth-child(2n) .FitnesElements__box {
+			background-image: $pink-color;
+		}
+		&:nth-child(3n) .FitnesElements__box {
+			background-image: $blue-color;
+		}
+	}
+}
+
+.FitnesElements {
+	display: flex;
+	margin: 5% 0;
+
+	.FitnesElements__box {
+		height: 100px;
+		width: 100px;
+		box-shadow: $shadows-item;
+		border-radius: 50%;
+
+		@media screen and (max-width: 1000px) {
+			height: 80px;
+			width: 80px;
+		}
+		@media screen and (max-width: 800px) {
+			height: 60px;
+			width: 60px;
+		}
+		@media screen and (max-width: 600px) {
+			height: 40px;
+			width: 40px;
+		}
+		img {
+			height: 60px;
+			margin: 20px;
+			@media screen and (max-width: 1000px) {
+				height: 50px;
+				margin: 15px;
+			}
+			@media screen and (max-width: 800px) {
+				height: 30px;
+				margin: 15px;
+			}
+			@media screen and (max-width: 600px) {
+				height: 20px;
+				margin: 10px;
+			}
+		}
+	}
+	h3 {
+		line-height: 80px;
+		margin: 2%;
+		color: rgb(80, 149, 205);
+		@media screen and (max-width: 1000px) {
+			font-size: 1em;
+			line-height: 70px;
+		}
+		@media screen and (max-width: 800px) {
+			font-size: 0.9em;
+			line-height: 50px;
+		}
+		@media screen and (max-width: 600px) {
+			font-size: 0.7em;
+			line-height: 25px;
+		}
+	}
+}

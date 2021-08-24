@@ -1,5 +1,3 @@
-import "./Break.css";
-
 import img from "../../../Image/arrow.png";
 
 function Break({ text }) {

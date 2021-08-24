@@ -1,12 +1,8 @@
 import "./News.css";
 
-import SingleItem from "./SingleItem/SingleItem";
+import NewsImg from "./NewsImg/NewsImg";
 
-import FirstNews from "../../../Image/News/1News-CanvaInstagram-1080x1920.png";
-import SecondNews from "../../../Image/News/2News-CanvaInstagram-1080x1920.png";
-import ThirdNews from "../../../Image/News/3News-CanvaInstagram-1080x1920.png";
-import FourthNews from "../../../Image/News/4News-CanvaInstagram-1080x1920.png";
-import FifthNews from "../../../Image/News/5News-CanvaInstagram-1080x1920.png";
+import DATA from "../../../data.json";
 
 function News() {
 	const manualNav = (event) => {
@@ -29,48 +25,36 @@ function News() {
 	return (
 		<div id='idNews' className='news main-element'>
 			<div className='news__slider '>
-				<SingleItem
-					NuberOfItem='first-news active'
-					ImgItem={FirstNews}
-					NewsTitle='UWAGA RUSZAMY!!'
-				/>
-				<SingleItem
-					NuberOfItem='second-news'
-					ImgItem={SecondNews}
-					NewsTitle='Wielkie Otwarcie!'
-				/>
-				<SingleItem
-					NuberOfItem='third-news'
-					ImgItem={ThirdNews}
-					NewsTitle='Już teraz!'
-				/>
-				<SingleItem
-					NuberOfItem='fourt-news'
-					ImgItem={FourthNews}
-					NewsTitle='Nie przegap'
-				/>
-				<SingleItem
-					NuberOfItem='fifth-news'
-					ImgItem={FifthNews}
-					NewsTitle='Czekamy w Chorzowie'
-				/>
+				<div className='news__slider__img '>
+					<NewsImg />
+				</div>
 
 				<div className='news__navigation'>
-					<div
-						onClick={manualNav}
-						className='news__navigation-btn first-news active'></div>
-					<div
-						onClick={manualNav}
-						className='news__navigation-btn second-news'></div>
-					<div
-						onClick={manualNav}
-						className='news__navigation-btn third-news'></div>
-					<div
-						onClick={manualNav}
-						className='news__navigation-btn fourt-news'></div>
-					<div
-						onClick={manualNav}
-						className='news__navigation-btn fifth-news'></div>
+					{DATA.news1.tytul && (
+						<div
+							onClick={manualNav}
+							className='news__navigation-btn first-news active'></div>
+					)}
+					{DATA.news2.tytul && (
+						<div
+							onClick={manualNav}
+							className='news__navigation-btn second-news'></div>
+					)}
+					{DATA.news3.tytul && (
+						<div
+							onClick={manualNav}
+							className='news__navigation-btn third-news'></div>
+					)}
+					{DATA.news4.tytul && (
+						<div
+							onClick={manualNav}
+							className='news__navigation-btn fourt-news'></div>
+					)}
+					{DATA.news5.tytul && (
+						<div
+							onClick={manualNav}
+							className='news__navigation-btn fifth-news'></div>
+					)}
 				</div>
 			</div>
 		</div>

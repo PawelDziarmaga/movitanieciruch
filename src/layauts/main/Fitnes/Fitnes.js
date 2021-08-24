@@ -1,5 +1,3 @@
-import "./Fitnes.css";
-
 import FitnesElements from "./FitnesElements/FitnesElements";
 
 import kcal from "../../../Image/Fitness/kcal.png";

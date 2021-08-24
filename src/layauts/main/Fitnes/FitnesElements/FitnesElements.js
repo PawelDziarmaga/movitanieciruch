@@ -1,5 +1,3 @@
-import "./FitnesElements.css";
-
 function FitnesElements({ text, img }) {
 	return (
 		<div className='FitnesElements'>

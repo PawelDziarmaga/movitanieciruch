@@ -1,0 +1,47 @@
+.nav__hamburger-container {
+	display: none;
+	height: 50px;
+	width: 50px;
+
+	cursor: pointer;
+	@media screen and (max-width: 1300px) {
+		display: block;
+	}
+	.nav__hamburger {
+		top: 35px;
+		position: absolute;
+		height: 3px;
+		width: 40px;
+		background-color: black;
+		transition: 0.2s 0.2s ease-in-out;
+		&:before,
+		&:after {
+			position: absolute;
+			height: 3px;
+			width: 40px;
+			background-color: black;
+			content: "";
+			transition: transform 0.2s 0.2s ease-in-out;
+		}
+		&:before {
+			top: 10px;
+		}
+		&:after {
+			bottom: 10px;
+		}
+	}
+}
+
+/*************	aktywne menu	************/
+
+.active {
+	.nav__hamburger:before {
+		transform: translateY(-10px) rotate(45deg);
+	}
+	.nav__hamburger:after {
+		transform: translateY(10px) rotate(-45deg);
+	}
+	.nav__hamburger {
+		background-color: transparent;
+	}
+}
