@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1fc48535.chunk.css",
-    "main.js": "/static/js/main.4d88746a.chunk.js",
-    "main.js.map": "/static/js/main.4d88746a.chunk.js.map",
+    "main.css": "/static/css/main.935f99be.chunk.css",
+    "main.js": "/static/js/main.b68a9176.chunk.js",
+    "main.js.map": "/static/js/main.b68a9176.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.308bbc13.js",
     "runtime-main.js.map": "/static/js/runtime-main.308bbc13.js.map",
-    "static/js/2.d6ab320d.chunk.js": "/static/js/2.d6ab320d.chunk.js",
-    "static/js/2.d6ab320d.chunk.js.map": "/static/js/2.d6ab320d.chunk.js.map",
+    "static/js/2.9ee0e94b.chunk.js": "/static/js/2.9ee0e94b.chunk.js",
+    "static/js/2.9ee0e94b.chunk.js.map": "/static/js/2.9ee0e94b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1fc48535.chunk.css.map": "/static/css/main.1fc48535.chunk.css.map",
-    "static/js/2.d6ab320d.chunk.js.LICENSE.txt": "/static/js/2.d6ab320d.chunk.js.LICENSE.txt",
+    "static/css/main.935f99be.chunk.css.map": "/static/css/main.935f99be.chunk.css.map",
+    "static/js/2.9ee0e94b.chunk.js.LICENSE.txt": "/static/js/2.9ee0e94b.chunk.js.LICENSE.txt",
     "static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png": "/static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png",
     "static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png": "/static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png",
     "static/media/3News-CanvaInstagram-1080x1920.03995672.png": "/static/media/3News-CanvaInstagram-1080x1920.03995672.png",
@@ -31,19 +31,21 @@
     "static/media/Solo.1c08fd69.jpg": "/static/media/Solo.1c08fd69.jpg",
     "static/media/TaniecUzytkowy.4dbbe705.png": "/static/media/TaniecUzytkowy.4dbbe705.png",
     "static/media/Zosia-H.a05d6201.jpg": "/static/media/Zosia-H.a05d6201.jpg",
+    "static/media/fitness.e5b4abb0.jpg": "/static/media/fitness.e5b4abb0.jpg",
     "static/media/idea.ded57c27.png": "/static/media/idea.ded57c27.png",
     "static/media/kcal.7a22c4d0.png": "/static/media/kcal.7a22c4d0.png",
     "static/media/loading-process1-4.550d0501.png": "/static/media/loading-process1-4.550d0501.png",
     "static/media/loading-process2-4.e7c5700b.png": "/static/media/loading-process2-4.e7c5700b.png",
     "static/media/muscles.6604977e.png": "/static/media/muscles.6604977e.png",
+    "static/media/party.2047ae4a.jpg": "/static/media/party.2047ae4a.jpg",
     "static/media/power.4a44d71a.png": "/static/media/power.4a44d71a.png",
     "static/media/rent.1404964f.png": "/static/media/rent.1404964f.png",
     "static/media/stress.30711403.png": "/static/media/stress.30711403.png"
   },
   "entrypoints": [
     "static/js/runtime-main.308bbc13.js",
-    "static/js/2.d6ab320d.chunk.js",
-    "static/css/main.1fc48535.chunk.css",
-    "static/js/main.4d88746a.chunk.js"
+    "static/js/2.9ee0e94b.chunk.js",
+    "static/css/main.935f99be.chunk.css",
+    "static/js/main.b68a9176.chunk.js"
   ]
 }
