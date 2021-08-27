@@ -1,0 +1,25 @@
+@import "./BoxOne/BoxOne";
+@import "./WeddingElements/WeddingElements";
+@import "../../../scss/colors";
+@import "../../../scss/mixins";
+.WeddingOffer__more {
+	margin: 3vh 10%;
+	text-align: right;
+	p {
+		@include button-style;
+	}
+	ul {
+		list-style: none;
+		display: none;
+		&.active {
+			display: block;
+		}
+		li {
+			padding: 2vh 0;
+
+			span {
+				color: $font-blue-color;
+			}
+		}
+	}
+}

@@ -1,5 +1,3 @@
-import "./PriceElement.css";
-
 function PriceElement({ price, img, name, enter }) {
 	return (
 		<div className='PriceElement'>

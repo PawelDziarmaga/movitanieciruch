@@ -1,4 +1,3 @@
-import "./Instructors.css";
 import aniaPictures from "../../../Image/Instructors/Ania-K.jpg";
 import iwonaPictures from "../../../Image/Instructors/Iwona-L.jpg";
 import kamilPictures from "../../../Image/Instructors/Kamil-S.jpg";
@@ -11,7 +10,7 @@ function Instructors() {
 	return (
 		<div id='idInstructors' className='instructors main-element'>
 			<h1>Nasi instruktorzy:</h1>
-			<div className='instructors'>
+			<div className='instructors_container'>
 				<div className='instructors__box'>
 					<h2 className='instructors__name'>Ania</h2>
 					<img

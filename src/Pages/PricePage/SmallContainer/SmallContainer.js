@@ -1,5 +1,3 @@
-import "./SmallContainer.css";
-
 import PriceElement from "../PriceElement/PriceElement";
 
 import oneOfFour from "../../../Image/Price/loading-process1-4.png";

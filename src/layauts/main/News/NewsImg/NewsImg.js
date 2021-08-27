@@ -1,5 +1,3 @@
-import "./NewsImg.css";
-
 import SingleItem from "../SingleItem/SingleItem";
 
 import FirstNews from "../../../../Image/News/1News-CanvaInstagram-1080x1920.png";
@@ -12,7 +10,7 @@ import DATA from "../../../../data.json";
 
 function NewsImg() {
 	return (
-		<div className='news__slider '>
+		<div>
 			{DATA.news1.tytul && (
 				<SingleItem
 					NuberOfItem='first-news active'

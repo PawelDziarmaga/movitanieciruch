@@ -4,6 +4,7 @@ import Price from "./Price/Price";
 import Fitnes from "./Fitnes/Fitnes";
 import Dance from "./Dance/Dance";
 import WeddingOffer from "./WeddingOffer/WeddingOffer";
+import About from "./About/About";
 
 import SpecialOffer from "./SpecialOffer/SpecialOffer";
 
@@ -21,6 +22,7 @@ function Home() {
 			<Break text='Zapisz się już teraz!!' />
 			<Price />
 			<Instructors />
+			<About />
 		</div>
 	);
 }

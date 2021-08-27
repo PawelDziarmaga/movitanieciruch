@@ -1,5 +1,3 @@
-import "./SpecialOfferElements.css";
-
 function SpecialOfferElements({ text, img }) {
 	return (
 		<div className='SpecialOfferElements'>

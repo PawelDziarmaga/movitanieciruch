@@ -1,7 +1,7 @@
-function FitnesElements({ text, img }) {
+function FitnesElements({ text, img, click }) {
 	return (
-		<div className='FitnesElements'>
-			<div className='FitnesElements__box'>
+		<div className='FitnessElements'>
+			<div onClick={click} className='FitnessElements__box'>
 				<img src={img} alt={text}></img>
 			</div>
 			<h3>{text}</h3>

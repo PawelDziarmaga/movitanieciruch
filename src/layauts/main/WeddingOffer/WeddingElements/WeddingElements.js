@@ -1,5 +1,3 @@
-import "./WeddingElements.css";
-
 function WeddingElements({ img, text }) {
 	return (
 		<div className='WeddingElements'>

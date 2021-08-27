@@ -1,0 +1,55 @@
+@import "../../../../scss/colors";
+
+.SpecialOffer__boxOne {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	@media screen and (max-width: 1000px) {
+		display: block;
+	}
+	p {
+		padding: 10vh 5%;
+		margin-left: 10%;
+		text-align: justify;
+		@media screen and (max-width: 1450px) {
+			padding: 5vh 5%;
+		}
+		@media screen and (max-width: 1150px) {
+			padding: 2vh 5%;
+			font-size: 0.9em;
+		}
+		@media screen and (max-width: 1000px) {
+			padding: 3vh 5%;
+			margin-right: 0;
+		}
+		@media screen and (max-width: 700px) {
+			font-size: 0.8em;
+		}
+		@media screen and (max-width: 400px) {
+			font-size: 0.7em;
+		}
+		@media screen and (max-width: 300px) {
+			font-size: 0.6em;
+		}
+	}
+	img {
+		margin-right: 10%;
+		height: 20vw;
+		border-radius: 10px;
+		box-shadow: $shadows-item;
+		@media screen and (max-width: 1000px) {
+			display: block;
+			margin: 3vh auto;
+			height: 30vw;
+		}
+		@media screen and (max-width: 700px) {
+			height: 50vw;
+		}
+		@media screen and (max-width: 400px) {
+			height: 50vw;
+		}
+		@media screen and (max-width: 300px) {
+			height: 50vw;
+		}
+	}
+}

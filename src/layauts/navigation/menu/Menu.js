@@ -20,9 +20,9 @@ function Menu() {
 				</NavLink>
 			</li>
 			<li className='nav__element nav__list-item'>
-				<NavLink to='/Ofertaslubna' className='nav__link'>
+				<a href='#idWeddingOffer' className='nav__link'>
 					Oferta ślubna
-				</NavLink>
+				</a>
 			</li>
 			<li className='nav__element nav__list-item'>
 				<NavLink to='/Ofertaspecjalna' className='nav__link'>
@@ -48,9 +48,9 @@ function Menu() {
 				</NavLink>
 			</li>
 			<li className='nav__element nav__list-item'>
-				<NavLink to='/ONas' className='nav__link' href='#idAbout'>
+				<a className='nav__link' href='#idAbout'>
 					O nas
-				</NavLink>
+				</a>
 			</li>
 			<li className='nav__element nav__list-item'>
 				<NavLink to='/Kontakt' className='nav__link' href='#idConcact'>

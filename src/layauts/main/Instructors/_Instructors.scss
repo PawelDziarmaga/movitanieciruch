@@ -1,0 +1,39 @@
+@import "../../../scss/colors";
+
+.instructors_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	.instructors__box {
+		cursor: pointer;
+		width: 300px;
+		text-align: center;
+		margin: 5px 20px;
+		background-color: #fafafa;
+		border-radius: 5px;
+		box-shadow: $shadows-item;
+		@media screen and (max-width: 800px) {
+			width: 40%;
+		}
+		@media screen and (max-width: 600px) {
+			margin: 5px 5px;
+		}
+		&:hover {
+			background-color: #f8faf8;
+			border-radius: 5px;
+			box-shadow: $shadows-item-button;
+		}
+		.instructors__name {
+			color: $font-blue-color;
+			padding: 5%;
+			@media screen and (max-width: 600px) {
+				font-size: 6vw;
+			}
+		}
+
+		.instructors__picture {
+			width: 90%;
+			height: auto;
+		}
+	}
+}

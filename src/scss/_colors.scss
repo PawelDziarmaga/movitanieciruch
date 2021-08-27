@@ -2,12 +2,15 @@ $background-color: #f8f8f8;
 
 /*Gradients*/
 
-$blue-color: radial-gradient(#88ffff, #11ccff);
-$yelow-color: radial-gradient(#f8f8ae, #f3f723);
-$red-color: radial-gradient(#f8aeae, #f72323);
-$green-color: radial-gradient(#b1f8ae, #46f723);
-$purple-color: radial-gradient(#f6aef8, #de23f7);
-$pink-color: radial-gradient(#f8aee8, #f70088);
+$blue-color: radial-gradient(#a4ffff, #53acb8);
+$yellow-color: radial-gradient(#ffe70e, #f0d802);
+$orange-color: radial-gradient(#fcce6a, #ffa807);
+$bisquid-color: radial-gradient(#fce6ce, #fed3c5);
+$purple-color: radial-gradient(#c9afe0, #a688c4);
+$red-color: radial-gradient(#fa8f95, #f7444e);
+
+$special-color: radial-gradient(#c76a8f, #c62a69);
+$blue-color-menu: #53acb8;
 
 /*Fonts*/
 $font-blue-color: #5295cd;
@@ -15,4 +18,10 @@ $font-purple-color: #c62a69;
 
 /*shadow*/
 
-$shadows-item: 0px 0px 5px #393e46;
+$shadows-item: 0px 0px 4px #393e46;
+$shadows-item-button: 0px 0px 2px #393e46;
+
+/*button*/
+
+$blue-color-button: radial-gradient(#65b4f5, #2196f3);
+$blue-color-button-hover: radial-gradient(#5ab0f7, #2196f3);

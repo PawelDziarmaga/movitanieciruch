@@ -10,34 +10,22 @@ function MenuMobile(props) {
 				</a>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink
-					to='/Taniec'
-					className='MenuMobile__link'
-					href='#idDance'>
+				<NavLink to='/Taniec' className='MenuMobile__link'>
 					Taniec
 				</NavLink>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink
-					to='/Fitness'
-					className='MenuMobile__link'
-					href='#idFitnes'>
+				<NavLink to='/Fitness' className='MenuMobile__link'>
 					Fitness
 				</NavLink>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink
-					to='/Ofertaslubna'
-					className='MenuMobile__link'
-					href='#idGraphic'>
+				<a href='#idWeddingOffer' className='MenuMobile__link'>
 					Oferta ślubna
-				</NavLink>
+				</a>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink
-					to='/Ofertaspecjalna'
-					className='MenuMobile__link'
-					href='#idGraphic'>
+				<NavLink to='/Ofertaspecjalna' className='MenuMobile__link'>
 					Oferta Specjalna
 				</NavLink>
 			</li>
@@ -50,34 +38,22 @@ function MenuMobile(props) {
 				</NavLink>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink
-					to='/Cennik'
-					className='MenuMobile__link'
-					href='#idPrice'>
+				<NavLink to='/Cennik' className='MenuMobile__link'>
 					Cennik
 				</NavLink>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink
-					to='/Instruktorzy'
-					className='MenuMobile__link'
-					href='#idInstructors'>
+				<NavLink to='/Instruktorzy' className='MenuMobile__link'>
 					Instruktorzy
 				</NavLink>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink
-					to='/ONas'
-					className='MenuMobile__link'
-					href='#idAbout'>
+				<a href='#idAbout' className='MenuMobile__link'>
 					O nas
-				</NavLink>
+				</a>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink
-					to='/Kontakt'
-					className='MenuMobile__link'
-					href='#idConcact'>
+				<NavLink to='/Kontakt' className='MenuMobile__link'>
 					Kontakt
 				</NavLink>
 			</li>

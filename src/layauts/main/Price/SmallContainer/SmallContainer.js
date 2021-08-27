@@ -1,5 +1,3 @@
-import "./SmallContainer.css";
-
 import PriceElement from "../PriceElement/PriceElement";
 
 import oneOfFour from "../../../../Image/Price/loading-process1-4.png";
@@ -8,6 +6,7 @@ import threeOfFour from "../../../../Image/Price/loading-process3-4.png";
 import fourOfFour from "../../../../Image/Price/loading-process4-4.png";
 
 import arrow from "../../../../Image/Price/arrow-down.png";
+import { useState } from "react";
 
 function SmallContainer({
 	classElement,
@@ -17,9 +16,10 @@ function SmallContainer({
 	priceThreeOfFour,
 	priceFourOfFour,
 }) {
+	const [stan, setStan] = useState("");
+
 	const handlerClick = ({ target }) => {
 		const chosenElementClass = target.classList[0];
-		console.log(chosenElementClass);
 
 		const allElements = document.getElementsByClassName(
 			"price__small-container"
@@ -27,10 +27,15 @@ function SmallContainer({
 		for (let i = 0; i < allElements.length; i++) {
 			allElements[i].classList.remove("prices-active");
 		}
-
-		const chosenElement =
-			document.getElementsByClassName(chosenElementClass);
-		chosenElement[0].classList.add("prices-active");
+		console.log(stan);
+		if (stan !== chosenElementClass) {
+			const chosenElement =
+				document.getElementsByClassName(chosenElementClass);
+			chosenElement[0].classList.add("prices-active");
+			setStan(chosenElementClass);
+		} else {
+			setStan("");
+		}
 	};
 
 	return (
@@ -48,26 +53,26 @@ function SmallContainer({
 				<PriceElement
 					price={priceOneOfFour}
 					img={oneOfFour}
-					name='Only One'
+					name='One'
 					enter='1'
 				/>
 				<PriceElement
 					price={priceTwoOfFour}
 					img={twoOfFour}
-					name='Twins'
-					enter='2'
+					name='Four'
+					enter='4'
 				/>
 				<PriceElement
 					price={priceThreeOfFour}
 					img={threeOfFour}
-					name='Fantastic Four'
-					enter='4'
+					name='Eight'
+					enter='8'
 				/>
 				<PriceElement
 					price={priceFourOfFour}
 					img={fourOfFour}
-					name='Hateful Eight'
-					enter='8'
+					name='All in'
+					enter='-'
 				/>
 			</div>
 		</div>

@@ -1,0 +1,26 @@
+@import "./SingleItem/SingleItem";
+@import "./NewsImg/NewsImg";
+
+.news__navigation {
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	&-btn {
+		background-color: rgba(100, 100, 100, 0.5);
+		border: 1px solid rgba(100, 100, 100, 0.9);
+		width: 15px;
+		height: 15px;
+		margin: 0 15px;
+		border-radius: 50%;
+		cursor: pointer;
+		@media all and (max-width: 350px) {
+			width: 5vw;
+			height: 5vw;
+			margin: 0 5vw;
+		}
+	}
+	.active {
+		background-color: rgb(198, 42, 105);
+		border: 1px solid rgb(117, 0, 47);
+	}
+}

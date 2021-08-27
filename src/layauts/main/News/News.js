@@ -1,5 +1,3 @@
-import "./News.css";
-
 import NewsImg from "./NewsImg/NewsImg";
 
 import DATA from "../../../data.json";
@@ -24,10 +22,8 @@ function News() {
 
 	return (
 		<div id='idNews' className='news main-element'>
-			<div className='news__slider '>
-				<div className='news__slider__img '>
-					<NewsImg />
-				</div>
+			<div className='news__container '>
+				<NewsImg />
 
 				<div className='news__navigation'>
 					{DATA.news1.tytul && (

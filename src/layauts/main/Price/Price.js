@@ -1,5 +1,3 @@
-import "./Price.css";
-
 import SmallContainer from "./SmallContainer/SmallContainer";
 
 function Price() {
@@ -10,34 +8,34 @@ function Price() {
 				<SmallContainer
 					classElement='price_one'
 					name='Fitness, Taniec Solo'
-					priceOneOfFour='80zł'
-					priceTwoOfFour='150zł'
-					priceThreeOfFour='280zł'
-					priceFourOfFour='500zł'
+					priceOneOfFour='80'
+					priceTwoOfFour='150'
+					priceThreeOfFour='280'
+					priceFourOfFour='500'
 				/>
 				<SmallContainer
 					classElement='price_two'
 					name='Dzieci'
-					priceOneOfFour='60zł'
-					priceTwoOfFour='100zł'
-					priceThreeOfFour='180zł'
-					priceFourOfFour='300zł'
+					priceOneOfFour='60'
+					priceTwoOfFour='100'
+					priceThreeOfFour='180'
+					priceFourOfFour='300'
 				/>
 				<SmallContainer
 					classElement='price_three'
 					name='Pary Ślubne'
-					priceOneOfFour='100zł'
-					priceTwoOfFour='180zł'
-					priceThreeOfFour='350zł'
-					priceFourOfFour='600zł'
+					priceOneOfFour='100'
+					priceTwoOfFour='180'
+					priceThreeOfFour='350'
+					priceFourOfFour='600'
 				/>
 				<SmallContainer
 					classElement='price_four'
 					name='Inne'
-					priceOneOfFour='100zł'
-					priceTwoOfFour='180zł'
-					priceThreeOfFour='350zł'
-					priceFourOfFour='600zł'
+					priceOneOfFour='100'
+					priceTwoOfFour='180'
+					priceThreeOfFour='350'
+					priceFourOfFour='600'
 				/>
 			</div>
 		</div>

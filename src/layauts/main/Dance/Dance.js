@@ -1,6 +1,5 @@
-import "./Dance.css";
+import { useHistory } from "react-router";
 
-import ContainerDanceText from "./ContainerDanceText/ContainerDanceText";
 import ContainerDance from "./ContainerDance/ContainerDance";
 
 import KidsPisture from "../../../Image/Dance/Dzieci.jpg";
@@ -11,25 +10,57 @@ import CouplesPisture from "../../../Image/Dance/Pary.jpg";
 import SoloPisture from "../../../Image/Dance/Solo.jpg";
 
 function Dance() {
+	const history = useHistory();
+	const handleClick = () => {
+		const location = {
+			pathname: "/Taniec",
+		};
+		window.scrollTo(0, 0);
+		history.push(location);
+	};
+
 	return (
 		<div id='idDance' className='dance main-element'>
 			<h1 className='dance__title'>Taniec</h1>
-			<ContainerDanceText />
-			<div className='dance__types'>
-				<ContainerDance name='Dzieci' img={KidsPisture} />
-				<ContainerDance name='Młodzież' img={YoungPisture} />
-				<ContainerDance name='Dorośli' img={AdultsPisture} />
-				<ContainerDance name='Seniorzy' img={SeniorsPisture} />
-				<ContainerDance name='Pary' img={CouplesPisture} />
-				<ContainerDance name='Solo' img={SoloPisture} />
-			</div>
 			<p>
-				MOVI jest idealnym miejscem dla każdego, kto chce poznać różne
-				rodzaje tańca, ruchu, kto chce udoskonalić już posiadane
-				umiejętności, kto chce miło spędzić wolny czas. Odnajdzie się
-				tutaj początkujący i zawodowiec. Wszystkiego Was nauczymy,
-				pokażemy.
+				Lorem Ipsum is simply dummy text of the printing and typesetting
+				industry. Lorem Ipsum has been the industry's standard dummy
+				text ever since the 1500s, when an unknown printer took a galley
+				of type and scrambled it to make a type specimen book. It has
+				survived not only five centuries,
 			</p>
+			<div className='dance__types'>
+				<ContainerDance
+					click={handleClick}
+					name='Dzieci'
+					img={KidsPisture}
+				/>
+				<ContainerDance
+					click={handleClick}
+					name='Młodzież'
+					img={YoungPisture}
+				/>
+				<ContainerDance
+					click={handleClick}
+					name='Dorośli'
+					img={AdultsPisture}
+				/>
+				<ContainerDance
+					click={handleClick}
+					name='Seniorzy'
+					img={SeniorsPisture}
+				/>
+				<ContainerDance
+					click={handleClick}
+					name='Pary'
+					img={CouplesPisture}
+				/>
+				<ContainerDance
+					click={handleClick}
+					name='Solo'
+					img={SoloPisture}
+				/>
+			</div>
 		</div>
 	);
 }

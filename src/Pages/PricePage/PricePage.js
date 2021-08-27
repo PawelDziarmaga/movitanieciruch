@@ -1,5 +1,3 @@
-import "./PricePage.css";
-
 import SmallContainer from "./SmallContainer/SmallContainer";
 
 function PricePage() {

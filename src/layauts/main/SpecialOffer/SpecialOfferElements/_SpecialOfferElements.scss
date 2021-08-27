@@ -1,17 +1,15 @@
 @import "../../../../scss/colors";
 
-.FitnessElements {
+.SpecialOfferElements {
 	display: flex;
-	margin: 5% 0;
-
-	.FitnessElements__box {
-		cursor: pointer;
+	justify-content: center;
+	padding: 3% 0;
+	&__box {
 		height: 100px;
 		width: 100px;
-		box-shadow: $shadows-item;
+		background-image: $bisquid-color;
+		box-shadow: 0px 0px 5px #393e46;
 		border-radius: 50%;
-		background-image: $orange-color;
-
 		@media screen and (max-width: 1000px) {
 			height: 80px;
 			width: 80px;
@@ -43,8 +41,12 @@
 	}
 	h3 {
 		line-height: 80px;
-		margin: 2%;
-		color: rgb(80, 149, 205);
+		margin: 0 2%;
+		color: $font-blue-color;
+		width: 40%;
+		@media screen and (max-width: 1200px) {
+			width: 60%;
+		}
 		@media screen and (max-width: 1000px) {
 			font-size: 1em;
 			line-height: 70px;
@@ -52,6 +54,7 @@
 		@media screen and (max-width: 800px) {
 			font-size: 0.9em;
 			line-height: 50px;
+			width: 70%;
 		}
 		@media screen and (max-width: 600px) {
 			font-size: 0.7em;

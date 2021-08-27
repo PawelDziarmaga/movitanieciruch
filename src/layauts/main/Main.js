@@ -2,14 +2,12 @@ import { Route, Switch } from "react-router-dom";
 
 import Home from "./home";
 
-import ONas from "../../Pages/AboutPage/AboutPage";
 import Kontakt from "../../Pages/ConcactPage/ConcactPage";
 import Taniec from "../../Pages/DancePage/DancePage";
 import Fitness from "../../Pages/FitnesPage/FitnesPage";
 import Grafik from "../../Pages/GraphicPage/GraphicPage";
 import Instruktorzy from "../../Pages/InstructorsPage/InstructorsPage";
-import Aktualnosci from "../../Pages/NewsPage/NewsPage";
-import Ofertaslubna from "../../Pages/OfertaSlubnaPage/OfertaSlubnaPage";
+
 import Ofertaspecjalna from "../../Pages/OfertaSpecjalnaPage/OfertaSpecjalnaPage";
 import Cennik from "../../Pages/PricePage/PricePage";
 
@@ -19,9 +17,6 @@ function Main() {
 			<Switch>
 				<Route exact path='/'>
 					<Home />
-				</Route>
-				<Route path='/ONas'>
-					<ONas />
 				</Route>
 				<Route path='/Kontakt'>
 					<Kontakt />
@@ -38,12 +33,7 @@ function Main() {
 				<Route path='/Instruktorzy'>
 					<Instruktorzy />
 				</Route>
-				<Route path='/Aktualnosci'>
-					<Aktualnosci />
-				</Route>
-				<Route path='/Ofertaslubna'>
-					<Ofertaslubna />
-				</Route>
+
 				<Route path='/Ofertaspecjalna'>
 					<Ofertaspecjalna />
 				</Route>

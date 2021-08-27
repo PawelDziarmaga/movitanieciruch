@@ -1,8 +1,19 @@
+@import "./News/News";
 @import "./Fitnes/Fitnes";
 @import "./Break/Break";
+@import "./Dance/Dance";
+@import "./WeddingOffer/WeddingOffer";
+@import "./SpecialOffer/SpecialOffer";
+@import "./Price/Price";
+@import "./Instructors/Instructors";
+@import "./About/About";
+
 .main-element {
 	min-height: 30vh;
-
+	padding: 0 10%;
+	@media screen and (max-width: 1300px) {
+		padding: 0 5%;
+	}
 	&:first-child {
 		padding-top: 90px;
 	}

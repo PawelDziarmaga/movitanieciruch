@@ -1,7 +1,6 @@
-function BoxOne({ slubna }) {
+function BoxOne({ party }) {
 	return (
-		<div className='WeddingOffer__boxOne'>
-			<img src={slubna} alt='slubna'></img>
+		<div className='SpecialOffer__boxOne'>
 			<p>
 				Zaplanowaliście już swój najpiękniejszy dzień i potrzebujecie
 				wyjątkowego pierwszego tańca? A może chcecie udoskonalić swoje
@@ -9,6 +8,7 @@ function BoxOne({ slubna }) {
 				przygotuje Was do weselnej zabawy, nawet jeśli pozostawiliście
 				to na ostatnią chwilę.{" "}
 			</p>
+			<img src={party} alt='party'></img>
 		</div>
 	);
 }

@@ -1,0 +1,13 @@
+@mixin button-style {
+	display: inline-block;
+	cursor: pointer;
+	padding: 2vh 2%;
+	box-shadow: $shadows-item;
+	border-radius: 3px;
+	background-image: $blue-color-button;
+	color: #ffffff;
+	&:hover {
+		background-image: $blue-color-button-hover;
+		box-shadow: $shadows-item-button;
+	}
+}
