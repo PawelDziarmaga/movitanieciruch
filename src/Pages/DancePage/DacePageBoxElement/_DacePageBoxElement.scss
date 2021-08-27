@@ -1,0 +1,29 @@
+@import "../../../scss/colors";
+
+.dance-page__box__element {
+	margin: 5px 15%;
+	@media screen and (max-width: 1000px) {
+		margin: 5px 5%;
+	}
+	@media screen and (max-width: 800px) {
+		margin: 5px 3%;
+	}
+	p {
+		margin: 3vh 0;
+		text-align: justify;
+		font-size: 18px;
+		display: none;
+		@media screen and (max-width: 1700px) {
+			font-size: 15px;
+		}
+	}
+}
+.description-dance {
+	.active {
+		.dance-page__box__element {
+			p {
+				display: block;
+			}
+		}
+	}
+}

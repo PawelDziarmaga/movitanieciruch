@@ -34,6 +34,8 @@
 		.instructors__picture {
 			width: 90%;
 			height: auto;
+			border-radius: 10px;
+			box-shadow: $shadows-item;
 		}
 	}
 }
