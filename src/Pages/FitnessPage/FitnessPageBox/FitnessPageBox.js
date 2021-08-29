@@ -1,7 +1,7 @@
 import { useState } from "react";
-import DacePageBoxElement from "../DacePageBoxElement/DacePageBoxElement";
+import FitnessPageBoxElement from "../FitnessPageBoxElement/FitnessPageBoxElement";
 
-function DancePageBox({ title, img, txt }) {
+function FitnessPageBox({ title, img, txt }) {
 	const data = txt;
 	const [stan, setStan] = useState("");
 	const handlerClick = ({ target }) => {
@@ -27,8 +27,7 @@ function DancePageBox({ title, img, txt }) {
 		}
 	};
 	return (
-		<div className='dance-page__box'>
-			<h1 className='dance-page__title'>{title}</h1>
+		<div className='fitness-page__box'>
 			<div className='description'>
 				<img src={img} alt={title}></img>
 				<div className='description__p'>
@@ -42,8 +41,8 @@ function DancePageBox({ title, img, txt }) {
 				</div>
 			</div>
 
-			<div className={`description-dance ${title}`}>
-				<div className='description-dance__felx'>
+			<div className={`description-fitness ${title}`}>
+				<div className='description-fitness__felx'>
 					{data.tance.n1.nazwa && (
 						<div className={data.tance.n1.nazwaClass}>
 							<h3
@@ -120,25 +119,25 @@ function DancePageBox({ title, img, txt }) {
 
 				<div>
 					<div className={data.tance.n1.nazwaClass}>
-						<DacePageBoxElement data={data.tance.n1.opis} />
+						<FitnessPageBoxElement data={data.tance.n1.opis} />
 					</div>
 					<div className={data.tance.n2.nazwaClass}>
-						<DacePageBoxElement data={data.tance.n2.opis} />
+						<FitnessPageBoxElement data={data.tance.n2.opis} />
 					</div>
 					<div className={data.tance.n3.nazwaClass}>
-						<DacePageBoxElement data={data.tance.n3.opis} />
+						<FitnessPageBoxElement data={data.tance.n3.opis} />
 					</div>
 					<div className={data.tance.n4.nazwaClass}>
-						<DacePageBoxElement data={data.tance.n4.opis} />
+						<FitnessPageBoxElement data={data.tance.n4.opis} />
 					</div>
 					<div className={data.tance.n5.nazwaClass}>
-						<DacePageBoxElement data={data.tance.n5.opis} />
+						<FitnessPageBoxElement data={data.tance.n5.opis} />
 					</div>
 					<div className={data.tance.n6.nazwaClass}>
-						<DacePageBoxElement data={data.tance.n6.opis} />
+						<FitnessPageBoxElement data={data.tance.n6.opis} />
 					</div>
 					<div className={data.tance.n7.nazwaClass}>
-						<DacePageBoxElement data={data.tance.n7.opis} />
+						<FitnessPageBoxElement data={data.tance.n7.opis} />
 					</div>
 				</div>
 			</div>
@@ -146,4 +145,4 @@ function DancePageBox({ title, img, txt }) {
 	);
 }
 
-export default DancePageBox;
+export default FitnessPageBox;

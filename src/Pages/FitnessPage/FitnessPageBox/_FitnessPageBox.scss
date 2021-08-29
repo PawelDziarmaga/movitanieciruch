@@ -1,7 +1,7 @@
 @import "../../../scss/colors";
-@import "../DacePageBoxElement/DacePageBoxElement";
+@import "../FitnessPageBoxElement//FitnessPageBoxElement";
 
-.dance-page__box {
+.fitness-page__box {
 	h1 {
 		color: $font-blue-color;
 		text-align: center;
@@ -58,9 +58,9 @@
 			}
 		}
 	}
-	.description-dance {
+	.description-fitness {
 		margin-bottom: 10vh;
-		.description-dance__felx {
+		.description-fitness__felx {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;

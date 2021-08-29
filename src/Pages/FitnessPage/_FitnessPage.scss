@@ -1,12 +1,12 @@
 @import "../../scss/colors";
-@import "./DancePageBox/DancePageBox";
-.dance-page {
+@import "./FitnessPageBox//FitnessPageBox";
+.fitness-page {
 	margin: 0 10%;
 	@media screen and (max-width: 600px) {
 		margin: 0 3%;
 	}
 	&__title {
-		text-align: left;
+		text-align: center;
 		padding-top: 100px;
 		color: #c62a69;
 	}

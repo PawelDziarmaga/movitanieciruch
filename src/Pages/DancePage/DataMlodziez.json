@@ -1,16 +1,15 @@
 {
-	"tytul": "Dzieci",
+	"tytul": "Mlodziez",
 	"opis": {
-		"n1": "Nie trzeba nikomu przypominać, że ruch, rytm i muzyka to żywioł wszystkich dzieci.",
-		"n2": "Dziecko jeszcze nie potrafiąc chodzić, rewelacyjnie rozpoznaje już rytmiczne podrygi, a nawet samo je przejawia.",
-		"n3": "Dlaczego warto zapisać tak młodego człowieka na zajęcia taneczne? Otóż zapewni mu to ogromny rozwój osobisty, hobby, pasję, a kto wie, może stanie się to jego sposobem na życie.",
-		"n4": "Latorośl nauczy się panować nad swoim ciałem, bawić się jednocześnie przyswajając nowe wiadomości. Rozwijająca się samodyscyplina zaprocentuje w przyszłości nie tylko na płaszczyźnie tanecznej, będzie miało to pozytywny wpływ na całe przyszłe życie.",
-		"n5": "Taniec i ruch wspiera fizyczny rozwój dziecka, a także jego kompetencje społeczne oraz rozwój zdolności kognitywnych. Wzmacnia ciało i ducha, kondycję, koncentrację, koordynację ruchową. Krótko mówiąc, naszym zdaniem – bez wątpienia NIE MA lepszej formy spędzania czasu wolnego przez dzieci",
-		"n6": "Przyprowadź do nas swoją pociechę. Bogata oferta naszych usług pozwoli dobrać zajęcia odpowiednie dla Twojego dziecka, idealnie dopasowane do jego upodobań i cech charakteru."
+		"n1": "Młodzi ludzie potrzebują sposobu na spędzenie wolnego czasu, możliwości spotykania się z rówieśnikami, dzielenia wspólnych pasji, czy zwyczajnie – możliwości odreagowania szkolnych stresów.",
+		"n2": "Zajęcia w MOVI dają szansę do nawiązania nowych, ciekawych i konstruktywnych znajomości, poprawienia swojej kondycji fizycznej i sylwetki, wyrobienia w sobie poprawnych nawyków, konsekwentnego dążenia do celu, wytrwałości i samozaparcia.",
+		"n3": "Taniec daje wiele radości, pozwala na czerpanie satysfakcji z własnej pracy, z wysiłku włożonego we własny sukces.",
+		"n4": "Każdy młody człowiek, który przyjdzie zapisać się na zajęcia w MOVI, będzie miał okazję przekonać się na własnej skórze, jak wiele można wynieść z tego doświadczenia. Jesteśmy przekonani, że przychodząc do nas jeden raz, nie będziecie chcieli już opuszczać tego miejsca!"
 	},
 	"tance": {
 		"n1": {
-			"nazwa": "TaniecWspółczesny",
+			"nazwa": "Taniec Współczesny",
+			"nazwaClass": "Taniec Współczesny",
 			"opis": {
 				"n1": "Ten energiczny styl łączący różne techniki jest idealny dla każdego, niezależnie od poziomu zaawansowania. Dzieci i młodzi ludzie uczestniczący w zajęciach, uzyskają niepowtarzalną okazję do wszechstronnego rozwoju, nauczą się wyzwalać swobodę ruchu.",
 				"n2": "Taniec współczesny jest luźną formą z ideą baletu w swojej podstawie, jednak pozbawioną sztywnych zasad. Tutaj najważniejsze są emocje i ich ekspresja przekazywana za pomocą naturalnych ruchów i choreografii.",
@@ -19,6 +18,7 @@
 		},
 		"n2": {
 			"nazwa": "Jazz",
+			"nazwaClass": "Jazz",
 			"opis": {
 				"n1": "Jeden z najbardziej innowacyjnych stylów, którego technika nieprawdopodobnie ewoluowała na przestrzeni lat. Jazz łączy w sobie zarówno subtelność baletu, jak i ekspresję tańca nowoczesnego.",
 				"n2": "Dzieci i młodzież zapewne będą się świetnie bawić przy energicznych skokach, obrotach i przeróżnych akrobacjach, tworząc niezwykłe choreografie.",
@@ -27,21 +27,24 @@
 		},
 
 		"n3": {
-			"nazwa": "HipHop",
+			"nazwa": "Hip Hop",
+			"nazwaClass": "HipHop",
 			"opis": {
 				"n1": "Jeśli jesteś osobą energiczną, a przede wszystkim pomysłową, lubisz dynamiczny ruch, a jednocześnie luźne klimaty oraz pulsującą muzykę R’n,B – ten styl jest właśnie dla Ciebie! Hip hop łączy w sobie kroki oldschoolowe i te nowoczesne oraz wszystkie, które powstawały na przestrzeni lat.",
 				"n2": "W MOVI poznasz wszystkie te kroki, a tylko od Twojej inicjatywy zależne będzie to, jaki sposób je połączysz i jak przedstawisz własną historię! Pokażemy Ci, jak tworzyć wspaniałe i ciekawe choreografie, wprowadzimy Cię w zaskakujący świat improwizacji, w które (GWARANTUJEMY!) z czasem poczujesz się jak ryba w wodzie!"
 			}
 		},
 		"n4": {
-			"nazwa": "NewAge",
+			"nazwa": "New Age",
+			"nazwaClass": "NewAge",
 			"opis": {
 				"n1": "Jak sama nazwa wskazuje, styl ten powstał stosunkowo niedawno, ale od razu przyciągnął wielu pasjonatów, dzięki niezwykle ciekawym choreografiom powstałym z połączenia różnych stylów.",
 				"n2": "Dzieci i młodzież mają szczególną okazję rozwijać się właśnie w new age, ponieważ otrzymują tutaj bardzo szerokie pole do zaprezentowania własnej kreatywności, łączenia poznanych kroków we własny niepowtarzalny sposób, kreowania własnej rzeczywistości tańca. "
 			}
 		},
 		"n5": {
-			"nazwa": "TaniecTowarzyski",
+			"nazwa": "Taniec Towarzyski",
+			"nazwaClass": "TaniecTowarzyski",
 			"opis": {
 				"n1": "Był już wcześniej opisany w ofercie dla dorosłych. Nie trzeba zatem przypominać, jak wspaniały jest to sposób na spędzenie wolnego czasu z rówieśnikami i odreagowanie stresów szkolnych.",
 				"n2": "Styl ten daje ogrom radości i satysfakcji, a przede wszystkim uczy słuchania drugiego człowieka, co będzie bardzo przydatne w dorosłym życiu naszych podopiecznych. ",
@@ -51,6 +54,7 @@
 		},
 		"n6": {
 			"nazwa": "Balet",
+			"nazwaClass": "Balet",
 			"opis": {
 				"n1": "Jeden z najlepszych sposobów, aby wykształcić w dzieciach ambicję, chęć dążenia do celu, radość z osiągania satysfakcji własną pracą, nawyku powtarzalności prowadzącej do perfekcji, a – co za tym idzie – silnego charakteru!",
 				"n2": "Balet to również wspaniała forma ćwiczeń, profilowania postawy, wzmocnienia mięśni.  "
@@ -58,10 +62,20 @@
 		},
 		"n7": {
 			"nazwa": "Akrobatyka",
+			"nazwaClass": "Akrobatyka",
 			"opis": {
 				"n1": "Zajęcia idealne dla młodych ludzi, którzy pragną rozwijać swoją koordynację ruchową oraz świadomość ciała i zdolności rytmiczne. Zajęcia te poprawią gibkość i zwinność dziecka. ",
 				"n2": "To wielopłaszczyznowe zajęcia polegające na wykonywaniu bardzo ciekawych układów i nauki figur, rozwijające wytrzymałość ciała (i ducha!), a także zręczność i orientację przestrzenną.  ",
 				"n3": "Uczestnik zajęć z akrobatyki stanie się z czasem mistrzem sprawności fizycznej, równowagi i precyzji ruchu, co jest wspaniałym wstępem do uprawiania każdej innej dyscypliny ruchowej!"
+			}
+		},
+		"n8": {
+			"nazwa": "",
+			"opis": {
+				"n1": "",
+				"n2": "",
+				"n3": "",
+				"n4": ""
 			}
 		}
 	}

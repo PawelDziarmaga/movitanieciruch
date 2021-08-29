@@ -1,9 +1,7 @@
-import "./OfertaSpecjalnaPage.css";
-
 function OfertaSpecjalnaPage() {
 	return (
-		<div className='OfertaSpecjalna-Page'>
-			<h1>Oferta Specjalna</h1>
+		<div className='special-offer-page'>
+			<h1 className='special-offer-page__title'>Oferta Specjalna</h1>
 		</div>
 	);
 }

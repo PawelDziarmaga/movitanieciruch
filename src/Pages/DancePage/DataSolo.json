@@ -1,0 +1,80 @@
+{
+	"tytul": "Solo",
+	"opis": {
+		"n1": "",
+		"n2": "",
+		"n3": "",
+		"n4": "",
+		"n5": ""
+	},
+	"tance": {
+		"n1": {
+			"nazwa": "Latino",
+			"nazwaClass": "Latino",
+			"opis": {
+				"n1": "To forma zajęć solo przeznaczona przede wszystkim dla kobiet. Panie będą miały okazję zapoznać się z elementami salsy, rumby, chachy oraz rytmami latynoskimi i w przyjemny sposób poprawić swoją sylwetkę czerpiąc z zajęć ogromną satysfakcję.",
+				"n2": "Jesteś zainteresowana ciekawą formą spędzania czasu? Chcesz dodać życiu barw, poznać nowych ludzi, a przede wszystkim świetnie się poczuć? Gwarantujemy, że na zajęciach w MOVI otrzymasz to wszystko i jeszcze więcej!"
+			}
+		},
+		"n2": {
+			"nazwa": "Salsa",
+			"nazwaClass": "Salsa",
+			"opis": {
+				"n1": "Nie masz partnera do tego nadzwyczaj temperamentnego tańca? Nic straconego! Wystarczą chęci, a my zajmiemy się resztą! Sprawdź naszą ofertę, a na pewno nie pożałujesz! Pozwól, że pokażemy Ci, ze salsa to taniec wręcz stworzony dla Ciebie, dla Twojej przyjemności."
+			}
+		},
+
+		"n3": {
+			"nazwa": "Bachata",
+			"nazwaClass": "Bachata",
+			"opis": {
+				"n1": "Niezwykle zmysłowa i sensualna bachata, również nie wymaga, abyś posiadała partnera. Chcesz się jej nauczyć? Nic prostszego, zapraszamy! Poznasz wszystkie kroki, odnajdziesz własny styl i szybko przekonasz się, jak wspaniale potrafisz się bawić tym tańcem!"
+			}
+		},
+		"n4": {
+			"nazwa": "High Heels",
+			"nazwaClass": "HighHeels",
+			"opis": {
+				"n1": "Masz ochotę spróbować mieszanki różnych stylów tanecznych w uwodzicielskiej formie  - na obcasach? Jesteś odważna i pewna siebie? Te stuprocentowo kobiece zajęcia z pewnością ukażą Twój charakter i zmysłowość. Będziesz mogła sprawdzić się w choreografii przystosowanej specjalnie dla kobiet.",
+				"n2": "Dzięki zajęciom na obcasach, wzmocnisz całe swoje nogi, pośladki. Popracuje również brzuch oraz plecy. Gwarantujemy, że high heels wpłynie pozytywnie na całe Twoje ciało, wysmukli je i ujędrni, a dodatkowo dostarczy ogrom zadowolenia!"
+			}
+		},
+		"n5": {
+			"nazwa": "Commercial Dance",
+			"nazwaClass": "CommercialDance",
+			"opis": {
+				"n1": "Każda kobieta posiadająca w sobie wielkie pokłady energii, nie lubiąca nudy, rządna spektakularnych choreografii, dynamiczna, lubiąca dobrą zabawę – będzie zachwycona zajęciami commercial dance!",
+				"n2": "W MOVI będziesz miała okazję przekonać się, że są to zajęcia stworzone właśnie dla Ciebie! Poznaj ten styl i daj się ponieść szalonym muzycznym rytmom!"
+			}
+		},
+		"n6": {
+			"nazwa": "Flamenco",
+			"nazwaClass": "Flamenco",
+			"opis": {
+				"n1": "To zdecydowanie nie tylko taniec! Flamenco to prawdziwa sztuka, jednocześnie zaplanowana i improwizowana. Tańcząc flamenco, opowiadasz historię. Wczuwasz się w nią, pokazujesz ją każdym swoim gestem, każdą częścią ciała.",
+				"n2": "Jest to styl bardzo intrygujący, angażujący ramiona, dłonie palce w taki sposób, aby stały się one narzędziem przekazu. Jesteś ciekawa, co to znaczy używać nóg jako instrumentu perkusyjnego? Zasmakuj flamenco, poczuj to, przeżyj, przekonaj się sama."
+			}
+		},
+		"n7": {
+			"nazwa": "Zumba",
+			"nazwaClass": "Zumba",
+			"opis": {
+				"n1": "Czy wiesz, że zumba tak naprawdę jest aerobikiem, ale w formie magicznej latynoamerykańskiej zabawy? Lubisz gorące rytmy muzyczne? Chcesz spalić zbędne kalorie? Ukształtować piękną sylwetkę?",
+				"n2": "Niezależnie od tego, w jakim jesteś wieku i jakie masz doświadczenie – jeśli tylko lubisz się dobrze bawić – to są zajęcia właśnie dla Ciebie, ponieważ zostały zaprojektowane dla Twojej przyjemności i satysfakcji!",
+				"n3": "Gwarantujemy, że z nami zmęczysz się pozytywnie, a uśmiech nie zejdzie Ci z twarzy!",
+				"n4": ""
+			}
+		},
+		"n8": {
+			"nazwa": "Balet",
+			"nazwaClass": "Balet",
+			"opis": {
+				"n1": "Jesteś ambitna i dążenie do celu ciężką pracą sprawia Ci satysfakcję? Chętnie patrzysz na efekty swoich działań i obserwujesz, jak ich powtarzalność prowadzi Cię do perfekcji? Zapraszamy na balet dla Pań!",
+				"n2": "Balet nie jest prostą dziedziną, ale nie oznacza to, że nie może się jej nauczyć każdy. To wyłącznie kwestia treningu i pracy, jaką włożysz w naukę, w doskonalenie samej siebie.",
+				"n3": "Kiedy już zobaczysz jak wpływają na Ciebie nasze baletowe zajęcia, będziesz żałowała, że nie zdecydowałaś się wcześniej!",
+				"n4": "Balet nie tylko pomoże Ci w wyprofilowaniu pięknej sylwetki i wzmocnieniu mięśni, ale doda Ci gibkości, a Twoje ciało stanie się bardziej sprężyste. Osiągniesz umiejętność wyjątkowego sposobu poruszania się, a także wzmocnisz swój charakter. Tak – balet to nie tylko ciało, ale także głowa!",
+				"n5": "Pozwól, że Cię o tym przekonamy"
+			}
+		}
+	}
+}

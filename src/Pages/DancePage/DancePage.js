@@ -7,44 +7,37 @@ import SeniorsPisture from "../../Image/Dance/Seniorzy.jpg";
 import CouplesPisture from "../../Image/Dance/Pary.jpg";
 import SoloPisture from "../../Image/Dance/Solo.jpg";
 
-import DataDzieciMlodziez from "./DataDzieciMlodziez.json";
+import DataDzieci from "./DataDzieci.json";
+import DataMlodziez from "./DataMlodziez.json";
+import DataDorosli from "./DataDorosli.json";
+import DataSeniorzy from "./DataSeniorzy.json";
+import DataPary from "./DataPary.json";
+import DataSolo from "./DataSolo.json";
 
-function DancePage() {
+function FitnessPage() {
 	return (
 		<div className='dance-page'>
 			<h1 className='dance-page__title'>Taniec</h1>
-			<DancePageBox
-				title='Dzieci'
-				img={KidsPisture}
-				txt={DataDzieciMlodziez}
-			/>
+			<DancePageBox title='Dzieci' img={KidsPisture} txt={DataDzieci} />
 			<DancePageBox
 				title='Młodzież'
 				img={YoungPisture}
-				txt={DataDzieciMlodziez}
+				txt={DataMlodziez}
 			/>
 			<DancePageBox
 				title='Dorośli'
 				img={AdultsPisture}
-				txt={DataDzieciMlodziez}
+				txt={DataDorosli}
 			/>
 			<DancePageBox
 				title='Seniorzy'
 				img={SeniorsPisture}
-				txt={DataDzieciMlodziez}
+				txt={DataSeniorzy}
 			/>
-			<DancePageBox
-				title='Pary'
-				img={CouplesPisture}
-				txt={DataDzieciMlodziez}
-			/>
-			<DancePageBox
-				title='Solo'
-				img={SoloPisture}
-				txt={DataDzieciMlodziez}
-			/>
+			<DancePageBox title='Pary' img={CouplesPisture} txt={DataPary} />
+			<DancePageBox title='Solo' img={SoloPisture} txt={DataSolo} />
 		</div>
 	);
 }
 
-export default DancePage;
+export default FitnessPage;

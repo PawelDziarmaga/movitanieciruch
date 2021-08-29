@@ -37,6 +37,7 @@
 		height: 20vw;
 		border-radius: 10px;
 		box-shadow: $shadows-item;
+		cursor: pointer;
 		@media screen and (max-width: 1000px) {
 			display: block;
 			margin: 3vh auto;

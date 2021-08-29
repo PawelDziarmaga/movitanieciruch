@@ -1,0 +1,81 @@
+{
+	"tytul": "Fitness",
+	"opis": {
+		"n1": "Pozwala kompleksowo zadbać o całe nasze ciało! O jego piękny wygląd, o sprawność, wytrzymałość. To także rodzaj stylu życia wspierający zdrowe odżywianie, dobre nawyki, wymagający aktywności, umiejętności zachowania odpowiednich proporcji pomiędzy pracą i wypoczynkiem.",
+		"n2": "Uprawiając fitness stajemy się bardziej odporni na stres, łatwiej przychodzi nam systematyzacja codziennych zajęć, stajemy się bardziej uporządkowani i tym samym zadowoleni z życia! Czujemy się lekko i zawsze mamy chęć do działania.",
+		"n3": "Fitness wpływa więc nie tylko na upiększenie sylwetki, ale także na pozytywny stan emocjonalny. Osoby uprawiające go, mają więcej pogody ducha, lepiej się czują, mają więcej energii, dobrą kondycję.",
+		"n4": "Zapisując się do MOVI, masz pewność, że będziesz uczestniczyć wyłączniew profesjonalnych zajęciach, z których wyniesiesz  maksimum korzyści i nie będziesz się mógł doczekać na więcej!"
+	},
+	"tance": {
+		"n1": {
+			"nazwa": "TBC",
+			"nazwaClass": "TBC",
+			"opis": {
+				"n1": "Total Body Conditioning – czyli forma treningu nastawiona na poprawienie kondycji całego ciała. Są to wymagające zajęcia, które prowadzą do poprawy wydolności organizmu, wzmocnienia wytrzymałości i siły mięśni, a także zwiększenia świadomości ciała, równowagi i stabilizacji.",
+				"n2": "Dzięki TBC spalisz zbędne kalorie, a cały Twój organizm będzie Ci wdzięczny za Twoją pracę, która zaprocentuje pięknym ciałem i dobrą kondycją."
+			}
+		},
+		"n2": {
+			"nazwa": "Tabata",
+			"nazwaClass": "Tabata",
+			"opis": {
+				"n1": "Chcesz szybko pozbyć się zbędnej tkanki tłuszczowej i poprawić wydolność organizmu? Nie masz dużo czasu na ćwiczenia? Intensywność tego interwałowego treningu pozwoli Ci to wszystko osiągnąć!",
+				"n2": "Tabata pozwala przyśpieszyć metabolizm, dzięki czemu możemy zredukować tkankę tłuszczową poprzez jednoczesne zaangażowanie wielu grup mięśni."
+			}
+		},
+
+		"n3": {
+			"nazwa": "Zumba",
+			"nazwaClass": "Zumba",
+			"opis": {
+				"n1": "Czy wiesz, że zumba tak naprawdę jest aerobikiem, ale w formie magicznej latynoamerykańskiej zabawy? Lubisz gorące rytmy muzyczne? Chcesz spalić zbędne kalorie? Ukształtować piękną sylwetkę?",
+				"n2": "Niezależnie od tego, w jakim jesteś wieku i jakie masz doświadczenie – jeśli tylko lubisz się dobrze bawić – to są zajęcia właśnie dla Ciebie, ponieważ zostały zaprojektowane dla Twojej przyjemności i satysfakcji!",
+				"n3": "Gwarantujemy, że z nami zmęczysz się pozytywnie, a uśmiech nie zejdzie Ci z twarzy!"
+			}
+		},
+		"n4": {
+			"nazwa": "Strong by zumba",
+			"nazwaClass": "StrongByZumba",
+			"opis": {
+				"n1": "Jeden z najświeższych trendów w dziedzinie fitness! Trening zorientowany na rezultat!",
+				"n2": "W przeciwieństwie od pozostałych programów obejmujących zumbę, ten rodzaj treningu niewiele ma wspólnego z tańcem. Jest to bardzo intensywny trening cardio połączony z wykonywaniem ćwiczeń siłowych, do których angażuje się ciężar własnego ciała.",
+				"n3": "Czy myślisz, że nie można czerpać przyjemności i ogromnej dawki energii z wymagającej formy spalania kalorii i wzmacniania ciała?! Otóż można, sam(a) zobacz, jak wiele!"
+			}
+		},
+		"n5": {
+			"nazwa": "Yoga",
+			"nazwaClass": "Yoga",
+			"opis": {
+				"n1": "Pragniesz się wyciszyć? Przywrócić swoją wewnętrzną równowagę? Zjednoczyć ciało z umysłem? Osiągnąć stan wyzwolenia, a jednocześnie poprawić sprawność fizyczną i osiągnąć stale utrzymujące się dobre samopoczucie?",
+				"n2": "Pokażemy Ci dostępne ścieżki jogi, samodzielnie zdecydujesz, która z nich jest najlepsza dla Ciebie. Szybko przekonasz się, że joga to nie tylko wspaniały stan ducha i umysłu, ale również zbawienny wpływ na ciało i kondycję!",
+				"n3": "Joga prowadzi nas do świadomego kontaktu z samym sobą i otaczającym światem – do samorealizacji, która jest przecież tak ważna w dzisiejszym świecie."
+			}
+		},
+		"n6": {
+			"nazwa": "Pilates",
+			"nazwaClass": "Pilates",
+			"opis": {
+				"n1": "To połączenie jogi, baletu i ćwiczeń izometrycznych. Ten lekki styl ma na celu wzmocnienie mięśni i poprawienie ogólnej kondycji, dodanie ciału elastyczności, jednocześnie nie obciążając kręgosłupa.",
+				"n2": "Jeśli chcesz cieszyć się lepszym zdrowiem, ćwiczyć i czerp satysfakcję z własnej pracy – zapraszamy na pilates do MOVI!"
+			}
+		},
+		"n7": {
+			"nazwa": "Streching",
+			"nazwaClass": "Streching",
+			"opis": {
+				"n1": "Masz siedzącą pracę biurową? Spędzasz wiele godzin w jednej pozycji? Masz mało ruchu? A może chcesz się dobrze przygotować do wymagającego treningu? Stretching, czyli inaczej rozciąganie to wspaniały sposób na poruszenie i rozluźnienie wszystkich mięśni w ciele, a także zredukowanie stresu.",
+				"n2": "Regularnie uprawiany stretching już po niedługim czasie spowoduje, że zauważysz poprawę swojej sprawności, elastyczności ciała, zwiększenia zakresu ruchu. Poprawi się krążenie krwi w Twoim organizmie.",
+				"n3": "Są to zajęcia dosłownie dla każdego, niezależnie od wieku i kondycji fizycznej, nawet dla kobiet w ciąży (oczywiście po wcześniejszej konsultacji z lekarzem)."
+			}
+		},
+		"n8": {
+			"nazwa": "",
+			"opis": {
+				"n1": "",
+				"n2": "",
+				"n3": "",
+				"n4": ""
+			}
+		}
+	}
+}

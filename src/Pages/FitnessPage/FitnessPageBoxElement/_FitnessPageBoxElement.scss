@@ -1,6 +1,6 @@
 @import "../../../scss/colors";
 
-.dance-page__box__element {
+.fitness-page__box__element {
 	margin: 5px 15%;
 	@media screen and (max-width: 1000px) {
 		margin: 5px 5%;
@@ -18,16 +18,16 @@
 		}
 	}
 }
-.description-dance {
+.description-fitness {
 	.active {
-		.dance-page__box__element {
+		.fitness-page__box__element {
 			p {
 				display: block;
 			}
 		}
 	}
 }
-.description-dance {
+.description-fitness {
 	.active-color {
 		h3 {
 			background-image: $blue-color;

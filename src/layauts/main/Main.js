@@ -4,7 +4,7 @@ import Home from "./home";
 
 import Kontakt from "../../Pages/ConcactPage/ConcactPage";
 import Taniec from "../../Pages/DancePage/DancePage";
-import Fitness from "../../Pages/FitnesPage/FitnesPage";
+import Fitness from "../../Pages/FitnessPage/FitnessPage";
 import Grafik from "../../Pages/GraphicPage/GraphicPage";
 import Instruktorzy from "../../Pages/InstructorsPage/InstructorsPage";
 

@@ -1,4 +1,4 @@
-function BoxOne({ party }) {
+function BoxOne({ party, click }) {
 	return (
 		<div className='SpecialOffer__boxOne'>
 			<p>
@@ -8,7 +8,7 @@ function BoxOne({ party }) {
 				przygotuje Was do weselnej zabawy, nawet jeśli pozostawiliście
 				to na ostatnią chwilę.{" "}
 			</p>
-			<img src={party} alt='party'></img>
+			<img onClick={click} src={party} alt='party'></img>
 		</div>
 	);
 }
