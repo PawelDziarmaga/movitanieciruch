@@ -1,0 +1,50 @@
+@import "../../../scss/colors";
+.instructors-page__box {
+	box-shadow: $shadows-item;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+	h2 {
+		color: $font-blue-color;
+		text-align: center;
+		padding-bottom: 3vh;
+	}
+	&__heder {
+		display: flex;
+		@media screen and (max-width: 800px) {
+			display: block;
+		}
+		img {
+			height: 350px;
+			box-shadow: $shadows-item;
+			border-radius: 5px;
+			@media screen and (max-width: 1300px) {
+				height: 250px;
+			}
+			@media screen and (max-width: 1000px) {
+				height: 200px;
+			}
+			@media screen and (max-width: 1000px) {
+				display: block;
+				margin: 0 auto;
+				width: 80%;
+				height: auto;
+				margin-bottom: 2vh;
+			}
+		}
+		.instructors-page__box__txt {
+			p {
+				padding: 0 5% 3vh 5%;
+				text-align: justify;
+				@media screen and (max-width: 1300px) {
+					font-size: 20px;
+					padding: 0 5% 2vh 5%;
+				}
+				@media screen and (max-width: 1000px) {
+					font-size: 15px;
+					padding: 0 5% 1vh 5%;
+				}
+			}
+		}
+	}
+}

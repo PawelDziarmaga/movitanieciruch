@@ -10,4 +10,52 @@
 		padding-top: 100px;
 		color: #c62a69;
 	}
+	&__container {
+		.box {
+			margin: 2vh 0;
+		}
+		h2 {
+			color: $font-blue-color;
+			text-align: center;
+			margin: 3vh;
+			@media screen and (max-width: 600px) {
+				font-size: 5vw;
+			}
+		}
+		.box__lvlTwo {
+			display: flex;
+			@media screen and (max-width: 1000px) {
+				display: block;
+			}
+			.box__txt {
+				margin-bottom: 2vh;
+				p {
+					margin: 0 2vh 2vh 2vh;
+
+					text-align: justify;
+					@media screen and (max-width: 1400px) {
+						font-size: 20px;
+					}
+					@media screen and (max-width: 1200px) {
+						font-size: 15px;
+					}
+				}
+			}
+			img {
+				width: auto;
+				height: 300px;
+				@media screen and (max-width: 1200px) {
+					height: 250px;
+				}
+				@media screen and (max-width: 1000px) {
+					display: block;
+					margin: 0 auto;
+				}
+				@media screen and (max-width: 600px) {
+					height: auto;
+					width: 80%;
+				}
+			}
+		}
+	}
 }

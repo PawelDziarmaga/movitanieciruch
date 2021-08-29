@@ -1,0 +1,99 @@
+@import "../../../scss/colors";
+
+.PriceElement {
+	min-width: 50px;
+	max-width: 200px;
+	border-radius: 10px;
+	margin: 10px;
+	background-color: #f5f5f5;
+	box-shadow: $shadows-item;
+	@media all and (max-width: 600px) {
+		margin: 3px;
+	}
+	img {
+		display: block;
+		margin: 3vh auto;
+		height: 10vh;
+		@media all and (max-width: 1000px) {
+			height: 10vh;
+		}
+		@media all and (max-width: 450px) {
+			height: 10vw;
+		}
+	}
+	h3 {
+		margin: 3vh 0;
+		padding: 5px 0;
+		text-align: center;
+		font-size: 40px;
+		color: #f5f5f5;
+		background-image: $special-color;
+		@media all and (max-width: 1000px) {
+			font-size: 30px;
+		}
+		@media all and (max-width: 650px) {
+			font-size: 25px;
+		}
+		@media all and (max-width: 450px) {
+			font-size: 20px;
+		}
+		@media all and (max-width: 400px) {
+			font-size: 5vw;
+		}
+	}
+	h2 {
+		margin: 3vh 0;
+		text-align: center;
+		font-size: 60px;
+		color: rgb(80, 149, 205);
+		span {
+			font-size: 30px;
+			@media all and (max-width: 1000px) {
+				font-size: 20px;
+			}
+
+			@media all and (max-width: 650px) {
+				font-size: 15px;
+			}
+
+			@media all and (max-width: 550px) {
+				font-size: 3vw;
+			}
+		}
+		@media all and (max-width: 1000px) {
+			font-size: 50px;
+		}
+
+		@media all and (max-width: 650px) {
+			font-size: 40px;
+		}
+
+		@media all and (max-width: 550px) {
+			font-size: 30px;
+		}
+
+		@media all and (max-width: 450px) {
+			font-size: 30px;
+		}
+
+		@media all and (max-width: 400px) {
+			font-size: 20px;
+		}
+	}
+	p {
+		font-size: 20px;
+		margin: 3vh 5px;
+		text-align: justify;
+
+		@media all and (max-width: 1000px) {
+			font-size: 15px;
+		}
+		@media all and (max-width: 800px) {
+			font-size: 13px;
+		}
+
+		@media all and (max-width: 500px) {
+			font-size: 8px;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+.SocialMedia-box {
+	margin: 3vh 0;
+	h2 {
+		text-align: center;
+		color: $font-blue-color;
+	}
+	&__icon {
+		display: flex;
+		justify-content: center;
+		img {
+			cursor: pointer;
+			width: 10%;
+			margin: 2vh 5%;
+		}
+	}
+}

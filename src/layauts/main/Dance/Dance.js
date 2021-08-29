@@ -11,11 +11,40 @@ import SoloPisture from "../../../Image/Dance/Solo.jpg";
 
 function Dance() {
 	const history = useHistory();
-	const handleClick = () => {
+	const handleClick = (e) => {
 		const location = {
 			pathname: "/Taniec",
 		};
-		window.scrollTo(0, 0);
+		console.log(e.target.classList[0]);
+		let h = window.innerHeight;
+		switch (e.target.classList[0]) {
+			case "Dzieci":
+				window.scrollTo(0, 0);
+				break;
+			case "Młodzież":
+				h = 0.6 * h;
+				window.scrollTo(0, h);
+				break;
+			case "Dorośli":
+				h = 1.5 * h;
+				window.scrollTo(0, h);
+				break;
+			case "Seniorzy":
+				h = 3 * h;
+				window.scrollTo(0, h);
+				break;
+			case "Pary":
+				h = 4 * h;
+				window.scrollTo(0, h);
+				break;
+			case "Solo":
+				h = 4.5 * h;
+				window.scrollTo(0, h);
+				break;
+			default:
+				window.scrollTo(0, 0);
+				break;
+		}
 		history.push(location);
 	};
 

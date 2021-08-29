@@ -27,7 +27,7 @@ function DancePageBox({ title, img, txt }) {
 		}
 	};
 	return (
-		<div className='dance-page__box'>
+		<div className='dance-page__box' id={title}>
 			<h1 className='dance-page__title'>{title}</h1>
 			<div className='description'>
 				<img src={img} alt={title}></img>

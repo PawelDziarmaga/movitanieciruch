@@ -1,0 +1,55 @@
+@import "../../../scss/colors";
+
+.price__small-container {
+	margin: 0 auto;
+	width: 80%;
+	@media all and (max-width: 1000px) {
+		width: 100%;
+	}
+	.price__small-container__name {
+		display: flex;
+		justify-content: left;
+
+		margin: 5px 0;
+		border-radius: 5px;
+
+		cursor: pointer;
+
+		background-color: #f5f5f5;
+		box-shadow: $shadows-item;
+
+		&:hover {
+			background-color: #f5f5f5;
+			box-shadow: $shadows-item-button;
+		}
+		h2 {
+			color: black;
+			padding: 1vh 5% 1vh 10%;
+			width: 60%;
+
+			@media all and (max-width: 1000px) {
+				width: 80%;
+			}
+
+			@media all and (max-width: 550px) {
+				font-size: 30px;
+			}
+			@media all and (max-width: 450px) {
+				font-size: 20px;
+			}
+		}
+		img {
+			height: 55px;
+			@media all and (max-width: 450px) {
+				height: 35px;
+			}
+		}
+	}
+	.price__small-container__pirces {
+		display: none;
+	}
+}
+.prices-active .price__small-container__pirces {
+	display: flex;
+	justify-content: center;
+}

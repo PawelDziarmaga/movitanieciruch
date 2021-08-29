@@ -1,21 +1,22 @@
-import "./footer.css";
+import Adress from "./Adress/Adress";
+import Map from "./Map/Map";
+import SocialMedia from "./SocialMedia/SocialMedia";
+import Cooperation from "./Cooperation/Cooperation";
 
-function Footer() {
+function footer() {
 	return (
 		<div className='footer'>
-			<ul>
-				<li>Telefon: 555 666 999</li>
-				<li>email: movi@gmail.com</li>
-				<br></br>
-				<li>Movi Taniec i Ruch</li>
-				<li>ul. ABC</li>
-				<li>41-500 chorzów</li>
-			</ul>
-			<div className='footer__two'>
-				<p>©2021 Wszelkie prawa zastrzeżone</p>
+			<Adress />
+			<div className='footer__box'>
+				<Map />
+				<SocialMedia />
+			</div>
+			<Cooperation />
+			<div className='footer__third-floor'>
+				<h5>©2021 Wszelkie prawa zastrzeżone</h5>
 			</div>
 		</div>
 	);
 }
 
-export default Footer;
+export default footer;

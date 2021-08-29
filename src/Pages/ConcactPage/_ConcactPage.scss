@@ -1,0 +1,15 @@
+@import "./Adress/Adress";
+@import "./Map/Map";
+@import "./SocialMedia/SocialMedia";
+
+.concact-page {
+	margin: 0 10%;
+	@media screen and (max-width: 600px) {
+		margin: 0 3%;
+	}
+	&__title {
+		text-align: center;
+		padding-top: 100px;
+		color: #c62a69;
+	}
+}

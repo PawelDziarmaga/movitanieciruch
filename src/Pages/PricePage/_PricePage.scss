@@ -1,0 +1,9 @@
+@import "./PriceElement/PriceElement";
+@import "./SmallContainer/SmallContainer";
+
+.price {
+	margin-top: 2px;
+	.price__big-container {
+		padding-bottom: 3vh;
+	}
+}

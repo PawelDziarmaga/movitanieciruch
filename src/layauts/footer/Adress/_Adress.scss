@@ -1,0 +1,23 @@
+.footer__adress-box {
+	color: white;
+	display: flex;
+	justify-content: center;
+	@media screen and (max-width: 800px) {
+		display: block;
+	}
+	&__adress,
+	&__kontakt {
+		list-style: none;
+		margin: 3vh 5%;
+		@media screen and (max-width: 900px) {
+			margin: 3vh 3%;
+		}
+		li {
+			line-height: 40px;
+
+			span {
+				color: $font-blue-color;
+			}
+		}
+	}
+}

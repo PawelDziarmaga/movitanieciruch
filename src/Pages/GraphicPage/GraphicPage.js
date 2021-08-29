@@ -1,6 +1,7 @@
 import "./GraphicPage.css";
 
 function GraphicPage() {
+	window.scrollTo(0, 0);
 	return (
 		<div className='graphic-page'>
 			<h1>Grafik</h1>

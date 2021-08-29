@@ -1,0 +1,20 @@
+@import "./Adress/Adress";
+@import "./Map/Map";
+@import "./SocialMedia/SocialMedia";
+@import "./Cooperation/Cooperation";
+
+.footer {
+	box-shadow: $shadows-item;
+	background-color: $footer-first-floor;
+	&__box {
+		display: flex;
+		justify-content: center;
+	}
+	&__third-floor {
+		background-color: $footer-third-floor;
+		h5 {
+			text-align: center;
+			color: #aaaaaa;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+.cooperation-box {
+	padding: 2vh;
+	background-color: $footer-second-floor;
+	display: flex;
+	justify-content: center;
+	img {
+		margin: 0 5%;
+		height: 40px;
+	}
+	div {
+		color: #dddddd;
+		a {
+			color: $font-blue-color;
+		}
+	}
+}
