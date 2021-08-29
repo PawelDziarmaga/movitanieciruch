@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ebb74885.chunk.css",
-    "main.js": "/static/js/main.202225d1.chunk.js",
-    "main.js.map": "/static/js/main.202225d1.chunk.js.map",
+    "main.css": "/static/css/main.90aa94c1.chunk.css",
+    "main.js": "/static/js/main.76a5c021.chunk.js",
+    "main.js.map": "/static/js/main.76a5c021.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.308bbc13.js",
     "runtime-main.js.map": "/static/js/runtime-main.308bbc13.js.map",
-    "static/js/2.6c9494bf.chunk.js": "/static/js/2.6c9494bf.chunk.js",
-    "static/js/2.6c9494bf.chunk.js.map": "/static/js/2.6c9494bf.chunk.js.map",
+    "static/js/2.f2ba2cc5.chunk.js": "/static/js/2.f2ba2cc5.chunk.js",
+    "static/js/2.f2ba2cc5.chunk.js.map": "/static/js/2.f2ba2cc5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ebb74885.chunk.css.map": "/static/css/main.ebb74885.chunk.css.map",
-    "static/js/2.6c9494bf.chunk.js.LICENSE.txt": "/static/js/2.6c9494bf.chunk.js.LICENSE.txt",
+    "static/css/main.90aa94c1.chunk.css.map": "/static/css/main.90aa94c1.chunk.css.map",
+    "static/js/2.f2ba2cc5.chunk.js.LICENSE.txt": "/static/js/2.f2ba2cc5.chunk.js.LICENSE.txt",
     "static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png": "/static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png",
     "static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png": "/static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png",
     "static/media/3News-CanvaInstagram-1080x1920.03995672.png": "/static/media/3News-CanvaInstagram-1080x1920.03995672.png",
@@ -31,8 +31,10 @@
     "static/media/Solo.1c08fd69.jpg": "/static/media/Solo.1c08fd69.jpg",
     "static/media/TaniecUzytkowy.4dbbe705.png": "/static/media/TaniecUzytkowy.4dbbe705.png",
     "static/media/Zosia-H.a05d6201.jpg": "/static/media/Zosia-H.a05d6201.jpg",
+    "static/media/facebook.4f037d96.png": "/static/media/facebook.4f037d96.png",
     "static/media/fitness.e5b4abb0.jpg": "/static/media/fitness.e5b4abb0.jpg",
     "static/media/idea.ded57c27.png": "/static/media/idea.ded57c27.png",
+    "static/media/instagram.e719d8b2.png": "/static/media/instagram.e719d8b2.png",
     "static/media/kcal.7a22c4d0.png": "/static/media/kcal.7a22c4d0.png",
     "static/media/loading-process1-4.550d0501.png": "/static/media/loading-process1-4.550d0501.png",
     "static/media/loading-process2-4.e7c5700b.png": "/static/media/loading-process2-4.e7c5700b.png",
@@ -44,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.308bbc13.js",
-    "static/js/2.6c9494bf.chunk.js",
-    "static/css/main.ebb74885.chunk.css",
-    "static/js/main.202225d1.chunk.js"
+    "static/js/2.f2ba2cc5.chunk.js",
+    "static/css/main.90aa94c1.chunk.css",
+    "static/js/main.76a5c021.chunk.js"
   ]
 }
