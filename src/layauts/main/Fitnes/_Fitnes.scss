@@ -1,6 +1,9 @@
 @import "./FitnesElements/FitnesElements";
 @import "./BoxOne/BoxOne";
 .fitness {
+	&__title {
+		@include h1-style;
+	}
 	&__col {
 		display: flex;
 		justify-content: center;

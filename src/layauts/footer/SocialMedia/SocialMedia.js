@@ -5,7 +5,7 @@ function SocialMedia() {
 	return (
 		<div className='footer__SocialMedia-box'>
 			<h2>SocialMedia</h2>
-			<div className='SocialMedia-box__icon'>
+			<div className='footer__SocialMedia-box__icon'>
 				<img src={facebook} alt='facebook'></img>
 				<img src={instagram} alt='instagram'></img>
 			</div>

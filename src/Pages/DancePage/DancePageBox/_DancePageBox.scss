@@ -2,9 +2,9 @@
 @import "../DacePageBoxElement/DacePageBoxElement";
 
 .dance-page__box {
-	h1 {
-		color: $font-blue-color;
-		text-align: center;
+	h2 {
+		@include h2-style;
+		text-align: left;
 
 		padding-top: 0;
 		@media screen and (max-width: 1200px) {
@@ -16,19 +16,14 @@
 	}
 	.description {
 		display: flex;
+
 		@media screen and (max-width: 1200px) {
 			display: block;
 		}
 		img {
-			margin: 3vh 0;
 			width: auto;
 			height: 15vw;
-			@media screen and (max-width: 1700px) {
-				height: 20vw;
-			}
-			@media screen and (max-width: 1400px) {
-				height: 25vw;
-			}
+
 			@media screen and (max-width: 1200px) {
 				display: block;
 				margin: 3vh auto;
@@ -42,19 +37,9 @@
 			}
 		}
 		&__p {
-			margin: 0 5%;
-			@media screen and (max-width: 1700px) {
-				margin: 0 2%;
-			}
-
+			margin: 0 2%;
 			p {
-				margin: 3vh 0;
-				text-align: justify;
-				font-size: 18px;
-				@media screen and (max-width: 1700px) {
-					margin: 2vh 0;
-					font-size: 15px;
-				}
+				@include p-style;
 			}
 		}
 	}
@@ -66,22 +51,16 @@
 			justify-content: center;
 		}
 		h3 {
-			display: inline-flex;
-			font-size: 20px;
+			@include h3-style;
 
-			color: $font-purple-color;
+			display: flex;
+
 			box-shadow: $shadows-item;
-
 			border-radius: 3px;
-
 			padding: 5px;
 			margin: 5px;
 
 			cursor: pointer;
-
-			@media screen and (max-width: 400px) {
-				font-size: 7vw;
-			}
 		}
 	}
 }

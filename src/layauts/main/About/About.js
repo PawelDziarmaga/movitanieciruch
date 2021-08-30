@@ -1,7 +1,7 @@
 function About() {
 	return (
 		<div id='idAbout' className='about main-element'>
-			<h1>O nas</h1>
+			<h1 className='about__title'>O nas</h1>
 			<div className='about__box'>
 				<h2>Spragniony tańca i ruchu na profesjonalnym poziomie?</h2>
 

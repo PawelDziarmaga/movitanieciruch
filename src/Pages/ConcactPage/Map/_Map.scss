@@ -1,7 +1,6 @@
 .map-box {
 	h2 {
-		text-align: center;
-		color: $font-blue-color;
+		@include h2-style;
 	}
 	iframe {
 		display: block;

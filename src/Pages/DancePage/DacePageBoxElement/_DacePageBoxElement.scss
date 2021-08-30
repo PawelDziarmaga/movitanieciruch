@@ -9,13 +9,8 @@
 		margin: 5px 3%;
 	}
 	p {
-		margin: 3vh 0;
-		text-align: justify;
-		font-size: 18px;
+		@include p-style;
 		display: none;
-		@media screen and (max-width: 1700px) {
-			font-size: 15px;
-		}
 	}
 }
 .description-dance {
@@ -31,7 +26,6 @@
 	.active-color {
 		h3 {
 			background-image: $blue-color;
-			color: white;
 		}
 	}
 }

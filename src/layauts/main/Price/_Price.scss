@@ -3,6 +3,9 @@
 
 .price {
 	margin-top: 2px;
+	&__title {
+		@include h1-style;
+	}
 	.price__big-container {
 		padding-bottom: 3vh;
 	}

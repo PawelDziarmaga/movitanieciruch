@@ -23,7 +23,8 @@
 			box-shadow: $shadows-item-button;
 		}
 		h2 {
-			color: black;
+			@include h2-style;
+			text-align: left;
 			padding: 1vh 5% 1vh 10%;
 			width: 60%;
 

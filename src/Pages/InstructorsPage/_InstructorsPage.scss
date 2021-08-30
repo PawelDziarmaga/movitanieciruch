@@ -2,15 +2,5 @@
 @import "../../scss/colors";
 
 .instructors-page {
-	margin: 0 10%;
-	@media screen and (max-width: 600px) {
-		margin: 0 3%;
-	}
-	&__title {
-		padding-top: 100px;
-		color: #c62a69;
-	}
-
-	&_container {
-	}
+	@include sub-page;
 }

@@ -16,7 +16,7 @@ function SpecialOffer() {
 	};
 	return (
 		<div id='idSpecialOffer' className='SpecialOffer main-element'>
-			<h1>Oferta specjalna</h1>
+			<h1 className='SpecialOffer__title'>Oferta specjalna</h1>
 			<BoxOne click={handleButton} party={party} />
 			<div className='SpecialOffer__col'>
 				<div className='SpecialOffer__col1'>

@@ -2,27 +2,55 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-}
-.ContainerDance {
-	width: 25%;
-	margin: 2vh 1%;
-}
-.ContainerDance h3 {
-	color: rgb(80, 149, 205);
-	text-transform: uppercase;
-	text-align: center;
-}
-.ContainerDance img {
-	margin: 0 auto;
-	display: block;
-	width: 80%;
-	border-radius: 10px;
-	box-shadow: 0 0 5px rgb(131, 124, 124);
-	cursor: pointer;
-}
-@media screen and (max-width: 1000px) {
 	.ContainerDance {
-		width: 40%;
+		width: 25%;
 		margin: 2vh 1%;
+		position: relative;
+		@media screen and (max-width: 1000px) {
+			width: 40%;
+			margin: 2vh 1%;
+		}
+		h3 {
+			@include h3-style;
+			line-height: 300%;
+			height: 100%;
+			width: 100%;
+			z-index: 2;
+			font-size: 50px;
+			position: absolute;
+			color: $font-purple-color;
+			padding: 15px;
+			border-radius: 10px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background-color: rgba(255, 255, 255, 0.6);
+
+			text-align: center;
+			text-transform: uppercase;
+			@media screen and (max-width: 1000px) {
+				font-size: 50px;
+			}
+			@media screen and (max-width: 800px) {
+				font-size: 40px;
+			}
+			@media screen and (max-width: 600px) {
+				font-size: 30px;
+			}
+			@media screen and (max-width: 500px) {
+				font-size: 15px;
+			}
+			@media screen and (max-width: 350px) {
+				font-size: 10px;
+			}
+		}
+		img {
+			margin: 0 auto;
+			display: block;
+			width: 100%;
+			border-radius: 10px;
+			box-shadow: 0 0 5px rgb(131, 124, 124);
+			cursor: pointer;
+		}
 	}
 }

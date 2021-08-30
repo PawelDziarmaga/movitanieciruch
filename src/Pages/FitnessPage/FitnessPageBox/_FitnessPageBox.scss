@@ -20,15 +20,12 @@
 			display: block;
 		}
 		img {
-			margin: 3vh 0;
 			width: auto;
 			height: 15vw;
 			@media screen and (max-width: 1700px) {
 				height: 20vw;
 			}
-			@media screen and (max-width: 1400px) {
-				height: 25vw;
-			}
+
 			@media screen and (max-width: 1200px) {
 				display: block;
 				margin: 3vh auto;
@@ -48,13 +45,7 @@
 			}
 
 			p {
-				margin: 3vh 0;
-				text-align: justify;
-				font-size: 18px;
-				@media screen and (max-width: 1700px) {
-					margin: 2vh 0;
-					font-size: 15px;
-				}
+				@include p-style;
 			}
 		}
 	}
@@ -66,22 +57,17 @@
 			justify-content: center;
 		}
 		h3 {
+			@include h3-style;
+
 			display: inline-flex;
-			font-size: 20px;
 
-			color: $font-purple-color;
 			box-shadow: $shadows-item;
-
 			border-radius: 3px;
 
 			padding: 5px;
 			margin: 5px;
 
 			cursor: pointer;
-
-			@media screen and (max-width: 400px) {
-				font-size: 7vw;
-			}
 		}
 	}
 }

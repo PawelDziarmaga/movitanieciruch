@@ -13,7 +13,7 @@ nav {
 	display: flex;
 	justify-content: space-evenly;
 
-	background-image: $blue-color;
+	background-color: #f2f2f2;
 	box-shadow: $shadows-item;
 	@media screen and (max-width: 1300px) {
 		padding: 10px 10%;

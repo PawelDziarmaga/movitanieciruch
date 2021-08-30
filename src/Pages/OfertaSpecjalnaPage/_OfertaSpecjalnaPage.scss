@@ -1,26 +1,14 @@
 @import "../../scss/colors";
 
 .special-offer-page {
-	margin: 0 10%;
-	@media screen and (max-width: 600px) {
-		margin: 0 3%;
-	}
-	&__title {
-		text-align: left;
-		padding-top: 100px;
-		color: #c62a69;
-	}
+	@include sub-page;
 	&__container {
 		.box {
 			margin: 2vh 0;
 		}
 		h2 {
-			color: $font-blue-color;
-			text-align: center;
+			@include h2-style;
 			margin: 3vh;
-			@media screen and (max-width: 600px) {
-				font-size: 5vw;
-			}
 		}
 		.box__lvlTwo {
 			display: flex;
@@ -30,23 +18,16 @@
 			.box__txt {
 				margin-bottom: 2vh;
 				p {
-					margin: 0 2vh 2vh 2vh;
-
-					text-align: justify;
-					@media screen and (max-width: 1400px) {
-						font-size: 20px;
-					}
-					@media screen and (max-width: 1200px) {
-						font-size: 15px;
-					}
+					@include p-style;
 				}
 			}
 			img {
 				width: auto;
 				height: 300px;
-				@media screen and (max-width: 1200px) {
+				@media screen and (max-width: 1400px) {
 					height: 250px;
 				}
+
 				@media screen and (max-width: 1000px) {
 					display: block;
 					margin: 0 auto;

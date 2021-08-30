@@ -8,7 +8,7 @@
 	img {
 		display: block;
 		margin: 0 auto;
-		height: 70vh;
+		height: 50vh;
 		border-radius: 10px;
 		box-shadow: $shadows-item;
 		@media all and (max-width: 350px) {
@@ -17,18 +17,8 @@
 		}
 	}
 
-	h3 {
-		color: $font-purple-color;
-		text-align: center;
-		padding: 10px;
-		border-radius: 5px;
-		font-size: 7vh;
+	h1 {
+		@include h1-style;
 		text-transform: uppercase;
-		@media all and (max-width: 700px) {
-			font-size: 8vw;
-		}
-		@media all and (max-width: 350px) {
-			font-size: 10vw;
-		}
 	}
 }

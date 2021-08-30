@@ -3,10 +3,13 @@
 .dance {
 	margin: 0;
 	padding: 0;
+	&__title {
+		@include h1-style;
+	}
 	p {
+		@include p-style;
 		padding: 1vh 20% 2vh 20%;
-		text-align: justify;
-		font-size: 0.8em;
+
 		@media screen and (max-width: 1400px) {
 			padding: 0 10% 1vh 10%;
 		}

@@ -3,7 +3,7 @@ import SmallContainer from "./SmallContainer/SmallContainer";
 function Price() {
 	return (
 		<div id='idPrice' className='price main-element'>
-			<h1>Cennik</h1>
+			<h1 className='price__title'>Cennik</h1>
 			<div className='price__big-container'>
 				<SmallContainer
 					classElement='price_one'

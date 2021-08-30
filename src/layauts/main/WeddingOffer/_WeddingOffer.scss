@@ -2,6 +2,12 @@
 @import "./WeddingElements/WeddingElements";
 @import "../../../scss/colors";
 @import "../../../scss/mixins";
+.WeddingOffer {
+	&__title {
+		@include h1-style;
+	}
+}
+
 .WeddingOffer__more {
 	margin: 3vh 10%;
 	text-align: right;

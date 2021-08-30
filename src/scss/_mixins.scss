@@ -11,3 +11,111 @@
 		box-shadow: $shadows-item-button;
 	}
 }
+@mixin p-style {
+	margin: 0 1vh 2vh 1vh;
+	text-align: justify;
+	font-size: 15px;
+	@media screen and (max-width: 1700px) {
+		font-size: 13px;
+	}
+}
+@mixin h1-style {
+	font-size: 30px;
+	color: $font-purple-color;
+	text-align: center;
+	padding: 2vh 0;
+	@media screen and (max-width: 1000px) {
+		font-size: 25px;
+	}
+}
+@mixin h2-style {
+	color: $font-blue-color;
+	text-align: center;
+	font-size: 25px;
+	@media screen and (max-width: 1000px) {
+		font-size: 20px;
+	}
+}
+@mixin h3-style {
+	font-size: 20px;
+	color: $font-grey-color;
+	@media screen and (max-width: 1000px) {
+		font-size: 15px;
+	}
+}
+
+@mixin sub-page {
+	margin: 0 20%;
+	@media screen and (max-width: 1200px) {
+		margin: 0 10%;
+	}
+	@media screen and (max-width: 600px) {
+		margin: 0 3%;
+	}
+	&__title {
+		@include h1-style;
+		padding-top: 100px;
+	}
+}
+@mixin circle-box {
+	cursor: pointer;
+	height: 80px;
+	width: 80px;
+
+	border-radius: 50%;
+
+	border: 2px solid #c62a69;
+
+	@media screen and (max-width: 1000px) {
+		height: 60px;
+		width: 60px;
+	}
+	@media screen and (max-width: 800px) {
+		height: 50px;
+		width: 50px;
+	}
+	@media screen and (max-width: 600px) {
+		height: 30px;
+		width: 30px;
+	}
+	img {
+		height: 35px;
+		margin: 20px;
+		@media screen and (max-width: 1000px) {
+			height: 30px;
+			margin: 13px;
+		}
+		@media screen and (max-width: 800px) {
+			height: 25px;
+			margin: 10px;
+		}
+		@media screen and (max-width: 600px) {
+			height: 15px;
+			margin: 5px;
+		}
+	}
+}
+@mixin circle-box-h3 {
+	@include h3-style;
+
+	font-size: 20px;
+	line-height: 60px;
+
+	margin: 10px 20px;
+
+	@media screen and (max-width: 1000px) {
+		font-size: 20px;
+		line-height: 50px;
+		margin: 5px 20px;
+	}
+	@media screen and (max-width: 800px) {
+		font-size: 18px;
+		line-height: 35px;
+		margin: 5px 15px;
+	}
+	@media screen and (max-width: 600px) {
+		font-size: 15px;
+		line-height: 20px;
+		margin: 5px 10px;
+	}
+}

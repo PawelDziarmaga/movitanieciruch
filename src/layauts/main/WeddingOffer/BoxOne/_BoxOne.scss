@@ -2,65 +2,29 @@
 	display: flex;
 	justify-content: center;
 	width: 100%;
-}
-.WeddingOffer__boxOne p {
-	padding: 10vh 5%;
-	margin-right: 10%;
-	text-align: justify;
-}
-.WeddingOffer__boxOne img {
-	margin-left: 10%;
-	height: 20vw;
-	border-radius: 10px;
-	box-shadow: 0 0 5px rgb(131, 124, 124);
-}
-@media screen and (max-width: 1450px) {
-	.WeddingOffer__boxOne p {
-		padding: 5vh 5%;
+	p {
+		@include p-style;
+		margin: 0 10%;
 	}
-}
-@media screen and (max-width: 1150px) {
-	.WeddingOffer__boxOne p {
-		padding: 2vh 5%;
-		font-size: 0.9em;
-	}
-}
-@media screen and (max-width: 1000px) {
-	.WeddingOffer__boxOne {
-		display: block;
-	}
-	.WeddingOffer__boxOne p {
-		padding: 3vh 5%;
-		margin-right: 0;
-		text-align: justify;
-	}
-	.WeddingOffer__boxOne img {
-		display: block;
-		margin: 3vh auto;
-		height: 30vw;
-	}
-}
-@media screen and (max-width: 700px) {
-	.WeddingOffer__boxOne p {
-		font-size: 0.8em;
-	}
-	.WeddingOffer__boxOne img {
-		height: 50vw;
-	}
-}
-@media screen and (max-width: 400px) {
-	.WeddingOffer__boxOne p {
-		font-size: 0.7em;
-	}
-	.WeddingOffer__boxOne img {
-		height: 50vw;
-	}
-}
-@media screen and (max-width: 300px) {
-	.WeddingOffer__boxOne p {
-		font-size: 0.6em;
-	}
-	.WeddingOffer__boxOne img {
-		height: 50vw;
+	img {
+		cursor: pointer;
+		margin-left: 15%;
+		height: 15vw;
+		border-radius: 10px;
+		box-shadow: $shadows-item;
+		@media screen and (max-width: 1000px) {
+			display: block;
+			margin: 3vh auto;
+			height: 30vw;
+		}
+		@media screen and (max-width: 700px) {
+			height: 50vw;
+		}
+		@media screen and (max-width: 400px) {
+			height: 50vw;
+		}
+		@media screen and (max-width: 300px) {
+			height: 50vw;
+		}
 	}
 }

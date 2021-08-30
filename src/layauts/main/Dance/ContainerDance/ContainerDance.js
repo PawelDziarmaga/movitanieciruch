@@ -1,9 +1,9 @@
 function ContainerDance({ name, img, click }) {
 	return (
-		<div className='ContainerDance'>
+		<div onClick={click} className='ContainerDance'>
 			<h3>{name}</h3>
 
-			<img onClick={click} className={name} src={img} alt={name}></img>
+			<img className={name} src={img} alt={name}></img>
 		</div>
 	);
 }

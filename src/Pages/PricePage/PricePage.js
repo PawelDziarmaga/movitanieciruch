@@ -2,8 +2,8 @@ import SmallContainer from "./SmallContainer/SmallContainer";
 
 function PricePage() {
 	return (
-		<div id='idPrice' className='price main-element'>
-			<h1>Cennik</h1>
+		<div className='price-page'>
+			<h1 className='price-page__title'>Cennik</h1>
 			<div className='price__big-container'>
 				<SmallContainer
 					classElement='price_one'

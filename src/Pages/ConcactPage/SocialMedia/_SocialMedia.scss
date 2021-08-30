@@ -1,15 +1,14 @@
 .SocialMedia-box {
 	margin: 3vh 0;
 	h2 {
-		text-align: center;
-		color: $font-blue-color;
+		@include h2-style;
 	}
 	&__icon {
 		display: flex;
 		justify-content: center;
 		img {
 			cursor: pointer;
-			width: 10%;
+			width: 100px;
 			margin: 2vh 5%;
 		}
 	}

@@ -5,8 +5,7 @@
 	padding: 10px;
 	border-radius: 5px;
 	h2 {
-		color: $font-blue-color;
-		text-align: center;
+		@include h2-style;
 		padding-bottom: 3vh;
 	}
 	&__heder {
@@ -15,7 +14,7 @@
 			display: block;
 		}
 		img {
-			height: 350px;
+			height: 300px;
 			box-shadow: $shadows-item;
 			border-radius: 5px;
 			@media screen and (max-width: 1300px) {
@@ -24,7 +23,7 @@
 			@media screen and (max-width: 1000px) {
 				height: 200px;
 			}
-			@media screen and (max-width: 1000px) {
+			@media screen and (max-width: 800px) {
 				display: block;
 				margin: 0 auto;
 				width: 80%;
@@ -34,16 +33,7 @@
 		}
 		.instructors-page__box__txt {
 			p {
-				padding: 0 5% 3vh 5%;
-				text-align: justify;
-				@media screen and (max-width: 1300px) {
-					font-size: 20px;
-					padding: 0 5% 2vh 5%;
-				}
-				@media screen and (max-width: 1000px) {
-					font-size: 15px;
-					padding: 0 5% 1vh 5%;
-				}
+				@include p-style;
 			}
 		}
 	}

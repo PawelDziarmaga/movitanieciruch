@@ -2,24 +2,20 @@
 
 @import "./SpecialOfferElements/SpecialOfferElements";
 @import "./BoxOne/BoxOne";
-.SpecialOffer__col {
-	display: flex;
-	justify-content: center;
-}
-.SpecialOffer__col1 {
-	width: 50%;
+
+.SpecialOffer {
+	&__title {
+		@include h1-style;
+	}
+	.SpecialOffer__col {
+		display: flex;
+		justify-content: center;
+		.SpecialOffer__col1 {
+			width: 50%;
+		}
+	}
 }
 
-@media screen and (max-width: 450px) {
-	.SpecialOffer__col {
-		display: block;
-		margin-left: 20%;
-	}
-	.SpecialOffer__col1,
-	.fitnes__col2 {
-		width: 100%;
-	}
-}
 .SpecialOffer__more {
 	padding: 3vh 10%;
 	text-align: right;
