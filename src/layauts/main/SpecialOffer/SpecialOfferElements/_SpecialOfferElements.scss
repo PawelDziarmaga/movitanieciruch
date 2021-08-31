@@ -4,12 +4,14 @@
 	display: flex;
 	justify-content: center;
 	padding: 3% 0;
+
 	&__box {
 		@include circle-box;
 	}
 	h3 {
 		@include circle-box-h3;
 		width: 40%;
+
 		@media screen and (max-width: 900px) {
 			width: 60%;
 		}

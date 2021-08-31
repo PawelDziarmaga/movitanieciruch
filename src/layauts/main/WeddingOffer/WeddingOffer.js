@@ -14,7 +14,6 @@ function WeddingOffer() {
 
 	return (
 		<div id='idWeddingOffer' className='WeddingOffer main-element'>
-			<h1 className='WeddingOffer__title'>Oferta ślubna</h1>
 			<BoxOne slubna={slubna} />
 			<div className='WeddingOffer__boxTwo'>
 				<WeddingElements img={paryOne} text='Pierwszy Taniec' />

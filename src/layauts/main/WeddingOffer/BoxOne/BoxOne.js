@@ -1,7 +1,11 @@
 function BoxOne({ slubna }) {
 	return (
 		<div className='WeddingOffer__boxOne'>
-			<img src={slubna} alt='slubna'></img>
+			<div className='WeddingOffer__boxOne__title'>
+				<h1>Oferta Ślubna</h1>
+				<img src={slubna} alt='slubna'></img>
+			</div>
+
 			<p>
 				Zaplanowaliście już swój najpiękniejszy dzień i potrzebujecie
 				wyjątkowego pierwszego tańca? A może chcecie udoskonalić swoje

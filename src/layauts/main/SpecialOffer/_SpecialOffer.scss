@@ -4,16 +4,20 @@
 @import "./BoxOne/BoxOne";
 
 .SpecialOffer {
-	&__title {
-		@include h1-style;
+	padding: 50px 20%;
+	@media screen and (max-width: 1500px) {
+		padding: 50px 15%;
 	}
-	.SpecialOffer__col {
-		display: flex;
-		justify-content: center;
-		.SpecialOffer__col1 {
-			width: 50%;
-		}
+	@media screen and (max-width: 1000px) {
+		padding: 30px 10%;
 	}
+	@media screen and (max-width: 600px) {
+		padding: 30px 5%;
+	}
+}
+.SpecialOffer__col {
+	display: flex;
+	justify-content: center;
 }
 
 .SpecialOffer__more {

@@ -2,6 +2,7 @@
 @import "./SmallContainer/SmallContainer";
 
 .price {
+	background-color: #eeeeee;
 	margin-top: 2px;
 	&__title {
 		@include h1-style;

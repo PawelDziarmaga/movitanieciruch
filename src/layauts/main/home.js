@@ -14,12 +14,14 @@ function Home() {
 	return (
 		<div className='Home'>
 			<News />
+			<Break text='Zapisz się!' />
 			<Dance />
+			<Break text='Zobacz Grafik!' />
 			<Fitnes />
-			<Break text='Sprawdz Grafik!!' />
+			<Break text='Sprawdz godziny' />
 			<WeddingOffer />
+			<Break text='Zapisz się już teraz!' />
 			<SpecialOffer />
-			<Break text='Zapisz się już teraz!!' />
 			<Price />
 			<Instructors />
 			<About />

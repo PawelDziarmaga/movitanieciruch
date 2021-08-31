@@ -22,7 +22,6 @@ function Fitnes() {
 	};
 	return (
 		<div id='idFitnes' className='fitness main-element'>
-			<h1 className='fitness__title'>Fitness</h1>
 			<BoxOne click={handleClick} fitness={fitnessImg} />
 			<div className='fitness__col'>
 				<div className='fitness__col1'>
