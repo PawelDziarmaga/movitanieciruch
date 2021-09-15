@@ -7,9 +7,4 @@
 @import "./Price/Price";
 @import "./Instructors/Instructors";
 @import "./About/About";
-
-.main-element {
-	&:first-child {
-		padding-top: 90px;
-	}
-}
+@import "./Header/Header";

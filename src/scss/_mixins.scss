@@ -10,6 +10,7 @@
 	color: #ffffff;
 	@media screen and (max-width: 1300px) {
 		font-size: 15px;
+		padding: 1.5vh 1.5%;
 	}
 	&:hover {
 		background-image: $blue-color-button-hover;
@@ -30,6 +31,7 @@
 }
 /***********	h1	***********/
 @mixin h1-style {
+	font-family: "Bebas Neue", cursive;
 	font-size: 35px;
 	color: $font-purple-color;
 	text-align: center;

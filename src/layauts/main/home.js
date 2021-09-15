@@ -5,7 +5,7 @@ import Fitnes from "./Fitnes/Fitnes";
 import Dance from "./Dance/Dance";
 import WeddingOffer from "./WeddingOffer/WeddingOffer";
 import About from "./About/About";
-
+import Heder from "./Header/Header";
 import SpecialOffer from "./SpecialOffer/SpecialOffer";
 
 import Break from "./Break/Break";
@@ -13,8 +13,9 @@ import Break from "./Break/Break";
 function Home() {
 	return (
 		<div className='Home'>
+			<Heder />
 			<News />
-			<Break text='Zapisz się!' />
+			<Break text='Zobacz Grafik!' />
 			<Dance />
 			<Break text='Zobacz Grafik!' />
 			<Fitnes />

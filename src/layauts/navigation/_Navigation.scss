@@ -3,6 +3,7 @@
 @import "./logo/Logo";
 @import "./hamburger-menu/HamburgerMenu";
 @import "../../scss/colors";
+
 nav {
 	z-index: 10;
 	padding: 10px 0;
@@ -13,13 +14,30 @@ nav {
 	display: flex;
 	justify-content: space-evenly;
 
-	background-color: #f2f2f2;
+	background-color: white;
 	box-shadow: $shadows-item;
+
+	transform: translateY(0);
+	transition: 1s;
+
 	@media screen and (max-width: 1300px) {
-		padding: 10px 10%;
+		padding: 10px 3%;
 		justify-content: space-between;
 	}
 	@media screen and (max-width: 250px) {
 		padding: 10px 0%;
+	}
+}
+.visible-nav {
+	transform: translateY(-150px);
+}
+.opacity-nav {
+	box-shadow: none;
+	color: white;
+	background-color: transparent;
+	.nav__element {
+		.nav__link {
+			color: white;
+		}
 	}
 }

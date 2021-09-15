@@ -22,6 +22,7 @@ function News() {
 
 	return (
 		<div id='idNews' className='news main-element'>
+			<div className='news__background'></div>
 			<div className='news__container '>
 				<NewsImg />
 

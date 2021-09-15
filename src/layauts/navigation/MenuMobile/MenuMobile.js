@@ -2,34 +2,26 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function MenuMobile(props) {
+	const refreshGraphic = () => {
+		props.click();
+		setTimeout(function () {
+			window.location.reload();
+		}, 2000);
+	};
+
 	return (
 		<ul className='MenuMobile__container visible'>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<a href='#idNews' className='MenuMobile__link'>
-					Aktualności
+					Strona główna
 				</a>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink to='/Taniec' className='MenuMobile__link'>
-					Taniec
+					Zajęcia
 				</NavLink>
 			</li>
-			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink to='/Fitness' className='MenuMobile__link'>
-					Fitness
-				</NavLink>
-			</li>
-			<li onClick={props.click} className='MenuMobile__element'>
-				<a href='#idWeddingOffer' className='MenuMobile__link'>
-					Oferta ślubna
-				</a>
-			</li>
-			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink to='/Ofertaspecjalna' className='MenuMobile__link'>
-					Oferta Specjalna
-				</NavLink>
-			</li>
-			<li onClick={props.click} className='MenuMobile__element'>
+			<li onClick={refreshGraphic} className='MenuMobile__element'>
 				<NavLink
 					to='/Grafik'
 					className='MenuMobile__link'
@@ -39,17 +31,17 @@ function MenuMobile(props) {
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink to='/Cennik' className='MenuMobile__link'>
-					Cennik
+					Team/Trenerzy
 				</NavLink>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<NavLink to='/Instruktorzy' className='MenuMobile__link'>
-					Instruktorzy
+					Cennik
 				</NavLink>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<a href='#idAbout' className='MenuMobile__link'>
-					O nas
+					Dodatkowa oferta
 				</a>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>

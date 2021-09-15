@@ -1,15 +1,35 @@
 @import "./SingleItem/SingleItem";
 @import "./NewsImg/NewsImg";
-
+.news {
+	position: relative;
+	height: 95vh;
+	width: 100%;
+	&__container {
+		background-color: #c62a689c;
+		height: 100%;
+		width: 100%;
+	}
+	&__background {
+		z-index: -1;
+		background-image: url("../Image/Dance/Pary.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+	}
+}
 .news__navigation {
-	margin: 20px auto;
+	margin: 3vh auto;
 	display: flex;
 	justify-content: center;
 	&-btn {
 		background-color: rgba(100, 100, 100, 0.5);
-		border: 1px solid rgba(100, 100, 100, 0.9);
-		width: 15px;
-		height: 15px;
+		border: 1px solid #0f4e81;
+		width: 20px;
+		height: 20px;
 		margin: 0 15px;
 		border-radius: 50%;
 		cursor: pointer;
@@ -20,7 +40,7 @@
 		}
 	}
 	.active {
-		background-color: rgb(198, 42, 105);
-		border: 1px solid rgb(117, 0, 47);
+		background-color: #5295cd;
+		border: 1px solid #0f4e81;
 	}
 }
