@@ -1,8 +1,4 @@
-@import "../../../scss/colors";
 .instructors {
-	&__title {
-		@include h1-style;
-	}
 	&__container {
 		display: flex;
 		flex-wrap: wrap;
@@ -11,10 +7,8 @@
 			cursor: pointer;
 			width: 300px;
 			text-align: center;
-			margin: 5px 20px;
-			background-color: #fafafa;
-			border-radius: 5px;
-			box-shadow: $shadows-item;
+			background-color: $background-color;
+
 			@media screen and (max-width: 800px) {
 				width: 40%;
 			}
@@ -22,17 +16,20 @@
 				margin: 5px 5px;
 			}
 			&:hover {
-				background-color: #f8faf8;
+				background-color: $background-color;
 				border-radius: 5px;
 				box-shadow: $shadows-item-button;
 			}
 			.instructors__name {
 				@include h2-style;
 			}
+			.instructors__possition {
+				@include h3-style;
+			}
 
 			.instructors__picture {
 				margin: 10px;
-				width: 70%;
+				width: 90%;
 				height: auto;
 				border-radius: 5px;
 				box-shadow: $shadows-item;

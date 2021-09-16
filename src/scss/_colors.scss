@@ -1,26 +1,31 @@
-$background-color: #f8f8f8;
-
-/*Gradients*/
-
-$blue-color: radial-gradient(#a4ffff, #53acb8);
-$yellow-color: radial-gradient(#ffe70e, #f0d802);
-$orange-color: radial-gradient(#fcce6a, #ffa807);
-$bisquid-color: radial-gradient(#fce6ce, #fed3c5);
-$purple-color: radial-gradient(#c9afe0, #a688c4);
-$red-color: radial-gradient(#fa8f95, #f7444e);
-
-$special-color: radial-gradient(#c76a8f, #c62a69);
-$blue-color-menu: #53acb8;
+$background-color: #f4f9f9;
 
 /*Fonts*/
-$font-blue-color: #5295cd;
-$font-purple-color: #c62a69;
-$font-grey-color: #494949;
+$font-blue-color: #5590c8;
+$font-purple-color: #ca2a67;
+$font-grey-color: #8c8c8c;
+$font-white-color: #f4f9f9;
+
+/*backgrounds*/
+$blue-2: #5590c833;
+$blue-4: #5590c877;
+$blue-6: #5590c8aa;
+$blue-8: #5590c8cc;
+
+$purple-2: #ca2a6733;
+$purple-4: #ca2a6777;
+$purple-6: #ca2a67aa;
+$purple-8: #ca2a67cc;
+
+$black-2: #17101033;
+$black-4: #17101077;
+$black-6: #171010aa;
+$black-8: #171010cc;
 
 /*shadow*/
 
-$shadows-item: 0px 0px 4px #393e46;
-$shadows-item-button: 0px 0px 2px #393e46;
+$shadows-item: 0px 0px 0px #393e46;
+$shadows-item-button: 0px 0px 0px #393e46;
 
 /*button*/
 

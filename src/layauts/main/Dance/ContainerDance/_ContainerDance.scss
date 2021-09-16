@@ -15,7 +15,7 @@
 		}
 		&:nth-child(2n) {
 			h1 {
-				background-color: #000000d0;
+				background-color: $black-4;
 			}
 		}
 		h1 {
@@ -28,10 +28,10 @@
 			left: 50%;
 			transform: translate(-50%, -50%);
 
-			background-color: #5296cdd5;
+			background-color: $blue-6;
 
 			font-size: 45px;
-			color: white;
+			color: $font-white-color;
 			line-height: 300px;
 			text-align: center;
 			text-transform: uppercase;

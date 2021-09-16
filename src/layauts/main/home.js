@@ -1,12 +1,9 @@
 import News from "./News/News";
 import Instructors from "./Instructors/Instructors";
-import Price from "./Price/Price";
-import Fitnes from "./Fitnes/Fitnes";
 import Dance from "./Dance/Dance";
-import WeddingOffer from "./WeddingOffer/WeddingOffer";
 import About from "./About/About";
 import Heder from "./Header/Header";
-import SpecialOffer from "./SpecialOffer/SpecialOffer";
+import Kontakt from "../../Pages/ConcactPage/ConcactPage";
 
 import Break from "./Break/Break";
 
@@ -15,17 +12,14 @@ function Home() {
 		<div className='Home'>
 			<Heder />
 			<News />
-			<Break text='Zobacz Grafik!' />
+			<Break text='Zajęcia' />
 			<Dance />
-			<Break text='Zobacz Grafik!' />
-			<Fitnes />
-			<Break text='Sprawdz godziny' />
-			<WeddingOffer />
-			<Break text='Zapisz się już teraz!' />
-			<SpecialOffer />
-			<Price />
+			<Break text='Team' />
 			<Instructors />
-			<About />
+			<Break text='Dodatkowa Oferta' />
+			<Dance />
+			<Break text='kontakt' />
+			<Kontakt />
 		</div>
 	);
 }

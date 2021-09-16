@@ -1,5 +1,3 @@
-@import "../../../../scss/colors";
-
 .news__slide {
 	display: none;
 	&.active {
@@ -30,6 +28,6 @@
 		@include h1-style;
 		font-size: 40px;
 		font-weight: 100;
-		color: white;
+		color: $font-white-color;
 	}
 }

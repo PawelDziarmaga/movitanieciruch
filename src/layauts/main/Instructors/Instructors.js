@@ -2,64 +2,42 @@ import aniaPictures from "../../../Image/Instructors/Ania-K.jpg";
 import iwonaPictures from "../../../Image/Instructors/Iwona-L.jpg";
 import kamilPictures from "../../../Image/Instructors/Kamil-S.jpg";
 import marekPictures from "../../../Image/Instructors/Marek-W.jpg";
-import martaPictures from "../../../Image/Instructors/Marta-W.jpg";
 
-import patrykPictures from "../../../Image/Instructors/Patryk-Z.jpg";
-import zosiaPictures from "../../../Image/Instructors/Zosia-H.jpg";
 function Instructors() {
 	return (
 		<div id='idInstructors' className='instructors main-element'>
-			<h1 className='instructors__title'>Nasi instruktorzy:</h1>
 			<div className='instructors__container'>
 				<div className='instructors__box'>
-					<h2 className='instructors__name'>Ania</h2>
 					<img
 						src={aniaPictures}
 						alt='Ania'
 						className='instructors__picture'></img>
+					<h2 className='instructors__name'>Ania</h2>
+					<h3 className='instructors__possition'>Instruktor</h3>
 				</div>
 				<div className='instructors__box'>
-					<h2 className='instructors__name'>Iwona</h2>
 					<img
 						src={iwonaPictures}
 						alt='Iwona'
 						className='instructors__picture'></img>
+					<h2 className='instructors__name'>Ania</h2>
+					<h3 className='instructors__possition'>Instruktor</h3>
 				</div>
 				<div className='instructors__box'>
-					<h2 className='instructors__name'>Kamil</h2>
 					<img
 						src={kamilPictures}
 						alt='Kamil'
 						className='instructors__picture'></img>
+					<h2 className='instructors__name'>Ania</h2>
+					<h3 className='instructors__possition'>Instruktor</h3>
 				</div>
 				<div className='instructors__box'>
-					<h2 className='instructors__name'>Marek</h2>
 					<img
 						src={marekPictures}
 						alt='Marek'
 						className='instructors__picture'></img>
-				</div>
-				<div className='instructors__box'>
-					<h2 className='instructors__name'>Marta</h2>
-					<img
-						src={martaPictures}
-						alt='Marta'
-						className='instructors__picture'></img>
-				</div>
-
-				<div className='instructors__box'>
-					<h2 className='instructors__name'>Patryk</h2>
-					<img
-						src={patrykPictures}
-						alt='Patryk'
-						className='instructors__picture'></img>
-				</div>
-				<div className='instructors__box'>
-					<h2 className='instructors__name'>Zosia</h2>
-					<img
-						src={zosiaPictures}
-						alt='Zosia'
-						className='instructors__picture'></img>
+					<h2 className='instructors__name'>Ania</h2>
+					<h3 className='instructors__possition'>Instruktor</h3>
 				</div>
 			</div>
 		</div>
