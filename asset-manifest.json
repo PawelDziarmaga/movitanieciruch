@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3a598ce.chunk.css",
-    "main.js": "/static/js/main.dde1438d.chunk.js",
-    "main.js.map": "/static/js/main.dde1438d.chunk.js.map",
+    "main.css": "/static/css/main.04beb4a4.chunk.css",
+    "main.js": "/static/js/main.c956ded4.chunk.js",
+    "main.js.map": "/static/js/main.c956ded4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.308bbc13.js",
     "runtime-main.js.map": "/static/js/runtime-main.308bbc13.js.map",
     "static/js/2.9fb40a54.chunk.js": "/static/js/2.9fb40a54.chunk.js",
     "static/js/2.9fb40a54.chunk.js.map": "/static/js/2.9fb40a54.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c3a598ce.chunk.css.map": "/static/css/main.c3a598ce.chunk.css.map",
+    "static/css/main.04beb4a4.chunk.css.map": "/static/css/main.04beb4a4.chunk.css.map",
     "static/js/2.9fb40a54.chunk.js.LICENSE.txt": "/static/js/2.9fb40a54.chunk.js.LICENSE.txt",
     "static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png": "/static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png",
     "static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png": "/static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png",
@@ -16,16 +16,16 @@
     "static/media/4News-CanvaInstagram-1080x1920.8d02dabc.png": "/static/media/4News-CanvaInstagram-1080x1920.8d02dabc.png",
     "static/media/5News-CanvaInstagram-1080x1920.6e2ddeb7.png": "/static/media/5News-CanvaInstagram-1080x1920.6e2ddeb7.png",
     "static/media/Ania-K.004f17fa.jpg": "/static/media/Ania-K.004f17fa.jpg",
-    "static/media/Dorosli.76121dcd.jpg": "/static/media/Dorosli.76121dcd.jpg",
-    "static/media/Dzieci.1f05f3b1.jpg": "/static/media/Dzieci.1f05f3b1.jpg",
+    "static/media/Dorosli.c57fff04.jpg": "/static/media/Dorosli.c57fff04.jpg",
+    "static/media/Dzieci.6f5d80ff.jpg": "/static/media/Dzieci.6f5d80ff.jpg",
     "static/media/Iwona-L.d6435529.jpg": "/static/media/Iwona-L.d6435529.jpg",
     "static/media/Kamil-S.f02171d5.jpg": "/static/media/Kamil-S.f02171d5.jpg",
     "static/media/Marek-W.84fe1671.jpg": "/static/media/Marek-W.84fe1671.jpg",
     "static/media/Marta-W.0ceff078.jpg": "/static/media/Marta-W.0ceff078.jpg",
-    "static/media/Mlodziez.ce1d3225.jpg": "/static/media/Mlodziez.ce1d3225.jpg",
-    "static/media/style.css": "/static/media/Solo.1c08fd69.jpg",
+    "static/media/Mlodziez.fcb3931f.jpg": "/static/media/Mlodziez.fcb3931f.jpg",
+    "static/media/style.css": "/static/media/Solo.d631e4c0.jpg",
     "static/media/Patryk-Z.8f7ceba4.jpg": "/static/media/Patryk-Z.8f7ceba4.jpg",
-    "static/media/Seniorzy.3d24c79d.jpg": "/static/media/Seniorzy.3d24c79d.jpg",
+    "static/media/Seniorzy.d0a2971a.jpg": "/static/media/Seniorzy.d0a2971a.jpg",
     "static/media/Zosia-H.a05d6201.jpg": "/static/media/Zosia-H.a05d6201.jpg",
     "static/media/facebook.4f037d96.png": "/static/media/facebook.4f037d96.png",
     "static/media/fitness.e5b4abb0.jpg": "/static/media/fitness.e5b4abb0.jpg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.308bbc13.js",
     "static/js/2.9fb40a54.chunk.js",
-    "static/css/main.c3a598ce.chunk.css",
-    "static/js/main.dde1438d.chunk.js"
+    "static/css/main.04beb4a4.chunk.css",
+    "static/js/main.c956ded4.chunk.js"
   ]
 }
