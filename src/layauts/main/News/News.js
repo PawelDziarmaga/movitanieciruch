@@ -1,9 +1,19 @@
 import NewsImg from "./NewsImg/NewsImg";
 
 import DATA from "../../../data.json";
+import { useEffect } from "react";
+import Swiper from "./swiper";
 
 function News() {
+	let interval;
+
+	useEffect(() => {
+		interval = setInterval(autoNav, 10000);
+		new Swiper();
+	});
 	const manualNav = (event) => {
+		clearInterval(interval);
+		interval = setInterval(autoNav, 10000);
 		const chosenElementClass = event.target.classList[1];
 
 		const slides = document.getElementsByClassName("news__slide");
@@ -19,6 +29,38 @@ function News() {
 		chosenElement[0].classList.add("active");
 		chosenElement[1].classList.add("active");
 	};
+
+	const autoNav = function () {
+		const btms = document.getElementsByClassName("news__navigation-btn");
+		const slides = document.getElementsByClassName("news__slide");
+		let classes = [];
+
+		for (let i = 0; i < btms.length; i++) {
+			classes.push(btms[i].classList[2]);
+		}
+
+		let x = classes.findIndex((clas) => clas == "active");
+		for (let i = 0; i < slides.length; i++) {
+			slides[i].classList.remove("active");
+			btms[i].classList.remove("active");
+		}
+
+		if (x < 0) {
+			x = 0;
+		} else if (x >= btms.length - 1) {
+			x = 0;
+		} else {
+			x++;
+		}
+
+		slides[x].classList.add("active");
+		btms[x].classList.add("active");
+	};
+
+	document.addEventListener("swipeLeft", () => {
+		console.log("lewo");
+	});
+	document.addEventListener("swipeRight", () => console.log("prawo"));
 
 	return (
 		<div id='idNews' className='news main-element'>
