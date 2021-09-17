@@ -13,7 +13,6 @@ import data from "./dataInstructors.json";
 function InstructorsPage() {
 	return (
 		<div className='instructors-page'>
-			<h1 className='instructors-page__title'>Nasi instruktorzy:</h1>
 			<div className='instructors-page__container'>
 				<InstructorsPageBox
 					name={data.n1.imie}

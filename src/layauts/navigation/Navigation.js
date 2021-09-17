@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import HamburgerMenu from "./hamburger-menu/HamburgerMenu";
 import Logo from "./logo/Logo";
 import Menu from "./menu/Menu";
@@ -6,10 +7,10 @@ import MenuMobile from "./MenuMobile/MenuMobile";
 function App() {
 	let possition = 0;
 	let nav = document.getElementsByClassName("nav");
-	let mobileMenu = document.querySelector(".nav-container");
+	let mobileMenu;
 	let menuHamburger = document.querySelector(".nav__hamburger-container");
 
-	window.onscroll = function (event) {
+	const navCameleon = function (event) {
 		menuHamburger = document.querySelector(".nav__hamburger-container");
 		nav = document.getElementsByClassName("nav");
 
@@ -30,7 +31,10 @@ function App() {
 			possition = Math.floor(window.scrollY / 100);
 		}
 	};
-
+	useEffect(() => {
+		window.onscroll = navCameleon;
+		navCameleon();
+	});
 	const handleHamburgerMenu = () => {
 		nav = document.getElementsByClassName("nav");
 		if (nav[0].classList[1] === "opacity-nav") {
@@ -45,6 +49,8 @@ function App() {
 		menuHamburger = document
 			.querySelector(".nav__hamburger-container")
 			.classList.toggle("active");
+
+		navCameleon();
 	};
 
 	const handleHamburgerMenuClick = () => {
@@ -54,12 +60,15 @@ function App() {
 		menuHamburger = document
 			.querySelector(".nav__hamburger-container")
 			.classList.remove("active");
+
+		window.scrollTo(0, 0);
+		navCameleon();
 	};
 	return (
 		<div className='nav-container visible'>
 			<nav className='nav opacity-nav'>
 				<Logo click={handleHamburgerMenuClick} />
-				<Menu />
+				<Menu click={navCameleon} />
 				<HamburgerMenu click={handleHamburgerMenu} />
 			</nav>
 			<MenuMobile click={handleHamburgerMenuClick} />

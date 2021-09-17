@@ -1,15 +1,17 @@
 import NewsImg from "./NewsImg/NewsImg";
 
 import DATA from "../../../data.json";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import Swiper from "./swiper";
 
 function News() {
-	let interval;
+	let interval = useRef(null);
 
 	useEffect(() => {
-		interval = setInterval(autoNav, 10000);
+		interval.current = setInterval(autoNav, 10000);
 		new Swiper();
+		document.addEventListener("swipeLeft", () => autoNav("left"));
+		document.addEventListener("swipeRight", () => autoNav("right"));
 	});
 	const manualNav = (event) => {
 		clearInterval(interval);
@@ -30,44 +32,57 @@ function News() {
 		chosenElement[1].classList.add("active");
 	};
 
-	const autoNav = function () {
+	const autoNav = function (move) {
+		clearInterval(interval);
+		interval = setInterval(autoNav, 10000);
+
 		const btms = document.getElementsByClassName("news__navigation-btn");
 		const slides = document.getElementsByClassName("news__slide");
 		let classes = [];
 
-		for (let i = 0; i < btms.length; i++) {
-			classes.push(btms[i].classList[2]);
-		}
+		if (btms.length > 0) {
+			for (let i = 0; i < btms.length; i++) {
+				classes.push(btms[i].classList[2]);
+			}
 
-		let x = classes.findIndex((clas) => clas == "active");
-		for (let i = 0; i < slides.length; i++) {
-			slides[i].classList.remove("active");
-			btms[i].classList.remove("active");
-		}
+			let x = classes.findIndex((clas) => clas === "active");
+			for (let i = 0; i < slides.length; i++) {
+				slides[i].classList.remove("active");
+				btms[i].classList.remove("active");
+			}
 
-		if (x < 0) {
-			x = 0;
-		} else if (x >= btms.length - 1) {
-			x = 0;
-		} else {
-			x++;
-		}
+			if (move === "right") {
+				if (x < 0) {
+					x = 0;
+				} else if (x === 0) {
+					x = btms.length - 1;
+				} else {
+					x--;
+				}
+			} else {
+				if (x < 0) {
+					x = 0;
+				} else if (x >= btms.length - 1) {
+					x = 0;
+				} else {
+					x++;
+				}
+			}
+			if (move) {
+				clearInterval(interval);
+				interval = setInterval(autoNav, 10000);
+			}
 
-		slides[x].classList.add("active");
-		btms[x].classList.add("active");
+			slides[x].classList.add("active");
+			btms[x].classList.add("active");
+		}
 	};
-
-	document.addEventListener("swipeLeft", () => {
-		console.log("lewo");
-	});
-	document.addEventListener("swipeRight", () => console.log("prawo"));
 
 	return (
 		<div id='idNews' className='news main-element'>
 			<div className='news__background'></div>
 			<div className='news__container '>
 				<NewsImg />
-
 				<div className='news__navigation'>
 					{DATA.news1.tytul && (
 						<div

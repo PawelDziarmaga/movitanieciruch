@@ -1,7 +1,7 @@
 import News from "./News/News";
 import Instructors from "./Instructors/Instructors";
 import Dance from "./Dance/Dance";
-import About from "./About/About";
+
 import Heder from "./Header/Header";
 import Kontakt from "../../Pages/ConcactPage/ConcactPage";
 

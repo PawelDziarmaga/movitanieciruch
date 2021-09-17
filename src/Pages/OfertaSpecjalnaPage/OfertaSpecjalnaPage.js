@@ -4,7 +4,6 @@ function OfertaSpecjalnaPage() {
 	window.scrollTo(0, 0);
 	return (
 		<div className='special-offer-page'>
-			<h1 className='special-offer-page__title'>Oferta Specjalna</h1>
 			<div className='special-offer-page__container'>
 				<div className='box'>
 					<h2>Wieczór panieński</h2>

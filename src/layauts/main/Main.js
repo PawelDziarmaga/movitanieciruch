@@ -7,9 +7,9 @@ import Taniec from "../../Pages/DancePage/DancePage";
 import Fitness from "../../Pages/FitnessPage/FitnessPage";
 import Grafik from "../../Pages/GraphicPage/GraphicPage";
 import Instruktorzy from "../../Pages/InstructorsPage/InstructorsPage";
-
 import Ofertaspecjalna from "../../Pages/OfertaSpecjalnaPage/OfertaSpecjalnaPage";
 import Cennik from "../../Pages/PricePage/PricePage";
+import HeaderPage from "../../Pages/HeaderPage/HeaderPage";
 
 function Main() {
 	return (
@@ -19,25 +19,32 @@ function Main() {
 					<Home />
 				</Route>
 				<Route path='/Kontakt'>
+					<HeaderPage title='Kontakt' />
 					<Kontakt />
 				</Route>
 				<Route path='/Taniec'>
+					<HeaderPage title='Zajęcia' />
 					<Taniec />
+					<Fitness />
 				</Route>
 				<Route path='/Fitness'>
 					<Fitness />
 				</Route>
 				<Route path='/Grafik'>
+					<HeaderPage title='Grafik' />
 					<Grafik />
 				</Route>
 				<Route path='/Instruktorzy'>
+					<HeaderPage title='Team/trenerzy' />
 					<Instruktorzy />
 				</Route>
 
 				<Route path='/Ofertaspecjalna'>
+					<HeaderPage title='Dodatkowa oferta' />
 					<Ofertaspecjalna />
 				</Route>
 				<Route path='/Cennik'>
+					<HeaderPage title='Cennik' />
 					<Cennik />
 				</Route>
 				<Route path='*'>

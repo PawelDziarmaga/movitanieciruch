@@ -13,7 +13,7 @@ function MenuMobile(props) {
 		<ul className='MenuMobile__container visible'>
 			<li onClick={props.click} className='MenuMobile__element'>
 				<a href='#idNews' className='MenuMobile__link'>
-					Strona główna
+					Aktualności
 				</a>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
@@ -22,26 +22,28 @@ function MenuMobile(props) {
 				</NavLink>
 			</li>
 			<li onClick={refreshGraphic} className='MenuMobile__element'>
-				<NavLink
-					to='/Grafik'
-					className='MenuMobile__link'
-					href='#idGraphic'>
+				<NavLink to='/Grafik' className='MenuMobile__link'>
 					Grafik
 				</NavLink>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink to='/Cennik' className='MenuMobile__link'>
+				<NavLink to='/Instruktorzy' className='MenuMobile__link'>
 					Team/Trenerzy
 				</NavLink>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink to='/Instruktorzy' className='MenuMobile__link'>
+				<NavLink to='/Cennik' className='MenuMobile__link'>
 					Cennik
 				</NavLink>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<a href='#idAbout' className='MenuMobile__link'>
+				<NavLink to='/Ofertaspecjalna' className='MenuMobile__link'>
 					Dodatkowa oferta
+				</NavLink>
+			</li>
+			<li onClick={props.click} className='MenuMobile__element'>
+				<a href='#idAbout' className='MenuMobile__link'>
+					O nas
 				</a>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
