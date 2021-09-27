@@ -44,10 +44,7 @@ function SmallContainer({
 				onClick={handlerClick}
 				className={`${classElement} price__small-container__name`}>
 				<h2 className={`${classElement}`}>{name}</h2>
-				<img
-					className={`${classElement}`}
-					src={arrow}
-					alt='arrow'></img>
+				<span className='arrow'>»</span>
 			</div>
 			<div className='price__small-container__pirces'>
 				<PriceElement

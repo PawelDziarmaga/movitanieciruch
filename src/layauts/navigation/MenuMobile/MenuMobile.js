@@ -17,7 +17,7 @@ function MenuMobile(props) {
 				</a>
 			</li>
 			<li onClick={props.click} className='MenuMobile__element'>
-				<NavLink to='/Taniec' className='MenuMobile__link'>
+				<NavLink to='/Zajecia' className='MenuMobile__link'>
 					Zajęcia
 				</NavLink>
 			</li>

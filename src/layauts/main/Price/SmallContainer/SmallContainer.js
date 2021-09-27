@@ -27,7 +27,7 @@ function SmallContainer({
 		for (let i = 0; i < allElements.length; i++) {
 			allElements[i].classList.remove("prices-active");
 		}
-		console.log(stan);
+
 		if (stan !== chosenElementClass) {
 			const chosenElement =
 				document.getElementsByClassName(chosenElementClass);

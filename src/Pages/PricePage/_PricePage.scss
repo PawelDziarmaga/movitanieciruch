@@ -3,4 +3,7 @@
 
 .price-page {
 	@include sub-page;
+	.price__big-container {
+		margin: 5vh 0;
+	}
 }

@@ -10,7 +10,7 @@ function Header() {
 				<button>
 					Więcej <span>»</span>
 				</button>
-				<div>»</div>
+				<div className='arrow'>»</div>
 			</div>
 		</div>
 	);

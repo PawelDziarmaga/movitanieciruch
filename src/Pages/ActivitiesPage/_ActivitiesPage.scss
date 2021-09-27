@@ -1,0 +1,90 @@
+.activitiesPage {
+	padding: 0 20% 5vh 20%;
+	color: #606060;
+	@media screen and (max-width: 1300px) {
+		padding: 0 10% 5vh 10%;
+	}
+	@media screen and (max-width: 600px) {
+		padding: 0 5% 5vh 5%;
+	}
+	@media screen and (max-width: 500px) {
+		padding: 0 10% 5vh 10%;
+	}
+	&__container:first-child {
+		padding-bottom: 10vh;
+		border-bottom: 5px solid $font-purple-color;
+		@media screen and (max-width: 800px) {
+			padding-bottom: 5vh;
+		}
+	}
+
+	&__title {
+		padding: 5vh 0;
+	}
+
+	&__box {
+		display: flex;
+		cursor: pointer;
+		@media screen and (max-width: 500px) {
+			display: block;
+		}
+
+		p {
+			text-align: justify;
+			@media screen and (max-width: 1300px) {
+				font-size: 20px;
+			}
+			@media screen and (max-width: 800px) {
+				font-size: 16px;
+			}
+			@media screen and (max-width: 350px) {
+				font-size: 12px;
+			}
+		}
+		img {
+			width: 30%;
+			height: auto;
+			@media screen and (max-width: 1300px) {
+				width: 40%;
+			}
+			@media screen and (max-width: 500px) {
+				display: block;
+				width: 80%;
+			}
+			@media screen and (max-width: 350px) {
+				width: 100%;
+			}
+		}
+	}
+
+	&__ruch {
+		h2 {
+			text-align: right;
+			margin-right: 10%;
+			@media screen and (max-width: 500px) {
+				text-align: center;
+			}
+		}
+		img {
+			margin-left: 5%;
+			@media screen and (max-width: 500px) {
+				margin: 3vh auto 0 auto;
+			}
+		}
+	}
+	&__taniec {
+		h2 {
+			text-align: left;
+			margin-left: 10%;
+			@media screen and (max-width: 500px) {
+				text-align: center;
+			}
+		}
+		img {
+			margin-right: 5%;
+			@media screen and (max-width: 500px) {
+				margin: 0 auto 3vh auto;
+			}
+		}
+	}
+}

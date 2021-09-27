@@ -11,6 +11,7 @@ function App() {
 	let menuHamburger = document.querySelector(".nav__hamburger-container");
 
 	const navCameleon = function (event) {
+		debugger;
 		menuHamburger = document.querySelector(".nav__hamburger-container");
 		nav = document.getElementsByClassName("nav");
 
@@ -62,8 +63,8 @@ function App() {
 			.classList.remove("active");
 
 		window.scrollTo(0, 0);
-		navCameleon();
 	};
+
 	return (
 		<div className='nav-container visible'>
 			<nav className='nav opacity-nav'>

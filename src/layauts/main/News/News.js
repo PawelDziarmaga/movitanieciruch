@@ -8,6 +8,7 @@ function News() {
 	let interval = useRef(null);
 
 	useEffect(() => {
+		clearInterval(interval);
 		interval.current = setInterval(autoNav, 10000);
 		new Swiper();
 		document.addEventListener("swipeLeft", () => autoNav("left"));

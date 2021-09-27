@@ -10,6 +10,7 @@ import Instruktorzy from "../../Pages/InstructorsPage/InstructorsPage";
 import Ofertaspecjalna from "../../Pages/OfertaSpecjalnaPage/OfertaSpecjalnaPage";
 import Cennik from "../../Pages/PricePage/PricePage";
 import HeaderPage from "../../Pages/HeaderPage/HeaderPage";
+import ActivitiesPage from "../../Pages/ActivitiesPage/ActivitiesPage";
 
 function Main() {
 	return (
@@ -18,12 +19,16 @@ function Main() {
 				<Route exact path='/'>
 					<Home />
 				</Route>
+				<Route path='/Zajecia'>
+					<HeaderPage title='ZNAJDŹ SPOSÓB NA SIEBIE' />
+					<ActivitiesPage />
+				</Route>
 				<Route path='/Kontakt'>
 					<HeaderPage title='Kontakt' />
 					<Kontakt />
 				</Route>
 				<Route path='/Taniec'>
-					<HeaderPage title='Zajęcia' />
+					<HeaderPage title='Taniec' />
 					<Taniec />
 					<Fitness />
 				</Route>

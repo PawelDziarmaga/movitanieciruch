@@ -6,7 +6,7 @@
 	border-radius: 10px;
 	margin: 10px;
 	background-color: #f5f5f5;
-	box-shadow: $shadows-item;
+	box-shadow: 0 0 2px #8c8c8c;
 	@media all and (max-width: 600px) {
 		margin: 3px;
 	}

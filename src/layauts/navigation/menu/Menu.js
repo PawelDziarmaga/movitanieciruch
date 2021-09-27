@@ -15,7 +15,7 @@ function Menu({ click }) {
 				</a>
 			</li>
 			<li onClick={click} className='nav__element nav__list-item'>
-				<NavLink to='/Taniec' className='nav__link'>
+				<NavLink to='/Zajecia' className='nav__link'>
 					Zajęcia
 				</NavLink>
 			</li>
