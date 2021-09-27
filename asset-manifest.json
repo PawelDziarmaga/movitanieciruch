@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.822f2cfa.chunk.css",
-    "main.js": "/static/js/main.451856ad.chunk.js",
-    "main.js.map": "/static/js/main.451856ad.chunk.js.map",
+    "main.css": "/static/css/main.d8cfae23.chunk.css",
+    "main.js": "/static/js/main.7964ef57.chunk.js",
+    "main.js.map": "/static/js/main.7964ef57.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.308bbc13.js",
     "runtime-main.js.map": "/static/js/runtime-main.308bbc13.js.map",
-    "static/js/2.f3d982b2.chunk.js": "/static/js/2.f3d982b2.chunk.js",
-    "static/js/2.f3d982b2.chunk.js.map": "/static/js/2.f3d982b2.chunk.js.map",
+    "static/js/2.6ccf0429.chunk.js": "/static/js/2.6ccf0429.chunk.js",
+    "static/js/2.6ccf0429.chunk.js.map": "/static/js/2.6ccf0429.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.822f2cfa.chunk.css.map": "/static/css/main.822f2cfa.chunk.css.map",
-    "static/js/2.f3d982b2.chunk.js.LICENSE.txt": "/static/js/2.f3d982b2.chunk.js.LICENSE.txt",
+    "static/css/main.d8cfae23.chunk.css.map": "/static/css/main.d8cfae23.chunk.css.map",
+    "static/js/2.6ccf0429.chunk.js.LICENSE.txt": "/static/js/2.6ccf0429.chunk.js.LICENSE.txt",
     "static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png": "/static/media/1News-CanvaInstagram-1080x1920.2f224b8d.png",
     "static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png": "/static/media/2News-CanvaInstagram-1080x1920.8bfc0379.png",
     "static/media/3News-CanvaInstagram-1080x1920.03995672.png": "/static/media/3News-CanvaInstagram-1080x1920.03995672.png",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.308bbc13.js",
-    "static/js/2.f3d982b2.chunk.js",
-    "static/css/main.822f2cfa.chunk.css",
-    "static/js/main.451856ad.chunk.js"
+    "static/js/2.6ccf0429.chunk.js",
+    "static/css/main.d8cfae23.chunk.css",
+    "static/js/main.7964ef57.chunk.js"
   ]
 }
