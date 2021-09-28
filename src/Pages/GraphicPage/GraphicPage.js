@@ -1,16 +1,19 @@
+import React from "react";
 import "./GraphicPage.css";
+let lb;
+class GraphicPage extends React.Component {
+	componentDidMount() {
+		/*lb("mounted");*/
+	}
 
-function GraphicPage() {
-	window.scrollTo(0, 0);
-
-	return (
-		<div className='graphic-page'>
-			<lb-schedule-widget
-				id='fisseyElement'
-				location='9F459323-8B34-D3F6-47F7-E50072BE1F5C'
-				hide-header='true'></lb-schedule-widget>
-		</div>
-	);
+	componentWillUnmount() {}
+	render() {
+		return (
+			<div className='graphic-page'>
+				<lb-schedule-widget></lb-schedule-widget>
+			</div>
+		);
+	}
 }
 
 export default GraphicPage;
