@@ -2,4 +2,5 @@
 @import "./FitnessPageBox//FitnessPageBox";
 .fitness-page {
 	@include sub-page;
+	margin-top: 5vh;
 }

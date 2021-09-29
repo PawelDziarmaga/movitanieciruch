@@ -39,30 +39,17 @@
 			left: 50%;
 			transform: translate(-50%, -50%);
 
+			width: 100%;
+
 			font-family: "Bebas Neue", cursive;
 			color: $font-white-color;
-			font-size: 7vh;
+			font-size: 60px;
 			font-weight: 100;
 
 			padding: 2vh 10%;
-			@media screen and (max-width: 950px) {
-				top: 40%;
-			}
-			@media screen and (max-width: 1100px) {
-				width: 60%;
-			}
-			@media screen and (max-width: 800px) {
-				width: 70%;
-			}
-			@media screen and (max-width: 650px) {
-				width: 80%;
-			}
-			@media screen and (max-width: 550px) {
-				width: 90%;
-			}
+
 			@media screen and (max-width: 450px) {
 				font-size: 5vh;
-				border: 1vh solid $font-white-color;
 			}
 			@media screen and (max-width: 350px) {
 				font-size: 3vh;

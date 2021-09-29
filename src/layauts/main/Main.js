@@ -2,15 +2,18 @@ import { Route, Switch } from "react-router-dom";
 
 import Home from "./home";
 
-import Kontakt from "../../Pages/ConcactPage/ConcactPage";
-import Taniec from "../../Pages/DancePage/DancePage";
-import Fitness from "../../Pages/FitnessPage/FitnessPage";
+import ActivitiesPage from "../../Pages/ActivitiesPage/ActivitiesPage";
 import Grafik from "../../Pages/GraphicPage/GraphicPage";
 import Instruktorzy from "../../Pages/InstructorsPage/InstructorsPage";
-import Ofertaspecjalna from "../../Pages/OfertaSpecjalnaPage/OfertaSpecjalnaPage";
 import Cennik from "../../Pages/PricePage/PricePage";
+import Ofertaspecjalna from "../../Pages/OfertaSpecjalnaPage/OfertaSpecjalnaPage";
+import About from "../../Pages/AboutPage/AboutPage";
+import Kontakt from "../../Pages/ConcactPage/ConcactPage";
+
+import Taniec from "../../Pages/DancePage2/DancePage2";
+import Fitness from "../../Pages/FitnessPage/FitnessPage";
+
 import HeaderPage from "../../Pages/HeaderPage/HeaderPage";
-import ActivitiesPage from "../../Pages/ActivitiesPage/ActivitiesPage";
 
 function Main() {
 	return (
@@ -23,18 +26,6 @@ function Main() {
 					<HeaderPage title='ZNAJDŹ SPOSÓB NA SIEBIE' />
 					<ActivitiesPage />
 				</Route>
-				<Route path='/Kontakt'>
-					<HeaderPage title='Kontakt' />
-					<Kontakt />
-				</Route>
-				<Route path='/Taniec'>
-					<HeaderPage title='Taniec' />
-					<Taniec />
-					<Fitness />
-				</Route>
-				<Route path='/Fitness'>
-					<Fitness />
-				</Route>
 				<Route path='/Grafik'>
 					<HeaderPage title='Grafik' />
 					<Grafik />
@@ -43,15 +34,32 @@ function Main() {
 					<HeaderPage title='Team/trenerzy' />
 					<Instruktorzy />
 				</Route>
-
-				<Route path='/Ofertaspecjalna'>
-					<HeaderPage title='Dodatkowa oferta' />
-					<Ofertaspecjalna />
-				</Route>
 				<Route path='/Cennik'>
 					<HeaderPage title='Cennik' />
 					<Cennik />
 				</Route>
+				<Route path='/Ofertaspecjalna'>
+					<HeaderPage title='Dodatkowa oferta' />
+					<Ofertaspecjalna />
+				</Route>
+				<Route path='/Onas'>
+					<HeaderPage title='POZNAJMY SIĘ' />
+					<About />
+				</Route>
+				<Route path='/Kontakt'>
+					<HeaderPage title='Kontakt' />
+					<Kontakt />
+				</Route>
+
+				<Route path='/Taniec'>
+					<HeaderPage title='Taniec' />
+					<Taniec />
+				</Route>
+				<Route path='/Ruch'>
+					<HeaderPage title='Ruch' />
+					<Fitness />
+				</Route>
+
 				<Route path='*'>
 					<Home />
 				</Route>

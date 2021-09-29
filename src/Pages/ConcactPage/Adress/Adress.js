@@ -8,10 +8,10 @@ function Adress() {
 			</ul>
 			<ul className='adress-box__kontakt'>
 				<li>
-					emial: <span>biuro@movietanieciruch.pl</span>
+					emial: <span>info@movitanieciruch.pl</span>
 				</li>
 				<li>
-					telefon: <span>555 888 777</span>
+					telefon: <span>576 606 566</span>
 				</li>
 			</ul>
 		</div>

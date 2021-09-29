@@ -1,8 +1,8 @@
-import FitnessPageBox from "./FitnessPageBox/FitnessPageBox";
+import FitnessPageBox from "./DancePage2Box/DancePage2Box";
 
-import FitnessPisture from "../../Image/Fitness/fitness.jpg";
+import FitnessPisture from "../../Image/SpecialOffer/party.jpg";
 
-import DataFitness from "./DataFitness.json";
+import DataFitness from "./DancePage2.json";
 
 function FitnessPage() {
 	window.scrollTo(0, 0);

@@ -1,0 +1,21 @@
+.AboutPage {
+	margin: 5vh 20%;
+	font-size: 25px;
+	@media screen and (max-width: 1200px) {
+		margin: 5vh 10%;
+	}
+	@media screen and (max-width: 900px) {
+		font-size: 20px;
+	}
+	@media screen and (max-width: 700px) {
+		margin: 5vh 5%;
+		font-size: 15px;
+	}
+	&__p {
+		text-align: justify;
+		padding: 3vh 0;
+	}
+	&__p:first-child {
+		border-bottom: 5px solid $font-purple-color;
+	}
+}

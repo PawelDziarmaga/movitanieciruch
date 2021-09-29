@@ -1,0 +1,81 @@
+{
+	"tytul": "Fitness",
+	"opis": {
+		"n1": "Pokaż swój temperament, popraw koordynację i podnieść pewność siebie w rytmie ulubionej muzyki. Połącz świetną zabawę z wysiłkiem angażującym całe ciało, pod okiem profesjonalnych tancerzy."
+	},
+	"tance": {
+		"n1": {
+			"nazwa": "Taniec Towarzyski",
+			"nazwaClass": "TaniecTowarzyski active-color",
+			"opis": {
+				"n1": "To jedna z najbardziej popularnych form nauki tańca. Podczas kursu nauczysz się stylów standardowych i latynoamerykańskich: walca angielskiego, walca wiedeńskiego, quickstepa, tanga, foxtrota oraz rumby, samby, paso-doble, cha chy i jive'a. Taniec towarzyski to także świetny sposób dla par na aktywne spędzanie czasu. O prefesjonalizm na zajęciach zadbają nasi instruktorzy, którzy mogą pochwalić się bogatym doświadczeniem i wieloma tytułami.",
+				"n2": "Dostępne grupy wiekowe: ",
+				"n3": " Doroścli Dzieci Seniorzy"
+			}
+		},
+		"n2": {
+			"nazwa": "Taniec Użytkowy",
+			"nazwaClass": "TaniecUżytkowy",
+			"opis": {
+				"n1": "Zajęcia przenaczone dla osób, które lubią dobrą zabawę i chcą nauczyć się tańczyć, ale w bardziej swobodnej formie niż proponuje to kurs tańca towarzyskiego. Głównym założeniem jest poznanie prostych, uniwersalnych kroków, efektownych obrotów i figur, które sprawdzą się praktycznie przy każdej muzyce. W efekcie kursanci będą brylować na prakiecie, czerpać radość z tańca, a panowie zawodowo prowadzą w nim swoje partnerki. Taniec użytkowy przeznaczony jest dla osob w każdym wieku.",
+				"n2": "Dostępne grupy wiekowe: ",
+				"n3": " Doroścli Pary Seniorzy"
+			}
+		},
+
+		"n3": {
+			"nazwa": "Latino",
+			"nazwaClass": "Latino",
+			"opis": {
+				"n1": "Podczas zajęć możesz przenieść się do gorącej Brazylii, namiętej Kuby lub radosnej Ameryki. Nie brakuje tu ekspresji, ogrmnego temperamentu i zmysłowych ruchów. Na zajęciach nauczysz się choreografi opartych na figurach tańca latynoamerykańskiego jak rumba, cha cha, salsa, samba, czy paso-doble. Jest to świetna forma aktywności, pozwalająca kształtować zgrabną i wysportowaną sylwetkę, dobrze się przy tym bawiąc.",
+				"n2": "Dostępne grupy wiekowe: ",
+				"n3": " Doroścli Pary Seniorzy"
+			}
+		},
+		"n4": {
+			"nazwa": "Balet ",
+			"nazwaClass": "Balet ",
+			"opis": {
+				"n1": "Balet jest świetną formą zajęć dla dzieci. Uczy prawidłowej postawy, lekkości poruszania się i dba o sylwetkę. Poznanie podstaw tej techniki jest niezbędne dla wszystkich osób, które wiążą swoją przyszłość z profesjonalnym tańcem. Zajęcia baletu ćwiczą piękna linia ciała, rozciągnięcie, harmonię i płynność ruchów. To także nauka zasad, które są fundamentem do wykonywania efektowych skoków i obrotów.",
+				"n2": "Dostępne grupy wiekowe: ",
+				"n3": " Dzieci Młodzież"
+			}
+		},
+		"n5": {
+			"nazwa": "Techniki tańca klasycznego",
+			"nazwaClass": "TechnikiTańcaKlasycznego",
+			"opis": {
+				"n1": "Techniki tańca klasycznego sa podstawowym treningem dla każdego tancerza, niezależnie w jakim kierunku i stylu chesz się rozwijać. Zajęcia uczą ładnej postawy, lekkości w skokach, balansu ciała oraz techniki dla widowiskowych obrotów i pirrueatów. Tancerz kształtuję piękną sylwetkę, uczy się płynności ruchów, wdzięku i elegancji w wykańczaniu póz. Ćwiczenia wykonywane są przy drążku, ale także na środku sali.",
+				"n2": "Dostępne grupy wiekowe: ",
+				"n3": " Doroścli Młodzież "
+			}
+		},
+		"n6": {
+			"nazwa": "Taniec Współczesny",
+			"nazwaClass": "TaniecWspółczesny",
+			"opis": {
+				"n1": "Jest to styl, wywodzący się z tańca klasycznego, który zawiera jego podstawowe elementy, ale odrzuca sztywne zasady. Z baletu czerpie przede wszystkim świadomość i plastykę ciała. W choreografiach można znaleźć także elementy tańca nowoczesnego, jazzu, a nawet akrobatyki. Charakterystyczne jest balansowanie między napięciem i rozluźnieniem ciała, kontrolowanie przebiegu ruchu oraz wyrażanie emocji. Tancerze wykorzystują ciężar ciała, grawitację, oddech. Często można się spotkać z izolacją poszczególnych partii ciała, zawieszeniem ruchu i wyprowadzaniem go z impulsu ciała.",
+				"n2": "Dostępne grupy wiekowe: ",
+				"n3": " Doroścli Dzieci Seniorzy"
+			}
+		},
+		"n7": {
+			"nazwa": "Zajęcia ruchowe dla dzieci",
+			"nazwaClass": "ZajęciaRuchoweDlaDzieci",
+			"opis": {
+				"n1": "To zabawa z ruchem i muzyką, która wprowadzi dziecko w świat tańca. Zajęcia sprzyjają rozwojowi psychomotorycznemu dziecka, uczą prawidłowej postawy, rozwijają jego umiejętności koordynacji ruchowej i pozwalają zrozumieć na czym polega rytm. Instruktorzy dbają o to, żeby każde spotkanie z najmłodszymi kursantami łączyło naukę z dobrą zabawą. W rezultacjie jest to także świetna forma kształtowania wyobraźni, przełamywania nieśmiałości i nawiązywania kontaktów z rówieśnikami.",
+				"n2": "Dostępne grupy wiekowe: ",
+				"n3": "Dzieci "
+			}
+		},
+		"n8": {
+			"nazwa": "",
+			"opis": {
+				"n1": "",
+				"n2": "",
+				"n3": "",
+				"n4": ""
+			}
+		}
+	}
+}

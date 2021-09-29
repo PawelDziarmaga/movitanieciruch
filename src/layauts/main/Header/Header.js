@@ -1,4 +1,11 @@
+import { useHistory } from "react-router-dom";
+
 function Header() {
+	let history = useHistory();
+
+	function handleClick() {
+		history.push("/Onas");
+	}
 	return (
 		<div id='idHeader' className='Header main-element'>
 			<div className='Header__image'></div>
@@ -7,7 +14,7 @@ function Header() {
 					Już niebawem otwieramy dla Was MOVI. Miejsce pełne TAŃCA I
 					RUCHU. Nie możemy się już doczekać, żeby spotkać się z Tobą!
 				</h1>
-				<button>
+				<button onClick={handleClick}>
 					Więcej <span>»</span>
 				</button>
 				<div className='arrow'>»</div>

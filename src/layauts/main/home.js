@@ -26,10 +26,6 @@ function Home() {
 			<News />
 			<Break text='Zajęcia' />
 			<Dance />
-			<Break text='Team' />
-			<Instructors />
-			<Break text='Dodatkowa Oferta' />
-			<Dance />
 			<Break text='kontakt' />
 			<Kontakt />
 		</div>

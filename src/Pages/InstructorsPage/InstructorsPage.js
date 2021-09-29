@@ -29,26 +29,6 @@ function InstructorsPage() {
 					img={kamilPictures}
 					txt={data.n3}
 				/>
-				<InstructorsPageBox
-					name={data.n4.imie}
-					img={marekPictures}
-					txt={data.n4}
-				/>
-				<InstructorsPageBox
-					name={data.n5.imie}
-					img={martaPictures}
-					txt={data.n5}
-				/>
-				<InstructorsPageBox
-					name={data.n6.imie}
-					img={patrykPictures}
-					txt={data.n6}
-				/>
-				<InstructorsPageBox
-					name={data.n7.imie}
-					img={zosiaPictures}
-					txt={data.n7}
-				/>
 			</div>
 		</div>
 	);

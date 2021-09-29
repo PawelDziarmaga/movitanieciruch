@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
-import { navScrollViev } from "../../tools/navScrollViev";
-import { navHamburger } from "../../tools/navHamburger";
-import { navMobileVisible } from "../../tools/navMobileVisible";
+import { navScrollViev } from "../../tools/Nav/navScrollViev";
+import { navHamburger } from "../../tools/Nav/navHamburger";
+import { navMobileVisible } from "../../tools/Nav/navMobileVisible";
 
 import Logo from "./logo/Logo";
 import HamburgerMenu from "./hamburger-menu/HamburgerMenu";
@@ -17,7 +17,7 @@ const dataMenu = [
 	["Team/Trenerzy", "NavLink", "/Instruktorzy", "/"],
 	["Cennik", "a", "/Cennik", "/"],
 	["Dodatkowa oferta", "NavLink", "/Ofertaspecjalna", "/"],
-	["O nas", "a", "/Grafik", "/"],
+	["O nas", "a", "/Onas", "/"],
 	["Kontakt", "NavLink", "/Kontakt", "/"],
 ];
 

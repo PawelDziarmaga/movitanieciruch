@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FitnessPageBoxElement from "../FitnessPageBoxElement/FitnessPageBoxElement";
+import FitnessPageBoxElement from "../DancePage2BoxElement/DancePage2BoxElement";
 
 function FitnessPageBox({ title, img, txt }) {
 	const data = txt;
