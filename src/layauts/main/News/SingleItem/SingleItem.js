@@ -1,7 +1,6 @@
-function SingleItem({ NuberOfItem, ImgItem, NewsTitle }) {
+function SingleItem({ NuberOfItem, ImgItem }) {
 	return (
 		<div className={`news__slide ${NuberOfItem} `}>
-			<h1>{NewsTitle}</h1>
 			<img src={ImgItem} alt={NuberOfItem}></img>
 		</div>
 	);

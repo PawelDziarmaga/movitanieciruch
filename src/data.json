@@ -1,57 +1,17 @@
 {
 	"news1": {
-		"tytul": "Wielkie otwarcie",
-		"podstrona": "tak",
-		"pierwszaInformacja": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-		"drugaInformacja": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-		"poddtytul": "Why do we use it?",
-		"trzeciaInformacja": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
-		"czwartaInformacja": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
-		"data": "20 kwietnia 2021 r.",
-		"godzina": "15:00"
+		"tytul": "Wielkie otwarcie"
 	},
 	"news2": {
-		"tytul": "",
-		"podstrona": "tak",
-		"pierwszaInformacja": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-		"drugaInformacja": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-		"poddtytul": "Why do we use it?",
-		"trzeciaInformacja": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
-		"czwartaInformacja": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
-		"data": "25 marca 2021 r.",
-		"godzina": "15:00"
+		"tytul": "Wielkie otwarcie"
 	},
 	"news3": {
-		"tytul": "Nie przegap!",
-		"podstrona": "nie",
-		"pierwszaInformacja": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-		"drugaInformacja": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-		"poddtytul": "Why do we use it?",
-		"trzeciaInformacja": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
-		"czwartaInformacja": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
-		"data": "25 grudnia 2021 r.",
-		"godzina": "15:00"
+		"tytul": "Wielkie otwarcie"
 	},
 	"news4": {
-		"tytul": "",
-		"podstrona": "nie",
-		"pierwszaInformacja": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-		"drugaInformacja": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-		"poddtytul": "Why do we use it?",
-		"trzeciaInformacja": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
-		"czwartaInformacja": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
-		"data": "25 grudnia 2021 r.",
-		"godzina": "15:00"
+		"tytul": "Wielkie otwarcie"
 	},
 	"news5": {
-		"tytul": "Ostatnie miejsca",
-		"podstrona": "nie",
-		"pierwszaInformacja": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-		"drugaInformacja": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-		"poddtytul": "Why do we use it?",
-		"trzeciaInformacja": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
-		"czwartaInformacja": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
-		"data": "25 grudnia 2021 r.",
-		"godzina": "15:00"
+		"tytul": "Wielkie otwarcie"
 	}
 }

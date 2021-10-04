@@ -1,4 +1,5 @@
 .news__slide {
+	padding: 10vh auto;
 	display: none;
 	&.active {
 		display: block;
@@ -6,28 +7,18 @@
 	img {
 		display: block;
 		margin: 0 auto;
-		height: 80vh;
+		padding-top: 10vh;
+		height: 90vh;
 		border-radius: 10px;
 		box-shadow: $shadows-item;
 		@media all and (max-height: 800px) {
-			height: 75vh;
+			height: 85vh;
 		}
 		@media all and (max-height: 600px) {
-			height: 70vh;
+			height: 80vh;
 		}
 		@media all and (max-height: 400px) {
-			height: 65vh;
+			height: 75vh;
 		}
-		@media all and (max-width: 350px) {
-			width: 90vw;
-			height: auto;
-		}
-	}
-
-	h1 {
-		@include h1-style;
-		font-size: 40px;
-		font-weight: 100;
-		color: $font-white-color;
 	}
 }
