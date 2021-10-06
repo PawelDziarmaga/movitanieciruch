@@ -1,5 +1,5 @@
 .news__slide {
-	padding: 10vh auto;
+	padding: 0 auto;
 	display: none;
 	&.active {
 		display: block;
@@ -7,18 +7,7 @@
 	img {
 		display: block;
 		margin: 0 auto;
-		padding-top: 10vh;
-		height: 90vh;
-		border-radius: 10px;
-		box-shadow: $shadows-item;
-		@media all and (max-height: 800px) {
-			height: 85vh;
-		}
-		@media all and (max-height: 600px) {
-			height: 80vh;
-		}
-		@media all and (max-height: 400px) {
-			height: 75vh;
-		}
+		padding-top: 3vh;
+		height: 80vh;
 	}
 }

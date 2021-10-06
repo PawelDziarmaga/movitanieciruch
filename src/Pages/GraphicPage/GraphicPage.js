@@ -1,12 +1,10 @@
 import React from "react";
 import "./GraphicPage.css";
-let lb;
+
 class GraphicPage extends React.Component {
 	componentDidMount() {
-		/*lb("mounted");*/
+		window.lb("mounted");
 	}
-
-	componentWillUnmount() {}
 	render() {
 		return (
 			<div className='graphic-page'>
