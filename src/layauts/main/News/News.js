@@ -8,7 +8,7 @@ import Swiper from "../../../tools/News/swiper";
 import { manualClick } from "../../../tools/News/manualClick";
 function News() {
 	let interval = useRef("null");
-	const intervalTime = 8000;
+	const intervalTime = 10000;
 	useEffect(() => {
 		interval.current = setInterval(() => {
 			autoSwiper();

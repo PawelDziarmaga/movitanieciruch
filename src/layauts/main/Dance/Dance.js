@@ -2,56 +2,43 @@ import { useHistory } from "react-router";
 
 import ContainerDance from "./ContainerDance/ContainerDance";
 
-import KidsPisture from "../../../Image/Dance/Dzieci.jpg";
-import YoungPisture from "../../../Image/Dance/Mlodziez.jpg";
-import AdultsPisture from "../../../Image/Dance/Dorosli.jpg";
-import SeniorsPisture from "../../../Image/Dance/Seniorzy.jpg";
-import CouplesPisture from "../../../Image/Dance/Pary.jpg";
-import SoloPisture from "../../../Image/Dance/Solo.jpg";
+import BaletIMG from "../../../Image/Taniec/Balet.jpg";
+import LatinoIMG from "../../../Image/Taniec/Latino.jpg";
+import TaniecTowarzyskiIMG from "../../../Image/Taniec/TaniecTowarzyski.jpg";
+import TaniecUzytkowyIMG from "../../../Image/Taniec/TaniecUzytkowy.jpg";
+import TaniecWspolczesnyIMG from "../../../Image/Taniec/TaniecWspolczesny.jpg";
+import TechnikiTancaKlasycznegoIMG from "../../../Image/Taniec/TechnikiTancaKlasycznego.jpg";
+import ZajeciaRuchDlaDzieciIMG from "../../../Image/Taniec/ZajeciaRuchDlaDzieci.jpg";
 
 function Dance() {
-	const history = useHistory();
+	const elements = [
+		["Balet", BaletIMG],
+		["Latino", LatinoIMG],
+		["Taniec Towarzyski", TaniecTowarzyskiIMG],
+		["Taniec użytkowy", TaniecUzytkowyIMG],
+		["Taniec Współczesny", TaniecWspolczesnyIMG],
+		["Techniki Tańca Klasycznego", TechnikiTancaKlasycznegoIMG],
+		["Zajęcia Ruchowe Dla dzieci", ZajeciaRuchDlaDzieciIMG],
+		["Sprawdz grafik!", TechnikiTancaKlasycznegoIMG],
+	];
 	const handleClick = (e) => {
 		const location = {
 			pathname: "/Taniec",
 		};
 		history.push(location);
 	};
+	const createElements = elements.map((element) => (
+		<ContainerDance
+			click={handleClick}
+			name={element[0]}
+			img={element[1]}
+		/>
+	));
+	const history = useHistory();
 
 	return (
 		<div id='idDance' className='dance main-element'>
-			<div className='dance__types'>
-				<ContainerDance
-					click={handleClick}
-					name='Dzieci'
-					img={KidsPisture}
-				/>
-				<ContainerDance
-					click={handleClick}
-					name='Młodzież'
-					img={YoungPisture}
-				/>
-				<ContainerDance
-					click={handleClick}
-					name='Dorośli'
-					img={AdultsPisture}
-				/>
-				<ContainerDance
-					click={handleClick}
-					name='Seniorzy'
-					img={SeniorsPisture}
-				/>
-				<ContainerDance
-					click={handleClick}
-					name='Pary'
-					img={CouplesPisture}
-				/>
-				<ContainerDance
-					click={handleClick}
-					name='Solo'
-					img={SoloPisture}
-				/>
-			</div>
+			<div className='dance__types'>{createElements}</div>
 		</div>
 	);
 }

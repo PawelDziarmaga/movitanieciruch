@@ -1,4 +1,6 @@
 .adress-box {
+	border-bottom: 5px solid $font-purple-color;
+	margin-bottom: 3vh;
 	display: flex;
 	justify-content: center;
 	@media screen and (max-width: 800px) {

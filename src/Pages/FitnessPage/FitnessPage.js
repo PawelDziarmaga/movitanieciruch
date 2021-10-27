@@ -1,6 +1,6 @@
 import FitnessPageBox from "./FitnessPageBox/FitnessPageBox";
 
-import FitnessPisture from "../../Image/Fitness/fitness.jpg";
+import FitnessPisture from "../../Image/Zajecia/Ruch.jpg";
 
 import DataFitness from "./DataFitness.json";
 

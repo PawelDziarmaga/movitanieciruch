@@ -1,4 +1,6 @@
 .dance__types {
+	border-bottom: 5px solid $font-purple-color;
+	padding-bottom: 5vh;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -7,6 +9,7 @@
 		cursor: pointer;
 		position: relative;
 		width: 33.33%;
+
 		@media screen and (max-width: 1000px) {
 			width: 50%;
 		}
@@ -56,6 +59,7 @@
 		}
 		img {
 			width: 100%;
+			height: auto;
 			@media screen and (max-width: 800px) {
 				display: block;
 				margin: 0 auto 0 auto;

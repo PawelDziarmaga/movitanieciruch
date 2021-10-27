@@ -4,7 +4,7 @@
 	height: 100vh;
 	&__image {
 		position: absolute;
-		background-image: url("../Image/Dance/Solo.jpg");
+		background-image: url("../Image/HeaderPicture/HeaderPicture.png");
 		background-position: center;
 		background-size: cover;
 		width: 100%;
@@ -59,23 +59,15 @@
 				font-size: 4vh;
 			}
 		}
-		button {
+		&__buttons {
 			display: flex;
-
+			justify-content: center;
 			position: absolute;
 			top: 70%;
 			left: 50%;
+			width: 100%;
+
 			transform: translate(-50%, -50%);
-
-			font-family: "Bebas Neue", cursive;
-			color: $font-white-color;
-			font-size: 8vh;
-			font-weight: 100;
-			border: 2vh solid $font-purple-color;
-			padding: 1vh 3%;
-			background-color: $font-purple-color;
-
-			transition: 0.3s;
 
 			@media screen and (max-width: 600px) {
 				font-size: 6vh;
@@ -83,6 +75,27 @@
 			@media screen and (max-height: 350px) {
 				top: 80%;
 			}
+			button {
+				width: 30%;
+				font-family: "Bebas Neue", cursive;
+				color: $font-white-color;
+				font-size: 8vh;
+				font-weight: 100;
+				border: 2vh solid $font-purple-color;
+				padding: 1vh 3%;
+				background-color: $font-purple-color;
+				transition: 0.3s;
+				@media screen and (max-height: 350px) {
+					width: 40%;
+				}
+			}
+			&__news {
+				margin-left: 10%;
+			}
+			&__about {
+			}
+		}
+		button {
 			&:hover {
 				background-color: transparent;
 				color: $font-purple-color;

@@ -1,8 +1,10 @@
-@import "../../../scss/colors";
 .instructors-page__box {
 	box-shadow: $shadows-item;
-	margin: 5px;
-	padding: 10px;
+	border-bottom: 5px solid $font-purple-color;
+	padding-bottom: 5vh;
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+
 	border-radius: 5px;
 	h2 {
 		@include h2-style;

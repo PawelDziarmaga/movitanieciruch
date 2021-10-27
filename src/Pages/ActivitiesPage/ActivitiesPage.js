@@ -1,8 +1,8 @@
 import { useHistory } from "react-router-dom";
 
 import DataActivities from "./DataActivities.json";
-import TaniecImg from "../../Image/SpecialOffer/party.jpg";
-import RuchImg from "../../Image/Fitness/fitness.jpg";
+import TaniecImg from "../../Image/Zajecia/Taniec.jpg";
+import RuchImg from "../../Image/Zajecia/Ruch.jpg";
 function ActivitiesPage() {
 	window.scrollTo(0, 0);
 

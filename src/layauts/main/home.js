@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom";
 
 import News from "./News/News";
 import Dance from "./Dance/Dance";
+import Ruch from "./Ruch/Dance";
 import Heder from "./Header/Header";
-import Kontakt from "../../Pages/ConcactPage/ConcactPage";
 import Break from "./Break/Break";
 
 function Home() {
@@ -20,10 +20,10 @@ function Home() {
 		<div className='Home'>
 			<Heder />
 			<News />
-			<Break text='Zajęcia' />
+			<Break text='Taniec' />
 			<Dance />
-			<Break text='kontakt' />
-			<Kontakt />
+			<Break text='Ruch' />
+			<Ruch />
 		</div>
 	);
 }

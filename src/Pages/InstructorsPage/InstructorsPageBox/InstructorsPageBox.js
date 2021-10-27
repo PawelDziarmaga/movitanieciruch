@@ -1,4 +1,4 @@
-function InstructorsPageBox({ img, name, txt }) {
+function InstructorsPageBox({ name, txt }) {
 	return (
 		<div className='instructors-page__box'>
 			<h2>{name}</h2>

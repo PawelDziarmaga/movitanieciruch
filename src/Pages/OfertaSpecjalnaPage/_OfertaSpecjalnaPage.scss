@@ -5,6 +5,9 @@
 	&__container {
 		.box {
 			margin: 2vh 0;
+			border-bottom: 5px solid $font-purple-color;
+			padding-bottom: 3vh;
+			margin-bottom: 3vh;
 		}
 		h2 {
 			@include h2-style;
