@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.56e11dfe.chunk.css",
-    "main.js": "/static/js/main.77ea006b.chunk.js",
-    "main.js.map": "/static/js/main.77ea006b.chunk.js.map",
+    "main.css": "/static/css/main.e3c7ff1b.chunk.css",
+    "main.js": "/static/js/main.4041fc55.chunk.js",
+    "main.js.map": "/static/js/main.4041fc55.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.308bbc13.js",
     "runtime-main.js.map": "/static/js/runtime-main.308bbc13.js.map",
     "static/js/2.ea9a971b.chunk.js": "/static/js/2.ea9a971b.chunk.js",
     "static/js/2.ea9a971b.chunk.js.map": "/static/js/2.ea9a971b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.56e11dfe.chunk.css.map": "/static/css/main.56e11dfe.chunk.css.map",
+    "static/css/main.e3c7ff1b.chunk.css.map": "/static/css/main.e3c7ff1b.chunk.css.map",
     "static/js/2.ea9a971b.chunk.js.LICENSE.txt": "/static/js/2.ea9a971b.chunk.js.LICENSE.txt",
     "static/media/1News-CanvaInstagram-1080x1920.85c59da7.jpg": "/static/media/1News-CanvaInstagram-1080x1920.85c59da7.jpg",
     "static/media/2News-CanvaInstagram-1080x1920.88d47484.jpg": "/static/media/2News-CanvaInstagram-1080x1920.88d47484.jpg",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.308bbc13.js",
     "static/js/2.ea9a971b.chunk.js",
-    "static/css/main.56e11dfe.chunk.css",
-    "static/js/main.77ea006b.chunk.js"
+    "static/css/main.e3c7ff1b.chunk.css",
+    "static/js/main.4041fc55.chunk.js"
   ]
 }
