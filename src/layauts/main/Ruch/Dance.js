@@ -2,13 +2,13 @@ import { useHistory } from "react-router";
 
 import ContainerDance from "./ContainerDance/ContainerDance";
 
-import BodyShapeIMG from "../../../Image/Ruch/BodyShape.jpg";
-import BPUIMG from "../../../Image/Ruch/BPU.jpg";
-import JogaIMG from "../../../Image/Ruch/Joga.jpg";
-import PilatesIMG from "../../../Image/Ruch/Pilates.jpg";
-import StepIMG from "../../../Image/Ruch/Step.jpg";
-import StrechingIMG from "../../../Image/Ruch/Streching.jpg";
-import TBCIMG from "../../../Image/Ruch/TBC.jpg";
+import BodyShapeIMG from "../../../Image/Ruch/Mini-518px-345px/BodyShape.jpg";
+import BPUIMG from "../../../Image/Ruch/Mini-518px-345px/BPU.jpg";
+import JogaIMG from "../../../Image/Ruch/Mini-518px-345px/Joga.jpg";
+import PilatesIMG from "../../../Image/Ruch/Mini-518px-345px/Pilates.jpg";
+import StepIMG from "../../../Image/Ruch/Mini-518px-345px/Step.jpg";
+import StrechingIMG from "../../../Image/Ruch/Mini-518px-345px/Streching.jpg";
+import TBCIMG from "../../../Image/Ruch/Mini-518px-345px/TBC.jpg";
 
 function Dance() {
 	const elements = [

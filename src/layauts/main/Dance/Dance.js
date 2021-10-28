@@ -2,13 +2,13 @@ import { useHistory } from "react-router";
 
 import ContainerDance from "./ContainerDance/ContainerDance";
 
-import BaletIMG from "../../../Image/Taniec/Balet.jpg";
-import LatinoIMG from "../../../Image/Taniec/Latino.jpg";
-import TaniecTowarzyskiIMG from "../../../Image/Taniec/TaniecTowarzyski.jpg";
-import TaniecUzytkowyIMG from "../../../Image/Taniec/TaniecUzytkowy.jpg";
-import TaniecWspolczesnyIMG from "../../../Image/Taniec/TaniecWspolczesny.jpg";
-import TechnikiTancaKlasycznegoIMG from "../../../Image/Taniec/TechnikiTancaKlasycznego.jpg";
-import ZajeciaRuchDlaDzieciIMG from "../../../Image/Taniec/ZajeciaRuchDlaDzieci.jpg";
+import BaletIMG from "../../../Image/Taniec/Mini-518px-345px/Balet.jpg";
+import LatinoIMG from "../../../Image/Taniec/Mini-518px-345px/Latino.jpg";
+import TaniecTowarzyskiIMG from "../../../Image/Taniec/Mini-518px-345px/TaniecTowarzyski.jpg";
+import TaniecUzytkowyIMG from "../../../Image/Taniec/Mini-518px-345px/TaniecUzytkowy.jpg";
+import TaniecWspolczesnyIMG from "../../../Image/Taniec/Mini-518px-345px/TaniecWspolczesny.jpg";
+import TechnikiTancaKlasycznegoIMG from "../../../Image/Taniec/Mini-518px-345px/TechnikiTancaKlasycznego.jpg";
+import ZajeciaRuchDlaDzieciIMG from "../../../Image/Taniec/Mini-518px-345px/ZajeciaRuchDlaDzieci.jpg";
 
 function Dance() {
 	const elements = [

@@ -1,6 +1,6 @@
 import FitnessPageBox from "./DancePage2Box/DancePage2Box";
 
-import FitnessPisture from "../../Image/Zajecia/Taniec.jpg";
+import FitnessPisture from "../../Image/Zajecia/Mini-518px-345px/Taniec.jpg";
 
 import DataFitness from "./DancePage2.json";
 

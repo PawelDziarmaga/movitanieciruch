@@ -1,10 +1,10 @@
 import SingleItem from "../SingleItem/SingleItem";
 
-import FirstNews from "../../../../Image/News/1News-CanvaInstagram-1080x1920.png";
-import SecondNews from "../../../../Image/News/2News-CanvaInstagram-1080x1920.png";
-import ThirdNews from "../../../../Image/News/3News-CanvaInstagram-1080x1920.png";
-import FourthNews from "../../../../Image/News/4News-CanvaInstagram-1080x1920.png";
-import FifthNews from "../../../../Image/News/5News-CanvaInstagram-1080x1920.png";
+import FirstNews from "../../../../Image/News/Mini-360px-640px/1News-CanvaInstagram-1080x1920.jpg";
+import SecondNews from "../../../../Image/News/Mini-360px-640px/2News-CanvaInstagram-1080x1920.jpg";
+import ThirdNews from "../../../../Image/News/Mini-360px-640px/3News-CanvaInstagram-1080x1920.jpg";
+import FourthNews from "../../../../Image/News/Mini-360px-640px/4News-CanvaInstagram-1080x1920.jpg";
+import FifthNews from "../../../../Image/News/Mini-360px-640px/5News-CanvaInstagram-1080x1920.jpg";
 
 function NewsImg() {
 	const newsClassList = [

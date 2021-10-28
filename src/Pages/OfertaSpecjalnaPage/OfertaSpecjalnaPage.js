@@ -1,4 +1,4 @@
-import img from "../../Image/SpecialOffer/party.jpg";
+import img from "../../Image/SpecialOffer/Mini-518px-345px/WieczorkiTaneczne.jpg";
 
 function OfertaSpecjalnaPage() {
 	window.scrollTo(0, 0);

@@ -1,6 +1,6 @@
 .dance__types {
 	border-bottom: 5px solid $font-purple-color;
-	padding-bottom: 5vh;
+
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -16,45 +16,62 @@
 		@media screen and (max-width: 600px) {
 			width: 100%;
 		}
-		&:nth-child(2n) {
-			h1 {
-				background-color: $black-4;
-			}
-		}
-		h1 {
+		&__backround {
 			position: absolute;
 			height: 100%;
 			width: 100%;
-			z-index: 2;
-
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 
 			background-color: $blue-6;
+		}
+		&:nth-child(2n) {
+			.ContainerDance__backround {
+				background-color: $black-4;
+			}
+		}
+		h1 {
+			position: absolute;
 
-			font-size: 45px;
+			z-index: 2;
+
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 70px;
 			color: $font-white-color;
-			line-height: 300px;
+
 			text-align: center;
 			text-transform: uppercase;
 
 			@media screen and (max-width: 1700px) {
-				font-size: 40px;
-				line-height: 250px;
+				font-size: 60px;
 			}
 			@media screen and (max-width: 1500px) {
-				font-size: 35px;
-				line-height: 200px;
+				font-size: 55px;
+			}
+			@media screen and (max-width: 1350px) {
+				font-size: 45px;
+			}
+			@media screen and (max-width: 1100px) {
+				font-size: 40px;
 			}
 			@media screen and (max-width: 1000px) {
+				font-size: 50px;
+			}
+			@media screen and (max-width: 800px) {
+				font-size: 40px;
+			}
+			@media screen and (max-width: 650px) {
 				font-size: 30px;
-				line-height: 180px;
+			}
+			@media screen and (max-width: 600px) {
+				font-size: 50px;
 			}
 
 			@media screen and (max-width: 450px) {
 				font-size: 8vw;
-				line-height: 45vw;
 			}
 		}
 		img {
