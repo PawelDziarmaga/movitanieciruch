@@ -1,0 +1,24 @@
+.footer__kontakt,
+.footer__adress,
+.footer__social {
+	padding: 0 2% 5vh 2%;
+	h1 {
+		border-bottom: 5px solid $font-purple-color;
+		margin-bottom: 3vh;
+	}
+	ul {
+		li {
+			text-align: left;
+			list-style: none;
+			margin-bottom: 1.5vh;
+			img {
+				height: 35px;
+				padding-right: 5%;
+			}
+			span {
+				display: inline-block;
+				transform: translate(0, -10px);
+			}
+		}
+	}
+}

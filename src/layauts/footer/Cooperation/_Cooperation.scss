@@ -1,18 +1,16 @@
 .cooperation-box {
-	padding: 2vh;
-	background-color: $footer-second-floor;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	img {
-		margin: 0 5%;
-		height: 40px;
+		height: 35px;
+		padding-right: 5%;
 	}
 	div {
-		color: #dddddd;
-		font-size: 10px;
+		font-size: 15px;
+		line-height: 35px;
 		a {
-			color: $font-blue-color;
-			font-size: 10px;
+			color: #eeeeee;
 		}
 	}
 }

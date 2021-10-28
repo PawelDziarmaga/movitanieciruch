@@ -1,17 +1,19 @@
-import Adress from "./Adress/Adress";
-import Map from "./Map/Map";
-import SocialMedia from "./SocialMedia/SocialMedia";
 import Cooperation from "./Cooperation/Cooperation";
+import Adres from "./Adres/Adres";
+import Kontakt from "./Kontakt/Kontakt";
+import Social from "./Social/Social";
 
 function footer() {
 	return (
 		<div className='footer'>
-			<Adress />
-			<div className='footer__box'>
-				<Map />
-				<SocialMedia />
+			<div className='footer__first-floor'>
+				<Adres />
+				<Kontakt />
+				<Social />
 			</div>
-			<Cooperation />
+			<div className='footer__second-floor'>
+				<Cooperation />
+			</div>
 			<div className='footer__third-floor'>
 				<h5>©2021 Wszelkie prawa zastrzeżone</h5>
 			</div>
