@@ -1,9 +1,12 @@
 .map-box {
+	padding: 5vh 2% 5vh 2%;
 	border-bottom: 5px solid $font-purple-color;
-	padding-bottom: 3vh;
+
 	margin-bottom: 3vh;
 	h2 {
-		@include h2-style;
+		margin-bottom: 3vh;
+
+		text-align: center;
 	}
 	iframe {
 		display: block;

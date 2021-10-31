@@ -2,12 +2,13 @@ import { useParams } from "react-router-dom";
 
 import News from "./News/News";
 import Dance from "./Dance/Dance";
-import Ruch from "./Ruch/Dance";
+import Ruch from "./Ruch/Ruch";
 import Heder from "./Header/Header";
 import Break from "./Break/Break";
 
 function Home() {
 	const sectionPath = useParams();
+
 	if (sectionPath[0] === "/Aktualnosci") {
 		window.scrollTo({
 			top: window.innerHeight,

@@ -20,6 +20,9 @@
 
 	&__title {
 		padding: 5vh 0;
+		@media screen and (max-width: 300px) {
+			font-size: 12vw;
+		}
 	}
 
 	&__box {
@@ -30,7 +33,9 @@
 		}
 
 		p {
+			position: relative;
 			text-align: justify;
+			padding-bottom: 4vh;
 			@media screen and (max-width: 1300px) {
 				font-size: 20px;
 			}
@@ -39,6 +44,12 @@
 			}
 			@media screen and (max-width: 350px) {
 				font-size: 12px;
+			}
+			span {
+				position: absolute;
+				color: $font-purple-color;
+				bottom: 0;
+				right: 0;
 			}
 		}
 		img {

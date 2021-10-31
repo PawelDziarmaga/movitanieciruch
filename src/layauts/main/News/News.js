@@ -1,37 +1,40 @@
-import NewsImg from "./NewsImg/NewsImg";
-
 import { useEffect, useRef } from "react";
-
+// import tools
 import { autoSwiper } from "../../../tools/News/autoSwiper";
 import { manualSwiper } from "../../../tools/News/manualSwiper";
 import Swiper from "../../../tools/News/swiper";
 import { manualClick } from "../../../tools/News/manualClick";
+// import img
+import NewsImg from "./NewsImg/NewsImg";
+
+let activeSwiper = false;
+
 function News() {
 	let interval = useRef("null");
-	const intervalTime = 10000;
+	const intervalTime = 12000;
+	// sctive interval
 	useEffect(() => {
 		interval.current = setInterval(() => {
 			autoSwiper();
 		}, intervalTime);
 		return () => clearInterval(interval.current);
 	}, []);
-	const clearIntervalFunction = () => {
-		clearInterval(interval.current);
-		interval.current = setInterval(() => {
-			autoSwiper();
-		}, intervalTime);
-	};
+
+	// sctive swiper
 	useEffect(() => {
-		new Swiper();
-		document.addEventListener("swipeLeft", () => {
-			manualSwiper("left");
-			clearIntervalFunction();
-		});
-		document.addEventListener("swipeRight", () => {
-			manualSwiper("right");
-			clearIntervalFunction();
-		});
-	}, []);
+		if (activeSwiper === false) {
+			new Swiper();
+
+			document.addEventListener("swipeLeft", () => {
+				manualSwiper("left");
+			});
+			document.addEventListener("swipeRight", () => {
+				manualSwiper("right");
+			});
+			activeSwiper = true;
+		}
+	});
+
 	const buttonsClassList = [
 		"first-news active",
 		"second-news",
@@ -41,10 +44,9 @@ function News() {
 	];
 	const buttons = buttonsClassList.map((element) => (
 		<div
+			key={element}
 			onClick={(e) => {
 				manualClick(e.target.classList[1]);
-				console.log(e.target.classList[1]);
-				clearIntervalFunction();
 			}}
 			className={`news__navigation-btn ${element}`}></div>
 	));

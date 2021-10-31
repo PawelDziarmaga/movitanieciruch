@@ -3,5 +3,6 @@
 @import "./SocialMedia/SocialMedia";
 
 .concact-page {
+	color: $font-grey-color;
 	@include sub-page;
 }

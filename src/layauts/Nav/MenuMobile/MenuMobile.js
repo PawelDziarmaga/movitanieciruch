@@ -1,15 +1,14 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 function MenuMobile({ dataMenu, click }) {
 	const menuElements = dataMenu.map((element) => (
 		<li
-			key={element}
+			key={element[0]}
 			className={`nav__menuMobile__element ${element}`}
 			onClick={click}>
 			<NavLink
-				to={element[2]}
-				href={element[2]}
+				to={element[1]}
+				href={element[1]}
 				className={`nav__menuMobile__link ${element}`}>
 				{element[0]}
 			</NavLink>

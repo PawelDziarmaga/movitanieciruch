@@ -16,6 +16,7 @@
 	}
 	.description {
 		display: flex;
+		margin-bottom: 3vh;
 		@media screen and (max-width: 1200px) {
 			display: block;
 		}

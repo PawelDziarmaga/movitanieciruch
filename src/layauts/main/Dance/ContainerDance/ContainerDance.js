@@ -1,10 +1,14 @@
-function ContainerDance({ name, img, click }) {
+function ContainerDance({ name, img, click, className }) {
 	return (
-		<div onClick={click} className='ContainerDance'>
-			<div className='ContainerDance__backround'></div>
-			<h1>{name}</h1>
+		<div
+			onClick={(e) => {
+				click(e);
+			}}
+			className={`ContainerDance ${className}`}>
+			<div className={`ContainerDance__backround ${className}`}></div>
+			<h1 className={`h1 ${className}`}>{name}</h1>
 
-			<img className={name} src={img} alt={name}></img>
+			<img className={`img ${className}`} src={img} alt={name}></img>
 		</div>
 	);
 }

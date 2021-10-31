@@ -1,34 +1,35 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useHistory } from "react-router-dom";
-
+/*   Import tools  */
 import { navScrollViev } from "../../tools/Nav/navScrollViev";
 import { navHamburger } from "../../tools/Nav/navHamburger";
 import { navMobileVisible } from "../../tools/Nav/navMobileVisible";
-
+/*   Import img  */
 import Logo from "./logo/Logo";
-import HamburgerMenu from "./hamburger-menu/HamburgerMenu";
+/*   Import componets  */
+import HamburgerMenu from "./hamburgerMenu/HamburgerMenu";
 import Menu from "./menu/Menu";
 import MenuMobile from "./MenuMobile/MenuMobile";
-
+/*   Define nav elements   */
 const dataMenu = [
-	["Aktualności", "a", "", "#idNews"],
-	["Zajecia", "NavLink", "/Zajecia", "/"],
-	["Grafik", "NavLink", "/Grafik", "/"],
-	["Team/Trenerzy", "NavLink", "/Instruktorzy", "/"],
-	["Cennik", "a", "/Cennik", "/"],
-	["Dodatkowa oferta", "NavLink", "/Ofertaspecjalna", "/"],
-	["O nas", "a", "/Onas", "/"],
-	["Kontakt", "NavLink", "/Kontakt", "/"],
+	["Aktualności", ""],
+	["Zajecia", "/Zajecia"],
+	["Grafik", "/Grafik"],
+	["Team/Trenerzy", "/Instruktorzy"],
+	["Cennik", "/Cennik"],
+	["Dodatkowa oferta", "/Ofertaspecjalna"],
+	["O nas", "/Onas"],
+	["Kontakt", "/Kontakt"],
 ];
 
 function Nav() {
-	let possition = 0;
+	let possition = useRef(0);
 	const history = useHistory();
 
 	useEffect(() => {
 		window.onscroll = () => {
-			navScrollViev(possition);
-			possition = Math.floor(window.scrollY / 10);
+			navScrollViev(possition.current);
+			possition.current = Math.floor(window.scrollY / 10);
 		};
 	});
 
@@ -55,7 +56,7 @@ function Nav() {
 							behavior: "smooth",
 						});
 						handleCrlollToId(e);
-						possition = 0;
+						possition.current = 0;
 						navScrollViev(0);
 					}}
 					dataMenu={dataMenu}
@@ -64,7 +65,7 @@ function Nav() {
 			<MenuMobile
 				click={(e) => {
 					window.scrollTo(0, 0);
-					possition = 0;
+					possition.current = 0;
 					handleCrlollToId(e);
 					navMobileVisible();
 				}}

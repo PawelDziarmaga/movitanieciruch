@@ -1,15 +1,21 @@
 .SocialMedia-box {
-	margin: 3vh 0;
-	h2 {
-		@include h2-style;
+	padding: 5vh 2% 5vh 2%;
+	h1 {
+		margin-bottom: 3vh;
 	}
-	&__icon {
-		display: flex;
-		justify-content: center;
-		img {
-			cursor: pointer;
-			width: 100px;
-			margin: 2vh 5%;
+	ul {
+		li {
+			text-align: center;
+			list-style: none;
+			margin-bottom: 1.5vh;
+			img {
+				height: 35px;
+				padding-right: 5%;
+			}
+			span {
+				display: inline-block;
+				transform: translate(0, -10px);
+			}
 		}
 	}
 }

@@ -11,30 +11,49 @@ import TechnikiTancaKlasycznegoIMG from "../../../Image/Taniec/Mini-518px-345px/
 import ZajeciaRuchDlaDzieciIMG from "../../../Image/Taniec/Mini-518px-345px/ZajeciaRuchDlaDzieci.jpg";
 
 function Dance() {
-	const elements = [
-		["Balet", BaletIMG],
-		["Latino", LatinoIMG],
-		["Taniec Towarzyski", TaniecTowarzyskiIMG],
-		["Taniec użytkowy", TaniecUzytkowyIMG],
-		["Taniec Współczesny", TaniecWspolczesnyIMG],
-		["Techniki Tańca Klasycznego", TechnikiTancaKlasycznegoIMG],
-		["Zajęcia Ruchowe Dla dzieci", ZajeciaRuchDlaDzieciIMG],
-		["Sprawdz grafik!", TechnikiTancaKlasycznegoIMG],
-	];
+	const history = useHistory();
 	const handleClick = (e) => {
-		const location = {
-			pathname: "/Taniec",
-		};
+		let location;
+		if (e.target.classList[1] === "toGraphic") {
+			location = {
+				pathname: `/Grafik`,
+			};
+		} else {
+			location = {
+				pathname: `/Taniec/${e.target.classList[1]}`,
+			};
+		}
+
 		history.push(location);
 	};
+	const elements = [
+		["Balet", BaletIMG, "Balet"],
+		["Latino", LatinoIMG, "Latino"],
+		["Taniec Towarzyski", TaniecTowarzyskiIMG, "TaniecTowarzyski"],
+		["Taniec użytkowy", TaniecUzytkowyIMG, "TaniecUżytkowy"],
+		["Taniec Współczesny", TaniecWspolczesnyIMG, "TaniecWspółczesny"],
+		[
+			"Techniki Tańca Klasycznego",
+			TechnikiTancaKlasycznegoIMG,
+			"TechnikiTańcaKlasycznego",
+		],
+		[
+			"Zajęcia Ruchowe Dla dzieci",
+			ZajeciaRuchDlaDzieciIMG,
+			"ZajęciaRuchoweDlaDzieci",
+		],
+		["Sprawdz grafik!", TechnikiTancaKlasycznegoIMG, "toGraphic"],
+	];
+
 	const createElements = elements.map((element) => (
 		<ContainerDance
+			key={element[0]}
 			click={handleClick}
 			name={element[0]}
 			img={element[1]}
+			className={element[2]}
 		/>
 	));
-	const history = useHistory();
 
 	return (
 		<div id='idDance' className='dance main-element'>

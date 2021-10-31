@@ -1,7 +1,7 @@
 @import "./MenuMobile/MenuMobile";
 @import "./menu/Menu";
 @import "./logo/Logo";
-@import "./hamburger-menu/HamburgerMenu";
+@import "./hamburgerMenu/HamburgerMenu";
 
 nav {
 	z-index: 10;
@@ -13,7 +13,7 @@ nav {
 	display: flex;
 	justify-content: space-evenly;
 
-	background-color: white;
+	background-color: $background-color;
 	box-shadow: $shadows-item;
 
 	transform: translateY(0);
@@ -32,10 +32,10 @@ nav {
 }
 .opacity-nav {
 	box-shadow: none;
-	color: white;
+	color: $background-color;
 	background-color: transparent;
 
 	.nav__menu__link {
-		color: white;
+		color: $background-color;
 	}
 }

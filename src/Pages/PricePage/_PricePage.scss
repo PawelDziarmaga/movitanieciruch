@@ -2,6 +2,7 @@
 @import "./SmallContainer/SmallContainer";
 
 .price-page {
+	color: $font-grey-color;
 	@include sub-page;
 	.price__big-container {
 		margin: 5vh 0;

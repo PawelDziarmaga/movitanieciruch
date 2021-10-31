@@ -1,12 +1,10 @@
-import { useState } from "react";
 import FitnessPageBoxElement from "../DancePage2BoxElement/DancePage2BoxElement";
 
-function FitnessPageBox({ title, img, txt }) {
+function FitnessPageBox({ title, img, txt, stan, setStan }) {
 	const data = txt;
-	const [stan, setStan] = useState("");
-	const handlerClick = ({ target }) => {
-		const chosenElementClass = target.classList[0];
 
+	const handlerClickTarget = ({ target }) => {
+		const chosenElementClass = target.classList[0];
 		const allElements = document.querySelectorAll(`.${title} div`);
 
 		const chosenElement = document.querySelectorAll(
@@ -26,19 +24,14 @@ function FitnessPageBox({ title, img, txt }) {
 			setStan("");
 		}
 	};
+
 	return (
 		<div className='fitness-page__box'>
 			<div className='description'>
 				<img src={img} alt={title}></img>
 				<div>
 					<div className='description__p'>
-						{data.opis.n1 && <p>{data.opis.n1}</p>}
-						{data.opis.n2 && <p>{data.opis.n2}</p>}
-						{data.opis.n3 && <p>{data.opis.n3}</p>}
-						{data.opis.n4 && <p>{data.opis.n4}</p>}
-						{data.opis.n5 && <p>{data.opis.n5}</p>}
-						{data.opis.n6 && <p>{data.opis.n6}</p>}
-						{data.opis.n7 && <p>{data.opis.n7}</p>}
+						<p>{data.opis.n1}</p>
 					</div>
 				</div>
 			</div>
@@ -48,7 +41,7 @@ function FitnessPageBox({ title, img, txt }) {
 					{data.tance.n1.nazwa && (
 						<div className={data.tance.n1.nazwaClass}>
 							<h3
-								onClick={handlerClick}
+								onClick={handlerClickTarget}
 								className={`${data.tance.n1.nazwaClass} ${title}`}>
 								{data.tance.n1.nazwa}
 							</h3>
@@ -57,7 +50,7 @@ function FitnessPageBox({ title, img, txt }) {
 					{data.tance.n2.nazwa && (
 						<div className={data.tance.n2.nazwaClass}>
 							<h3
-								onClick={handlerClick}
+								onClick={handlerClickTarget}
 								className={`${data.tance.n2.nazwaClass} ${title}`}>
 								{data.tance.n2.nazwa}
 							</h3>
@@ -66,7 +59,7 @@ function FitnessPageBox({ title, img, txt }) {
 					{data.tance.n3.nazwa && (
 						<div className={data.tance.n3.nazwaClass}>
 							<h3
-								onClick={handlerClick}
+								onClick={handlerClickTarget}
 								className={`${data.tance.n3.nazwaClass} ${title}`}>
 								{data.tance.n3.nazwa}
 							</h3>
@@ -75,7 +68,7 @@ function FitnessPageBox({ title, img, txt }) {
 					{data.tance.n4.nazwa && (
 						<div className={data.tance.n4.nazwaClass}>
 							<h3
-								onClick={handlerClick}
+								onClick={handlerClickTarget}
 								className={`${data.tance.n4.nazwaClass} ${title}`}>
 								{data.tance.n4.nazwa}
 							</h3>
@@ -84,7 +77,7 @@ function FitnessPageBox({ title, img, txt }) {
 					{data.tance.n5.nazwa && (
 						<div className={data.tance.n5.nazwaClass}>
 							<h3
-								onClick={handlerClick}
+								onClick={handlerClickTarget}
 								className={`${data.tance.n5.nazwaClass} ${title}`}>
 								{data.tance.n5.nazwa}
 							</h3>
@@ -93,7 +86,7 @@ function FitnessPageBox({ title, img, txt }) {
 					{data.tance.n6.nazwa && (
 						<div className={data.tance.n6.nazwaClass}>
 							<h3
-								onClick={handlerClick}
+								onClick={handlerClickTarget}
 								className={`${data.tance.n6.nazwaClass} ${title}`}>
 								{data.tance.n6.nazwa}
 							</h3>
@@ -102,7 +95,7 @@ function FitnessPageBox({ title, img, txt }) {
 					{data.tance.n7.nazwa && (
 						<div className={data.tance.n7.nazwaClass}>
 							<h3
-								onClick={handlerClick}
+								onClick={handlerClickTarget}
 								className={`${data.tance.n7.nazwaClass} ${title}`}>
 								{data.tance.n7.nazwa}
 							</h3>
@@ -111,7 +104,7 @@ function FitnessPageBox({ title, img, txt }) {
 					{data.tance.n8.nazwa && (
 						<div className={data.tance.n8.nazwaClass}>
 							<h3
-								onClick={handlerClick}
+								onClick={handlerClickTarget}
 								className={`${data.tance.n8.nazwaClass} ${title}`}>
 								{data.tance.n8.nazwa}
 							</h3>

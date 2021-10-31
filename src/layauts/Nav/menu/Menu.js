@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 function Menu({ dataMenu, click }) {
@@ -8,8 +7,8 @@ function Menu({ dataMenu, click }) {
 			className={`nav__menu__element ${element[0]}`}
 			onClick={click}>
 			<NavLink
-				to={element[2]}
-				href={element[2]}
+				to={element[1]}
+				href={element[1]}
 				className={`nav__menu__link ${element[0]}`}>
 				{element[0]}
 			</NavLink>

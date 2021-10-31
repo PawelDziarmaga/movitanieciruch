@@ -5,12 +5,9 @@ function Header() {
 
 	function handleClick(e) {
 		const choosen = e.target.classList[1];
-		console.log(choosen);
+
 		if (choosen === "btn__news") {
-			const location = {
-				pathname: "Aktualnosci",
-			};
-			history.push(location);
+			history.push("/Grafik");
 		} else {
 			history.push("/Onas");
 		}
@@ -32,7 +29,7 @@ function Header() {
 					<button
 						className='Header__content__buttons__news btn__news'
 						onClick={handleClick}>
-						Aktualności <span>»</span>
+						Grafik <span>»</span>
 					</button>
 				</div>
 

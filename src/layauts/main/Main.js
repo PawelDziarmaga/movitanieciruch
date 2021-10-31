@@ -51,11 +51,11 @@ function Main() {
 					<Kontakt />
 				</Route>
 
-				<Route path='/Taniec'>
+				<Route path='/Taniec/:message'>
 					<HeaderPage title='Taniec' />
 					<Taniec />
 				</Route>
-				<Route path='/Ruch'>
+				<Route path='/Ruch/:message'>
 					<HeaderPage title='Ruch' />
 					<Fitness />
 				</Route>
@@ -69,16 +69,3 @@ function Main() {
 }
 
 export default Main;
-/*
-			<Route path='/' exact component={Home} />
-			<Route path='/oNas' component={AboutPage} />
-			<Route path='/kontakt' component={ConcactPage} />
-			<Route path='/taniec' component={DancePage} />
-			<Route path='/fitness' component={FitnesPage} />
-			<Route path='/grafik' component={GraphicPage} />
-			<Route path='/instruktorzy' component={InstructorsPage} />
-			<Route path='/aktualnosci' component={NewsPage} />
-			<Route path='/ofertaslubna' t component={OfertaSlubnaPage} />
-			<Route path='/ofertaspecjalna' component={OfertaSpecjalnaPage} />
-			<Route path='/cennik' component={PricePage} />
-*/

@@ -4,15 +4,19 @@ import DataActivities from "./DataActivities.json";
 import TaniecImg from "../../Image/Zajecia/Mini-518px-345px/Taniec.jpg";
 import RuchImg from "../../Image/Zajecia/Mini-518px-345px/Ruch.jpg";
 function ActivitiesPage() {
-	window.scrollTo(0, 0);
+	window.scrollTo({
+		top: window.innerHeight / 6,
+		left: 0,
+		behavior: "smooth",
+	});
 
 	let history = useHistory();
 
 	function handleClick(e) {
 		if (e.target.classList[0] === "taniec") {
-			history.push("/Taniec");
+			history.push("/Taniec/Taniec");
 		} else if (e.target.classList[0] === "ruch") {
-			history.push("/Ruch");
+			history.push("/Ruch/Ruch");
 		}
 	}
 
@@ -26,7 +30,10 @@ function ActivitiesPage() {
 				</h2>
 				<div className='taniec activitiesPage__box'>
 					<img className='taniec' src={TaniecImg} alt='Taniec'></img>
-					<p className='taniec'>{DataActivities.taniec.opis}</p>
+					<p className='taniec'>
+						{DataActivities.taniec.opis}{" "}
+						<span className='taniec'>Więcej...</span>
+					</p>
 				</div>
 			</div>
 			<div
@@ -36,7 +43,10 @@ function ActivitiesPage() {
 					{DataActivities.RUCH.nazwa}
 				</h2>
 				<div className='ruch activitiesPage__box'>
-					<p className='ruch'>{DataActivities.RUCH.opis}</p>
+					<p className='ruch'>
+						{DataActivities.RUCH.opis}
+						<span className='ruch'>Więcej...</span>
+					</p>
 					<img className='ruch' src={RuchImg} alt='Taniec'></img>
 				</div>
 			</div>

@@ -5,10 +5,17 @@
 	img {
 		height: 35px;
 		padding-right: 5%;
+		@media screen and (max-width: 500px) {
+			height: 20px;
+		}
 	}
 	div {
 		font-size: 15px;
 		line-height: 35px;
+		@media screen and (max-width: 500px) {
+			font-size: 10px;
+			line-height: 20px;
+		}
 		a {
 			color: #eeeeee;
 		}
