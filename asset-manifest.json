@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3c7ff1b.chunk.css",
-    "main.js": "/static/js/main.4041fc55.chunk.js",
-    "main.js.map": "/static/js/main.4041fc55.chunk.js.map",
+    "main.css": "/static/css/main.9c372285.chunk.css",
+    "main.js": "/static/js/main.fafce9a6.chunk.js",
+    "main.js.map": "/static/js/main.fafce9a6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.308bbc13.js",
     "runtime-main.js.map": "/static/js/runtime-main.308bbc13.js.map",
     "static/js/2.ea9a971b.chunk.js": "/static/js/2.ea9a971b.chunk.js",
     "static/js/2.ea9a971b.chunk.js.map": "/static/js/2.ea9a971b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e3c7ff1b.chunk.css.map": "/static/css/main.e3c7ff1b.chunk.css.map",
+    "static/css/main.9c372285.chunk.css.map": "/static/css/main.9c372285.chunk.css.map",
     "static/js/2.ea9a971b.chunk.js.LICENSE.txt": "/static/js/2.ea9a971b.chunk.js.LICENSE.txt",
     "static/media/1News-CanvaInstagram-1080x1920.85c59da7.jpg": "/static/media/1News-CanvaInstagram-1080x1920.85c59da7.jpg",
     "static/media/2News-CanvaInstagram-1080x1920.88d47484.jpg": "/static/media/2News-CanvaInstagram-1080x1920.88d47484.jpg",
     "static/media/3News-CanvaInstagram-1080x1920.a1441e28.jpg": "/static/media/3News-CanvaInstagram-1080x1920.a1441e28.jpg",
-    "static/media/4News-CanvaInstagram-1080x1920.3e917a14.jpg": "/static/media/4News-CanvaInstagram-1080x1920.3e917a14.jpg",
-    "static/media/5News-CanvaInstagram-1080x1920.6bfbd119.jpg": "/static/media/5News-CanvaInstagram-1080x1920.6bfbd119.jpg",
     "static/media/BPU.e5a9f556.jpg": "/static/media/BPU.e5a9f556.jpg",
     "static/media/Balet.69fc032a.jpg": "/static/media/Balet.69fc032a.jpg",
     "static/media/BodyShape.e5a9f556.jpg": "/static/media/BodyShape.e5a9f556.jpg",
@@ -35,13 +33,15 @@
     "static/media/ZajeciaRuchDlaDzieci.2d93d235.jpg": "/static/media/ZajeciaRuchDlaDzieci.2d93d235.jpg",
     "static/media/facebook.4f037d96.png": "/static/media/facebook.4f037d96.png",
     "static/media/instagram.e719d8b2.png": "/static/media/instagram.e719d8b2.png",
-    "static/media/loading-process1-4.550d0501.png": "/static/media/loading-process1-4.550d0501.png",
-    "static/media/loading-process2-4.e7c5700b.png": "/static/media/loading-process2-4.e7c5700b.png"
+    "static/media/loading-process1-4.30c5f37a.png": "/static/media/loading-process1-4.30c5f37a.png",
+    "static/media/loading-process2-4.ab58e60e.png": "/static/media/loading-process2-4.ab58e60e.png",
+    "static/media/loading-process3-4.4fb71648.png": "/static/media/loading-process3-4.4fb71648.png",
+    "static/media/loading-process4-4.a0276012.png": "/static/media/loading-process4-4.a0276012.png"
   },
   "entrypoints": [
     "static/js/runtime-main.308bbc13.js",
     "static/js/2.ea9a971b.chunk.js",
-    "static/css/main.e3c7ff1b.chunk.css",
-    "static/js/main.4041fc55.chunk.js"
+    "static/css/main.9c372285.chunk.css",
+    "static/js/main.fafce9a6.chunk.js"
   ]
 }
