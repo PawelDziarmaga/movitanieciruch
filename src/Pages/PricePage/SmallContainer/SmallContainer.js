@@ -24,6 +24,7 @@ function SmallContainer({
 
 	const PriceElements = PriceElementsData.map((element) => (
 		<PriceElement
+			key={element[0]}
 			price={element[0]}
 			img={element[1]}
 			name={element[2]}

@@ -16,10 +16,7 @@ function Header() {
 		<div id='idHeader' className='Header main-element'>
 			<div className='Header__image'></div>
 			<div className='Header__content'>
-				<h1>
-					Już niebawem otwieramy dla Was MOVI. Miejsce pełne TAŃCA I
-					RUCHU. Nie możemy się już doczekać, żeby spotkać się z Tobą!
-				</h1>
+				<h1>MOVI – MIEJSCE PEŁNE TAŃCA I RUCHU.</h1>
 				<div className='Header__content__buttons'>
 					<button
 						className='Header__content__buttons__about'

@@ -39,8 +39,8 @@ function News() {
 		"first-news active",
 		"second-news",
 		"third-news",
-		/*"fourt-news",
-		"fifth-news",*/
+		"fourt-news",
+		/*"fifth-news",*/
 	];
 	const buttons = buttonsClassList.map((element) => (
 		<div

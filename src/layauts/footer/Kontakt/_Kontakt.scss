@@ -5,14 +5,12 @@
 	h1 {
 		border-bottom: 5px solid $font-purple-color;
 		margin-bottom: 3vh;
-		@media screen and (max-width: 500px) {
-			font-size: 30px;
-		}
+		font-size: 20px;
 	}
 	ul {
-		@media screen and (max-width: 500px) {
-			font-size: 15px;
-		}
+		font-size: 15px;
+		min-width: 250px;
+
 		li {
 			text-align: left;
 			list-style: none;
@@ -22,6 +20,7 @@
 				padding-right: 5%;
 			}
 			span {
+				color: $font-white-color;
 				display: inline-block;
 				transform: translate(0, -10px);
 			}

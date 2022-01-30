@@ -15,7 +15,7 @@
 
 		cursor: pointer;
 
-		box-shadow: 0 0 2px #8c8c8c;
+		box-shadow: 0 0 2px $font-grey-color;
 
 		h2 {
 			text-align: left;
@@ -32,6 +32,9 @@
 			}
 			@media all and (max-width: 450px) {
 				font-size: 20px;
+			}
+			@media all and (max-width: 350px) {
+				font-size: 18px;
 			}
 		}
 		.arrow {

@@ -7,11 +7,11 @@ export const navHamburger = () => {
 	let menuHamburger: Element =
 		document.getElementsByClassName("nav__hamburger")[0];
 
-	if (nav.classList[1] === "opacity-nav") {
+	/*if (nav.classList[1] === "opacity-nav") {
 		nav.classList.remove("opacity-nav");
 	} else if (nav.classList[1] !== "opacity-nav" && possition < 1) {
 		nav.classList.add("opacity-nav");
-	}
+	}*/
 
 	mobileMenu.classList.toggle("visible");
 

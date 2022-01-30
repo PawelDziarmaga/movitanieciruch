@@ -10,6 +10,13 @@ import PilatesIMG from "../../Image/Ruch/Mini-518px-345px/Pilates.jpg";
 import StepIMG from "../../Image/Ruch/Mini-518px-345px/Step.jpg";
 import StrechingIMG from "../../Image/Ruch/Mini-518px-345px/Streching.jpg";
 import TBCIMG from "../../Image/Ruch/Mini-518px-345px/TBC.jpg";
+import CardioIMG from "../../Image/Ruch/Mini-518px-345px/Cardio.jpg";
+import PłaskiBrzuchIMG from "../../Image/Ruch/Mini-518px-345px/PłaskiBrzuch.jpg";
+import ZdrowyKręgosłupIMG from "../../Image/Ruch/Mini-518px-345px/ZdrowyKręgosłup.jpg";
+import BRZUCHSTRETCHIMG from "../../Image/Ruch/Mini-518px-345px/BRZUCHSTRETCH.jpg";
+import TABATAIMG from "../../Image/Ruch/Mini-518px-345px/TABATA.jpg";
+import ZUMBAIMG from "../../Image/Ruch/Mini-518px-345px/ZUMBA.jpg";
+import AEROBIKIMG from "../../Image/Ruch/Mini-518px-345px/AEROBIK.jpg";
 
 import DataFitness from "./DataFitness.json";
 
@@ -71,6 +78,27 @@ function FitnessPage() {
 			break;
 		case "TBC":
 			image = TBCIMG;
+			break;
+		case "Cardio":
+			image = CardioIMG;
+			break;
+		case "PłaskiBrzuch":
+			image = PłaskiBrzuchIMG;
+			break;
+		case "ZdrowyKregoslup":
+			image = ZdrowyKręgosłupIMG;
+			break;
+		case "BrzuchStrech":
+			image = BRZUCHSTRETCHIMG;
+			break;
+		case "TABATA":
+			image = TABATAIMG;
+			break;
+		case "ZUMBA":
+			image = ZUMBAIMG;
+			break;
+		case "AEROBIK":
+			image = AEROBIKIMG;
 			break;
 		default:
 			image = StrechingIMG;

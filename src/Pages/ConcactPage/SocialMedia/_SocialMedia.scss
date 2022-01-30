@@ -5,7 +5,8 @@
 	}
 	ul {
 		li {
-			text-align: center;
+			padding-left: 30%;
+			text-align: left;
 			list-style: none;
 			margin-bottom: 1.5vh;
 			img {
@@ -15,6 +16,7 @@
 			span {
 				display: inline-block;
 				transform: translate(0, -10px);
+				color: $font-grey-color;
 			}
 		}
 	}

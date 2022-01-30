@@ -1,9 +1,9 @@
+import przelewy from "../../../Image/Footer/Cooperation/Przelewy24_logo.png";
+
 function Cooperation() {
 	return (
 		<div className='cooperation-box'>
-			<img
-				src='https://www.przelewy24.pl/themes/base/assets/images/przelewy24_logo.svg'
-				alt='przelewy 24'></img>
+			<img src={przelewy} alt='przelewy 24'></img>
 			<div>
 				Icons made by{" "}
 				<a href='https://www.freepik.com' title='Freepik'>

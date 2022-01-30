@@ -1,25 +1,23 @@
 {
 	"tytul": "Fitness",
 	"opis": {
-		"n1": "Pokaż swój temperament, popraw koordynację i podnieść pewność siebie w rytmie ulubionej muzyki. Połącz świetną zabawę z wysiłkiem angażującym całe ciało, pod okiem profesjonalnych tancerzy."
+		"n1": "Pokaż swój temperament, popraw koordynację i podnieś pewność siebie w rytmie ulubionej muzyki. Nie ma nic lepszego niż połączenie świetnej zabawy z wysiłkiem angażującym całe ciało, pod okiem profesjonalnych tancerzy. Nie wiesz, czy konkretne zajęcia są dla Ciebie odpowiednie? Kliknij „więcej” i przekonaj się."
 	},
 	"tance": {
 		"n1": {
 			"nazwa": "Taniec Towarzyski",
 			"nazwaClass": "TaniecTowarzyski active-color",
 			"opis": {
-				"n1": "To jedna z najbardziej popularnych form nauki tańca. Podczas kursu nauczysz się stylów standardowych i latynoamerykańskich: walca angielskiego, walca wiedeńskiego, quickstepa, tanga, foxtrota oraz rumby, samby, paso-doble, cha chy i jive'a. Taniec towarzyski to także świetny sposób dla par na aktywne spędzanie czasu. O prefesjonalizm na zajęciach zadbają nasi instruktorzy, którzy mogą pochwalić się bogatym doświadczeniem i wieloma tytułami.",
-				"n2": "Dostępne grupy wiekowe: ",
-				"n3": " Doroścli Dzieci Seniorzy"
+				"n1": "Pokaż swój temperament, popraw koordynację i podnieś pewność siebie w rytmie ulubionej muzyki. Nie ma nic lepszego niż połączenie świetnej zabawy z wysiłkiem angażującym całe ciało, pod okiem profesjonalnych tancerzy. Nie wiesz, czy konkretne zajęcia są dla Ciebie odpowiednie? Kliknij „więcej” i przekonaj się."
 			}
 		},
 		"n2": {
 			"nazwa": "Taniec Użytkowy",
 			"nazwaClass": "TaniecUżytkowy",
 			"opis": {
-				"n1": "Zajęcia przenaczone dla osób, które lubią dobrą zabawę i chcą nauczyć się tańczyć, ale w bardziej swobodnej formie niż proponuje to kurs tańca towarzyskiego. Głównym założeniem jest poznanie prostych, uniwersalnych kroków, efektownych obrotów i figur, które sprawdzą się praktycznie przy każdej muzyce. W efekcie kursanci będą brylować na prakiecie, czerpać radość z tańca, a panowie zawodowo prowadzą w nim swoje partnerki. Taniec użytkowy przeznaczony jest dla osob w każdym wieku.",
-				"n2": "Dostępne grupy wiekowe: ",
-				"n3": " Doroścli Pary Seniorzy"
+				"n1": "Zajęcia przeznaczone dla osób, które lubią dobrą zabawę i chcą nauczyć się tańczyć, ale w bardziej swobodnej formie niż proponuje to kurs tańca towarzyskiego. Głównym założeniem jest poznanie prostych, uniwersalnych kroków, efektownych obrotów i figur, które sprawdzą się praktycznie przy każdej muzyce. W efekcie kursanci będą brylować na parkiecie, czerpać radość z tańca, a panowie zawodowo poprowadzą w nim swoje partnerki.",
+				"n2": "Zajęcia prowadzone są w parach.",
+				"n3": "Jeśli nie masz partnerki lub partnera do tańca, skontaktuj się z nami. "
 			}
 		},
 
@@ -27,48 +25,81 @@
 			"nazwa": "Latino",
 			"nazwaClass": "Latino",
 			"opis": {
-				"n1": "Podczas zajęć możesz przenieść się do gorącej Brazylii, namiętej Kuby lub radosnej Ameryki. Nie brakuje tu ekspresji, ogrmnego temperamentu i zmysłowych ruchów. Na zajęciach nauczysz się choreografi opartych na figurach tańca latynoamerykańskiego jak rumba, cha cha, salsa, samba, czy paso-doble. Jest to świetna forma aktywności, pozwalająca kształtować zgrabną i wysportowaną sylwetkę, dobrze się przy tym bawiąc.",
-				"n2": "Dostępne grupy wiekowe: ",
-				"n3": " Doroścli Pary Seniorzy"
+				"n1": "Podczas zajęć możesz przenieść się do gorącej Brazylii, namiętnej Kuby lub radosnej Ameryki. Nie brakuje tu ekspresji, ogromnego temperamentu i zmysłowych ruchów. Na zajęciach nauczysz się choreografii opartych na figurach tańca latynoamerykańskiego jak rumba, cha cha, salsa, samba, czy paso-doble. Jest to świetna forma aktywności, pozwalająca kształtować zgrabną i wysportowaną sylwetkę, dobrze się przy tym bawiąc.",
+				"n2": "Na zajęciach uczestnicy tańczą solo."
 			}
 		},
 		"n4": {
 			"nazwa": "Balet ",
 			"nazwaClass": "Balet",
 			"opis": {
-				"n1": "Balet jest świetną formą zajęć dla dzieci. Uczy prawidłowej postawy, lekkości poruszania się i dba o sylwetkę. Poznanie podstaw tej techniki jest niezbędne dla wszystkich osób, które wiążą swoją przyszłość z profesjonalnym tańcem. Zajęcia baletu ćwiczą piękna linia ciała, rozciągnięcie, harmonię i płynność ruchów. To także nauka zasad, które są fundamentem do wykonywania efektowych skoków i obrotów.",
-				"n2": "Dostępne grupy wiekowe: ",
-				"n3": " Dzieci Młodzież"
+				"n1": "Balet jest świetną formą zajęć dla dzieci. Uczy prawidłowej postawy, lekkości poruszania się i dba o sylwetkę. Poznanie podstaw tej techniki jest niezbędne dla wszystkich osób, które wiążą swoją przyszłość z profesjonalnym tańcem. Zajęcia baletu ćwiczą piękną linię ciała, rozciągnięcie, harmonię i płynność ruchów. To także nauka zasad, które są fundamentem do wykonywania efektownych skoków i obrotów.",
+				"n2": "Zajęcia dla dzieci od 7 lat."
 			}
 		},
+
 		"n5": {
-			"nazwa": "Techniki tańca klasycznego",
-			"nazwaClass": "TechnikiTańcaKlasycznego",
-			"opis": {
-				"n1": "Techniki tańca klasycznego sa podstawowym treningem dla każdego tancerza, niezależnie w jakim kierunku i stylu chesz się rozwijać. Zajęcia uczą ładnej postawy, lekkości w skokach, balansu ciała oraz techniki dla widowiskowych obrotów i pirrueatów. Tancerz kształtuję piękną sylwetkę, uczy się płynności ruchów, wdzięku i elegancji w wykańczaniu póz. Ćwiczenia wykonywane są przy drążku, ale także na środku sali.",
-				"n2": "Dostępne grupy wiekowe: ",
-				"n3": " Doroścli Młodzież "
-			}
-		},
-		"n6": {
 			"nazwa": "Taniec Współczesny",
 			"nazwaClass": "TaniecWspółczesny",
 			"opis": {
-				"n1": "Jest to styl, wywodzący się z tańca klasycznego, który zawiera jego podstawowe elementy, ale odrzuca sztywne zasady. Z baletu czerpie przede wszystkim świadomość i plastykę ciała. W choreografiach można znaleźć także elementy tańca nowoczesnego, jazzu, a nawet akrobatyki. Charakterystyczne jest balansowanie między napięciem i rozluźnieniem ciała, kontrolowanie przebiegu ruchu oraz wyrażanie emocji. Tancerze wykorzystują ciężar ciała, grawitację, oddech. Często można się spotkać z izolacją poszczególnych partii ciała, zawieszeniem ruchu i wyprowadzaniem go z impulsu ciała.",
-				"n2": "Dostępne grupy wiekowe: ",
-				"n3": " Doroścli Dzieci Seniorzy"
+				"n1": "Styl wywodzi się z tańca klasycznego i zawiera jego podstawowe elementy, ale odrzuca sztywne zasady. Z baletu czerpie przede wszystkim świadomość i plastykę ciała. W choreografiach można znaleźć także elementy tańca nowoczesnego, jazzu, a nawet akrobatyki. Charakterystyczne jest balansowanie między napięciem i rozluźnieniem ciała, kontrolowanie przebiegu ruchu oraz wyrażanie emocji. Tancerze wykorzystują ciężar ciała, grawitację, oddech. Często można się spotkać z izolacją poszczególnych partii ciała, zawieszeniem ruchu i wyprowadzaniem go z impulsu ciała.",
+				"n2": "Zajęcia dla dzieci od 7 lat i młodzieży od 12 lat."
+			}
+		},
+		"n6": {
+			"nazwa": "MOVI KIDS",
+			"nazwaClass": "ZajęciaRuchoweDlaDzieci",
+			"opis": {
+				"n1": "To zabawa z ruchem i muzyką, która wprowadzi dziecko w świat tańca. Zajęcia sprzyjają rozwojowi psychomotorycznemu dziecka, uczą prawidłowej postawy, rozwijają jego umiejętności koordynacji ruchowej i pozwalają zrozumieć, na czym polega rytm. Instruktorzy dbają o to, żeby każde spotkanie z najmłodszymi kursantami łączyło naukę z dobrą zabawą. W rezultacie jest to także świetna forma kształtowania wyobraźni, przełamywania nieśmiałości i nawiązywania kontaktów z rówieśnikami.",
+				"n2": "Zajęcia dla dzieci w wieku 4-6 lat."
 			}
 		},
 		"n7": {
-			"nazwa": "Zajęcia ruchowe dla dzieci",
-			"nazwaClass": "ZajęciaRuchoweDlaDzieci",
+			"nazwa": "HIP HOP",
+			"nazwaClass": "HIPHOP",
 			"opis": {
-				"n1": "To zabawa z ruchem i muzyką, która wprowadzi dziecko w świat tańca. Zajęcia sprzyjają rozwojowi psychomotorycznemu dziecka, uczą prawidłowej postawy, rozwijają jego umiejętności koordynacji ruchowej i pozwalają zrozumieć na czym polega rytm. Instruktorzy dbają o to, żeby każde spotkanie z najmłodszymi kursantami łączyło naukę z dobrą zabawą. W rezultacjie jest to także świetna forma kształtowania wyobraźni, przełamywania nieśmiałości i nawiązywania kontaktów z rówieśnikami.",
-				"n2": "Dostępne grupy wiekowe: ",
-				"n3": "Dzieci "
+				"n1": "Popularny styl tańca, zaliczany do tańców ulicznych (street dance), wywodzący się z Nowego Jorku. Dużą uwagę zwraca się na izolację, ruch bioder i nóg. Zajęcia świetnie łączą zabawę z treningiem, który uczy nie tylko hip-hopowych kroków, ale także wyrażania siebie przez ruch, gest i mimikę. W wyniku powstają widowiskowe choreografie o pełnej ekspresji i niesamowitej dawce energii.",
+				"n2": "Zajęcia dla dzieci od 7 lat i młodzieży od 12 lat. "
 			}
 		},
 		"n8": {
+			"nazwa": "Bachata Lady Style",
+			"nazwaClass": "BachataLadyStyle",
+			"opis": {
+				"n1": "Zajęcia skierowane są dla wszystkich Pań, które chcą wyrazić swoją kobiecość w tańcu pełnym uroku i ekspresji. Kroki są łatwe w nauce, a ruchy zmysłowe i sensualne. Bachata Lady style to świetna szansa dla zwiększenia poczucia świadomości swojego ciała, a także nabrania pewności siebie i swobody w tańcu. Umiejętności zdobyte na zajęciach można śmiało wykorzystać na imprezach."
+			}
+		},
+		"n9": {
+			"nazwa": "Salsa Cubana",
+			"nazwaClass": "SalsaCubana",
+			"opis": {
+				"n1": "Taniec, który połączeniu z kubańską muzyką w łatwy sposób przenosi na Kubę, czyli do miejsca, gdzie powstała ta odmiana salsy. Jest to bardzo energetyczny taniec, dający dużo radości, w którym wykonuje się tzw. węzły kubańskie – charakterystyczne kombinacje rąk partnerów. Zajęcia to możliwość szybkich wakacji na Kubie i uczestniczenia w kapitalnej zabawie. Po powrocie z cotygodniowego, godzinnego odpoczynku, nabyte umiejętności, z łatwością można wykorzystać podczas imprezy lub salsoteki, dzięki użytkowości i uniwersalności salsy cubany."
+			}
+		},
+		"n10": {
+			"nazwa": "Rueda De Casino – Salsa Cubana",
+			"nazwaClass": "RuedeDeCasino",
+			"opis": {
+				"n1": "Odmiana salsy kubańskiej, tańczona w specyficzny sposób. Może brać w niej udział od dwóch do nieograniczonej liczby par, ustawionych w okręgu. Wszystkie pary tańczą równocześnie te same figury, których nazwy wykrzykuje lub pokazuje prowadzący. W trakcie wykonywania poszczególnych figur, partnerzy niemal w każdym takcie, wymieniają się miejscami, co czyni ten taniec ciekawym dla tańczących i podziwiających tancerzy."
+			}
+		},
+		"n11": {
+			"nazwa": "Techniki tańca klasycznego",
+			"nazwaClass": "TechnikiTańcaKlasycznego",
+			"opis": {
+				"n1": "Techniki tańca klasycznego są podstawowym treningiem dla każdego tancerza, niezależnie w jakim kierunku i stylu chcesz się rozwijać. Zajęcia uczą ładnej postawy, lekkości w skokach, balansu ciała oraz techniki dla widowiskowych obrotów i piruetów. Podczas treningu kształtuje się piękną sylwetkę, uczy płynności ruchów, wdzięku i elegancji w wykańczaniu póz. Ćwiczenia wykonywane są przy drążku, ale także na środku sali."
+			}
+		},
+		"n12": {
+			"nazwa": "",
+			"opis": {
+				"n1": "",
+				"n2": "",
+				"n3": "",
+				"n4": ""
+			}
+		},
+		"n13": {
 			"nazwa": "",
 			"opis": {
 				"n1": "",

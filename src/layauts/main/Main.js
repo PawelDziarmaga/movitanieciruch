@@ -4,9 +4,9 @@ import Home from "./home";
 
 import ActivitiesPage from "../../Pages/ActivitiesPage/ActivitiesPage";
 import Grafik from "../../Pages/GraphicPage/GraphicPage";
-import Instruktorzy from "../../Pages/InstructorsPage/InstructorsPage";
-import Cennik from "../../Pages/PricePage/PricePage";
-import Ofertaspecjalna from "../../Pages/OfertaSpecjalnaPage/OfertaSpecjalnaPage";
+/*import Instruktorzy from "../../Pages/InstructorsPage/InstructorsPage";*/
+/*import Cennik from "../../Pages/PricePage/PricePage";*/
+/*import Ofertaspecjalna from "../../Pages/OfertaSpecjalnaPage/OfertaSpecjalnaPage";*/
 import About from "../../Pages/AboutPage/AboutPage";
 import Kontakt from "../../Pages/ConcactPage/ConcactPage";
 
@@ -30,18 +30,7 @@ function Main() {
 					<HeaderPage title='Grafik' />
 					<Grafik />
 				</Route>
-				<Route path='/Instruktorzy'>
-					<HeaderPage title='Team/trenerzy' />
-					<Instruktorzy />
-				</Route>
-				<Route path='/Cennik'>
-					<HeaderPage title='Cennik' />
-					<Cennik />
-				</Route>
-				<Route path='/Ofertaspecjalna'>
-					<HeaderPage title='Dodatkowa oferta' />
-					<Ofertaspecjalna />
-				</Route>
+
 				<Route path='/Onas'>
 					<HeaderPage title='POZNAJMY SIĘ' />
 					<About />
@@ -69,3 +58,18 @@ function Main() {
 }
 
 export default Main;
+
+/*
+	<Route path='/Instruktorzy'>
+					<HeaderPage title='Team/trenerzy' />
+					<Instruktorzy />
+				</Route>
+				<Route path='/Cennik'>
+					<HeaderPage title='Cennik' />
+					<Cennik />
+				</Route>
+				<Route path='/Ofertaspecjalna'>
+					<HeaderPage title='Dodatkowa oferta' />
+					<Ofertaspecjalna />
+				</Route>
+*/

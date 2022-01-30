@@ -13,11 +13,11 @@ import MenuMobile from "./MenuMobile/MenuMobile";
 /*   Define nav elements   */
 const dataMenu = [
 	["Aktualności", ""],
-	["Zajecia", "/Zajecia"],
+	["Zajęcia", "/Zajecia"],
 	["Grafik", "/Grafik"],
-	["Team/Trenerzy", "/Instruktorzy"],
+	/*["Team/Trenerzy", "/Instruktorzy"],
 	["Cennik", "/Cennik"],
-	["Dodatkowa oferta", "/Ofertaspecjalna"],
+	["Dodatkowa oferta", "/Ofertaspecjalna"],*/
 	["O nas", "/Onas"],
 	["Kontakt", "/Kontakt"],
 ];
@@ -45,7 +45,7 @@ function Nav() {
 
 	return (
 		<div className='nav-container visible'>
-			<nav className='nav opacity-nav  '>
+			<nav className='nav '>
 				<Logo click={navMobileVisible} />
 				<HamburgerMenu click={navHamburger} />
 				<Menu

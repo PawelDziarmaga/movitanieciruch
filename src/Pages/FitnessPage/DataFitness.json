@@ -1,21 +1,22 @@
 {
 	"tytul": "Fitness",
 	"opis": {
-		"n1": "Zadbaj o swoją siłę, kondycję i wytrzymałość na treningach prowadzonych przez wykwalifkiownanych trenerów. Do wyboru zajęcia dla tych, którzy wolą większą dynamikę i tych, którzy cenią sobie wysiłek połączony z relaksem."
+		"n1": "Zadbaj o swoją siłę, kondycję i wytrzymałość na treningach prowadzonych przez wykwalifikowanych trenerów. Do wyboru zajęcia dla lubiących dużą dynamikę i intensywność ćwiczeń, ale i tych ceniących sobie wysiłek połączony z relaksem. Jeśli widziałeś grafik i nazwy zajęć brzmią dla Ciebie jak tajny szyfr, pomożemy Ci go złamać. Jedyne co musisz zrobić to kliknąć „więcej”.",
+		"n2": "Zadbaj o swoją siłę, kondycję i wytrzymałość na treningach prowadzonych przez wykwalifikowanych trenerów. Do wyboru zajęcia dla tych, którzy wolą większą dynamikę i tych, którzy cenią sobie wysiłek połączony z relaksem."
 	},
 	"tance": {
 		"n1": {
 			"nazwa": "Stretching ",
 			"nazwaClass": "Stretching active-color",
 			"opis": {
-				"n1": "Czyli po prostu rozciąganie. Nie daj się zwieść często słyszanej opinii, że to najnudniejsza forma ruchu. Naszym zdaniem tak mówią osoby, które traktują tę część treningu niestarannie. Decydując się na te zajęcia, rozciągniesz wszystkie grupy mięśni i odzyskasz ich elastyczność. Treningi pozwolą Ci zapobiegać kontuzjom, ale też zwiększą ogólną sprawność ciała, co odczujesz nawet podczas codziennych aktywności."
+				"n1": "Czyli po prostu rozciąganie. Nie daj się zwieść często słyszanej opinii, że to najnudniejsza forma ruchu. Naszym zdaniem tak mówią osoby, które traktują tę część treningu niestarannie. Decydując się na zajęcia, rozciągniesz wszystkie grupy mięśni i odzyskasz ich elastyczność. Treningi pozwolą Ci zapobiegać kontuzjom, ale też zwiększą ogólną sprawność ciała, co odczujesz nawet podczas codziennych aktywności."
 			}
 		},
 		"n2": {
 			"nazwa": "Pilates",
 			"nazwaClass": "Pilates",
 			"opis": {
-				"n1": "Celem tej metody jest płynne wykonywanie ćwiczeń z pełną świadomością i kontrolą każdego centymetra ciała. Pilates pomoże wysmuklić całe ciało, poprawić elastyczność stawów i wzmacnić mięśnie. Moc metody leży w angażowaniu mięśni głębokich miednicy i tułowia, które często są pomijane przy innych treningach.W efekcie korygowane są nieprawidłowości postawy, a po zakończeniu każdego treningu pojawia się uczucie spokoju i odprężenia."
+				"n1": "Celem tej metody jest płynne wykonywanie ćwiczeń z pełną świadomością i kontrolą każdego centymetra ciała. Pilates pomoże wysmuklić całe ciało, poprawić elastyczność stawów i wzmacniać mięśnie. Moc metody leży w angażowaniu mięśni głębokich miednicy i tułowia, które często są pomijane przy innych treningach. W efekcie korygowane są nieprawidłowości postawy, a po zakończeniu każdego treningu pojawia się uczucie spokoju i odprężenia."
 			}
 		},
 
@@ -23,38 +24,87 @@
 			"nazwa": "Joga",
 			"nazwaClass": "Joga",
 			"opis": {
-				"n1": "Wdzięk, siła i spokój - tak w trzech słowach można opisać Jogę. Jest to doskonała forma ruchu, by poczuć się dobrze w swoim ciele i zadbać o zdrowie. Dzięki treningom możesz zyskać szczupłą sylwetkę, kształtować mięśnie i po prostu czerpać przyjemność. Dodatkowo model zajęć świetnie odstresowuje i pozwala na chwilę zwolnić nieustanny pęd, w którym żyjemy. "
+				"n1": "Wdzięk, siła i spokój - tak w trzech słowach można opisać Jogę. Jest to doskonała forma ruchu, by poczuć się dobrze w swoim ciele i zadbać o zdrowie. Dzięki treningom możesz zyskać szczuplejszą sylwetkę, kształtować mięśnie i po prostu czerpać przyjemność. Dodatkowo model zajęć świetnie pomaga zredukować stres i pozwala na chwilę zwolnić nieustanny pęd, w którym żyjemy."
 			}
 		},
 		"n4": {
 			"nazwa": "TBC",
 			"nazwaClass": "TBC",
 			"opis": {
-				"n1": "Skrót w rozwinięciu to: `Total Body Condition`, co możemy przetłumaczyć jako `Kondycja całego ciała`. Najlepiej o nią zadbać łącząc ćwiczenia areobowe z siłowymi. Pierwsze wspierają układ krążenia, spalanie tkanki tłuszczowej i podnoszą wytrzymałość organizmu. Natomiast ćwiczenia siłowe poprawiają sprawność układu mięśniowego, cały czas podtrzymując go na wysokim poziomie. Trening może być urozmaicony o użycie rożnych przyrządów jak ciężarki czy gumy."
+				"n1": "Skrót w rozwinięciu to: “Total Body Condition”, co możemy przetłumaczyć jako “Kondycja Całego Ciała”. Najlepiej o nią zadbać łącząc ćwiczenia aerobowe z siłowymi. Pierwsze wspierają układ krążenia, spalają tkankę tłuszczową i podnoszą wytrzymałość organizmu. Natomiast ćwiczenia siłowe poprawiają sprawność układu mięśniowego, cały czas utrzymując go na wysokim poziomie. Trening może być urozmaicony o użycie różnych przyrządów jak ciężarki czy gumy."
 			}
 		},
 		"n5": {
 			"nazwa": "STEP",
 			"nazwaClass": "STEP",
 			"opis": {
-				"n1": "o jedna z najbardziej dynamicznych odmian fitnessu. Zajęcia prowadzone są rytm muzyki z wykorzystaniem stepów, czyli platform, na które wchodzi się i schodzi w najrozmaitszych konfiguracjach. Jest to idealna forma treningu dla osób, które chcą zrzucić kilka kilogramów, wymodelować sylwetkę i wzmocnić wiele grup mięśni - szczególnie dolnych partii ciała jak pośladki, uda i łydki. Treningi poprawią twoją wytrzymałość, kondycję i koordynację ruchową."
+				"n1": "To jedna z najbardziej dynamicznych odmian fitnessu. Zajęcia prowadzone są rytm muzyki z wykorzystaniem stepów, czyli platform, na które wchodzi się i schodzi w najrozmaitszych konfiguracjach. Jest to idealna forma treningu dla osób, które chcą zrzucić kilka kilogramów, wymodelować sylwetkę i wzmocnić wiele grup mięśni — szczególnie dolnych partii ciała jak pośladki, uda i łydki. Treningi poprawią twoją wytrzymałość, kondycję i koordynację ruchową."
 			}
 		},
 		"n6": {
 			"nazwa": "Body Shape",
 			"nazwaClass": "BodyShape",
 			"opis": {
-				"n1": "Jest to trening wzmacniającym wszystkie grupy mięśniowe. Zajęcia są dobre zarówno dla początkujących jak i bardziej zaawansowanych, ponieważ nie mają dużej intensyności, a skupiają się na technice i jakości wykonywanych ćwiczeń. Naważniejszymi zaletami treningów Body Shape jest wzrost masy mięśniowej, siły, poprawa wytrzymałości, zwiększenie jędrności skóry i zmniejszenie tkanki tłuszczowej. Ćwiczenia wykonywane są obciążeniem własnego ciała lub z wykorzystaniem niewielkich obciążeń lub gum."
+				"n1": "Trening wzmacnia wszystkie grupy mięśniowe. Zajęcia są dobre zarówno dla początkujących, jak i bardziej zaawansowanych, ponieważ nie mają dużej intensywności, a skupiają się na technice i jakości wykonywanych ćwiczeń. Najważniejszymi zaletami treningów Body Shape jest wzrost masy mięśniowej, siły, poprawa wytrzymałości, zwiększenie jędrności skóry i zmniejszenie tkanki tłuszczowej. Ćwiczenia wykonywane są obciążeniem własnego ciała lub z wykorzystaniem niewielkich obciążeń lub gum."
 			}
 		},
 		"n7": {
 			"nazwa": "BPU",
 			"nazwaClass": "BPU",
 			"opis": {
-				"n1": "To skrót od brzuch, pośladki, uda, czyli parti ciała, na których koncentruje się trening. Ćwiczenia pomagają w poprawie siły, elastyczności i ukształtowaniu mięśni. Są bardzo popularne wśród kobiet, które cenią sobie ich efekt, czyli płaski i wymodelowany brzuch, jędrne pośladki oraz smukłe uda, bez rozbudowanej muskulatury. BPU zalicza się do treningów o umiarkowanej intensywności, dlatego są dobre także dla początkujących. Zajęcia możecie znać również pod angojęzycznym skrótem ABT."
+				"n1": "To skrót od brzuch, pośladki, uda, czyli partii ciała, na których koncentruje się trening. Ćwiczenia pomagają w poprawie siły, elastyczności i ukształtowaniu mięśni. Są bardzo popularne wśród kobiet, które cenią sobie ich efekt, czyli jędrne pośladki, płaski i wymodelowany brzuch oraz smukłe uda, bez rozbudowanej muskulatury. BPU zalicza się do treningów o umiarkowanej intensywności, dlatego są dobre także dla początkujących. Zajęcia znane są również pod anglojęzycznym skrótem ABT."
 			}
 		},
 		"n8": {
+			"nazwa": "Cardio",
+			"nazwaClass": "Cardio",
+			"opis": {
+				"n1": "To popularna forma aktywności zarówno wśród kobiet, jak i mężczyzn. Trening cardio inaczej nazywany jest wydolnościowym, aerobowym czy też tlenowym. Podczas zajęć utrzymywana jest umiarkowana intensywność ćwiczeń przez stosunkowo długi czas, pobudzająca serce do wzmożonej pracy. Cardio dotlenia organizm, działa doskonale na układ krążenia, wzmacnia serce, poprawia wydolność, wzmacnia cały organizm i pozwala w szybko spalić kalorie."
+			}
+		},
+		"n9": {
+			"nazwa": "Płaski Brzuch",
+			"nazwaClass": "PłaskiBrzuch",
+			"opis": {
+				"n1": "Celem zajęć jest wzmocnienie i kształtowanie mięśni brzucha. Oprócz ćwiczeń wzmacniających stosowane są również aerobowe, które w połączeniu pomagają uzyskać cel, jakim jest płaski brzuch. W wyniku treningów poprawia się ogólną kondycję oraz stabilizację ciała. Efektem ekstra zajęć jest lepsze samopoczucie, zadowolenie z siebie i dużo endorfin."
+			}
+		},
+		"n10": {
+			"nazwa": "Zdrowy Kręgosłup",
+			"nazwaClass": "ZdrowyKregoslup",
+			"opis": {
+				"n1": "Nie tylko odczuwający bóle kręgosłupa, mogą skorzystać z tej formy treningu. Jest on przeznaczony dla wszystkich, którzy chcą zadbać o swoje zdrowie i zredukować dolegliwości związane z wadami postawy. Ćwiczenia mają na celu poprawę ruchomości kręgosłupa, wzmocnienie mięśni grzbietu i stabilizację tułowia."
+			}
+		},
+		"n11": {
+			"nazwa": "BRZUCH & STRETCH",
+			"nazwaClass": "BrzuchStrech",
+			"opis": {
+				"n1": "Trening składa się z dwóch części. Pierwsza z nich skupia się na wzmacnianiu i modelowaniu mięśni brzucha oraz wysmukleniu talii, poprzez ćwiczenia angażujące mięśnie proste, skośne i poprzeczne brzucha. W drugim etapie zajęcia koncentrują się na rozciąganiu i zwiększeniu zakresu ruchu. Zajęcia są doskonałym uzupełnieniem treningu cardio i siłowego."
+			}
+		},
+		"n12": {
+			"nazwa": "TABATA",
+			"nazwaClass": "TABATA",
+			"opis": {
+				"n1": "Jest to intensywny trening interwałowy, w którym serie ćwiczeń przeplatane są krótkimi okresami odpoczynku. Dzięki temu zwiększana jest wytrzymałość i wydajność w układzie tlenowym (sercowo-naczyniowym) i beztlenowym (mięśnie). Trening wyciśnie ostatnie poty, szybko poprawi kondycję i sylwetkę, a dodatkowo podkręcI metabolizm na długie godziny po zajęciach."
+			}
+		},
+		"n13": {
+			"nazwa": "ZUMBA",
+			"nazwaClass": "ZUMBA",
+			"opis": {
+				"n1": "eśli nie wiadomo na co się zdecydować, na taniec czy na fitness, najlepszym rozwiązaniem może okazać się Zumba. Jest to połączenie tańca i fitnessu w rytmie latino. Mówiąc inaczej, świetny, umiarkowany trening kardio, a do tego świetna zabawa dla każdego, bez względu na poziom sprawności fizycznej. Podczas zajęć można spalić dużo kalorii i poprawić kondycję."
+			}
+		},
+		"n14": {
+			"nazwa": "AEROBIK",
+			"nazwaClass": "AEROBIK",
+			"opis": {
+				"n1": "System ćwiczeń aerobowych, wykonywanych przy dźwiękach rytmicznej muzyki, których celem jest pobudzenie układu oddechowego i krążenia, które obciążone wysiłkiem dostarczają organizmowi maksymalną ilość tlenu. Ćwiczenia można wykonywać przez dłuższy czas bez szybko narastających objawów zmęczenia. Trening należy do dynamicznych i wymagających pewnego poziomu koordynacji ruchowej."
+			}
+		},
+		"n15": {
 			"nazwa": "",
 			"opis": {
 				"n1": "",

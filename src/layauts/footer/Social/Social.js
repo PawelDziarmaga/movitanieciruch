@@ -8,12 +8,16 @@ function Social() {
 			<h1>Społeczność</h1>
 			<ul>
 				<li className='facebook'>
-					<img src={facebook} alt='facebook'></img>
-					<span>Facebook</span>
+					<a href='https://www.facebook.com/movi.chorzow'>
+						<img src={facebook} alt='facebook'></img>
+						<span>Facebook</span>
+					</a>
 				</li>
 				<li className='instagram'>
-					<img src={instagram} alt='instagram'></img>
-					<span>Instagram</span>
+					<a href='https://www.instagram.com/movi.tanieciruch/'>
+						<img src={instagram} alt='instagram'></img>
+						<span>Instagram</span>
+					</a>
 				</li>
 				<li className='instagram'>
 					<img src={youtube} alt='instagram'></img>

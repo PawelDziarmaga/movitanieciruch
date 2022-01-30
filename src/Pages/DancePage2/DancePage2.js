@@ -10,6 +10,10 @@ import TaniecUzytkowyIMG from "../../Image/Taniec/Mini-518px-345px/TaniecUzytkow
 import TaniecWspolczesnyIMG from "../../Image/Taniec/Mini-518px-345px/TaniecWspolczesny.jpg";
 import TechnikiTancaKlasycznegoIMG from "../../Image/Taniec/Mini-518px-345px/TechnikiTancaKlasycznego.jpg";
 import ZajeciaRuchDlaDzieciIMG from "../../Image/Taniec/Mini-518px-345px/ZajeciaRuchDlaDzieci.jpg";
+import HipHopIMG from "../../Image/Taniec/Mini-518px-345px/HipHop.jpg";
+import BachataLadyStyleIMG from "../../Image/Taniec/Mini-518px-345px/BachataLadyStyle.jpg";
+import SalsaCubanaIMG from "../../Image/Taniec/Mini-518px-345px/SalsaCubana.jpg";
+import RuedaDeCasinoIMG from "../../Image/Taniec/Mini-518px-345px/RuedaDeCasino.jpg";
 
 import DataFitness from "./DancePage2.json";
 
@@ -71,6 +75,18 @@ function FitnessPage() {
 			break;
 		case "ZajęciaRuchoweDlaDzieci":
 			image = ZajeciaRuchDlaDzieciIMG;
+			break;
+		case "HIPHOP":
+			image = HipHopIMG;
+			break;
+		case "BachataLadyStyle":
+			image = BachataLadyStyleIMG;
+			break;
+		case "SalsaCubana":
+			image = SalsaCubanaIMG;
+			break;
+		case "RuedeDeCasino":
+			image = RuedaDeCasinoIMG;
 			break;
 		default:
 			image = TaniecTowarzyskiIMG;

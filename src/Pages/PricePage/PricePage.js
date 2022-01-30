@@ -14,6 +14,7 @@ function PricePage() {
 
 	const SmallContainerElements = SmallContainerData.map((element) => (
 		<SmallContainer
+			key={element[0]}
 			classElement={element[0]}
 			name={element[1]}
 			priceOneOfFour={element[2][0]}

@@ -9,6 +9,14 @@ import PilatesIMG from "../../../Image/Ruch/Mini-518px-345px/Pilates.jpg";
 import StepIMG from "../../../Image/Ruch/Mini-518px-345px/Step.jpg";
 import StrechingIMG from "../../../Image/Ruch/Mini-518px-345px/Streching.jpg";
 import TBCIMG from "../../../Image/Ruch/Mini-518px-345px/TBC.jpg";
+import CardioIMG from "../../../Image/Ruch/Mini-518px-345px/Cardio.jpg";
+import PłaskiBrzuchIMG from "../../../Image/Ruch/Mini-518px-345px/PłaskiBrzuch.jpg";
+import ZdrowyKręgosłupIMG from "../../../Image/Ruch/Mini-518px-345px/ZdrowyKręgosłup.jpg";
+import BRZUCHSTRETCHIMG from "../../../Image/Ruch/Mini-518px-345px/BRZUCHSTRETCH.jpg";
+import TABATAIMG from "../../../Image/Ruch/Mini-518px-345px/TABATA.jpg";
+import ZUMBAIMG from "../../../Image/Ruch/Mini-518px-345px/ZUMBA.jpg";
+import AEROBIKIMG from "../../../Image/Ruch/Mini-518px-345px/AEROBIK.jpg";
+import ZapiszSie from "../../../Image/Ruch/Mini-518px-345px//ZapiszSie.jpg";
 
 function Ruch() {
 	const history = useHistory();
@@ -33,7 +41,14 @@ function Ruch() {
 		["Step", StepIMG, "STEP"],
 		["Streching", StrechingIMG, "Stretching"],
 		["TBC", TBCIMG, "TBC"],
-		["Zapisz się!", TBCIMG, "toGraphic"],
+		["Cardio", CardioIMG, "Cardio"],
+		["Płaski Brzuch", PłaskiBrzuchIMG, "PłaskiBrzuch"],
+		["Zdrowy Kręgosłup", ZdrowyKręgosłupIMG, "ZdrowyKregoslup"],
+		["BRZUCH & STRETCH", BRZUCHSTRETCHIMG, "BrzuchStrech"],
+		["TABATA", TABATAIMG, "TABATA"],
+		["ZUMBA", ZUMBAIMG, "ZUMBA"],
+		["AEROBIK", AEROBIKIMG, "AEROBIK"],
+		["Zapisz się!", ZapiszSie, "toGraphic"],
 	];
 
 	const createElements = elements.map((element) => (

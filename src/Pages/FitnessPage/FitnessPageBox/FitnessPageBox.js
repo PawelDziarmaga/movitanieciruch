@@ -32,7 +32,7 @@ function FitnessPageBox({ title, img, txt, stan, setStan }) {
 				<img src={img} alt={title}></img>
 				<div>
 					<div className='description__p'>
-						<p>{data.opis.n1}</p>
+						<p>{data.opis.n2}</p>
 					</div>
 				</div>
 			</div>
@@ -111,6 +111,60 @@ function FitnessPageBox({ title, img, txt, stan, setStan }) {
 							</h3>
 						</div>
 					)}
+					{data.tance.n9.nazwa && (
+						<div className={data.tance.n9.nazwaClass}>
+							<h3
+								onClick={handlerClickTarget}
+								className={`${data.tance.n9.nazwaClass} ${title}`}>
+								{data.tance.n9.nazwa}
+							</h3>
+						</div>
+					)}
+					{data.tance.n10.nazwa && (
+						<div className={data.tance.n10.nazwaClass}>
+							<h3
+								onClick={handlerClickTarget}
+								className={`${data.tance.n10.nazwaClass} ${title}`}>
+								{data.tance.n10.nazwa}
+							</h3>
+						</div>
+					)}
+					{data.tance.n11.nazwa && (
+						<div className={data.tance.n11.nazwaClass}>
+							<h3
+								onClick={handlerClickTarget}
+								className={`${data.tance.n11.nazwaClass} ${title}`}>
+								{data.tance.n11.nazwa}
+							</h3>
+						</div>
+					)}
+					{data.tance.n12.nazwa && (
+						<div className={data.tance.n12.nazwaClass}>
+							<h3
+								onClick={handlerClickTarget}
+								className={`${data.tance.n12.nazwaClass} ${title}`}>
+								{data.tance.n12.nazwa}
+							</h3>
+						</div>
+					)}
+					{data.tance.n13.nazwa && (
+						<div className={data.tance.n13.nazwaClass}>
+							<h3
+								onClick={handlerClickTarget}
+								className={`${data.tance.n13.nazwaClass} ${title}`}>
+								{data.tance.n13.nazwa}
+							</h3>
+						</div>
+					)}
+					{data.tance.n14.nazwa && (
+						<div className={data.tance.n14.nazwaClass}>
+							<h3
+								onClick={handlerClickTarget}
+								className={`${data.tance.n14.nazwaClass} ${title}`}>
+								{data.tance.n14.nazwa}
+							</h3>
+						</div>
+					)}
 				</div>
 
 				<div>
@@ -134,6 +188,27 @@ function FitnessPageBox({ title, img, txt, stan, setStan }) {
 					</div>
 					<div className={data.tance.n7.nazwaClass}>
 						<FitnessPageBoxElement data={data.tance.n7.opis} />
+					</div>
+					<div className={data.tance.n8.nazwaClass}>
+						<FitnessPageBoxElement data={data.tance.n8.opis} />
+					</div>
+					<div className={data.tance.n9.nazwaClass}>
+						<FitnessPageBoxElement data={data.tance.n9.opis} />
+					</div>
+					<div className={data.tance.n10.nazwaClass}>
+						<FitnessPageBoxElement data={data.tance.n10.opis} />
+					</div>
+					<div className={data.tance.n11.nazwaClass}>
+						<FitnessPageBoxElement data={data.tance.n11.opis} />
+					</div>
+					<div className={data.tance.n12.nazwaClass}>
+						<FitnessPageBoxElement data={data.tance.n12.opis} />
+					</div>
+					<div className={data.tance.n13.nazwaClass}>
+						<FitnessPageBoxElement data={data.tance.n13.opis} />
+					</div>
+					<div className={data.tance.n14.nazwaClass}>
+						<FitnessPageBoxElement data={data.tance.n14.opis} />
 					</div>
 				</div>
 			</div>

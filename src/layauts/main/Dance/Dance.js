@@ -9,6 +9,11 @@ import TaniecUzytkowyIMG from "../../../Image/Taniec/Mini-518px-345px/TaniecUzyt
 import TaniecWspolczesnyIMG from "../../../Image/Taniec/Mini-518px-345px/TaniecWspolczesny.jpg";
 import TechnikiTancaKlasycznegoIMG from "../../../Image/Taniec/Mini-518px-345px/TechnikiTancaKlasycznego.jpg";
 import ZajeciaRuchDlaDzieciIMG from "../../../Image/Taniec/Mini-518px-345px/ZajeciaRuchDlaDzieci.jpg";
+import HipHopIMG from "../../../Image/Taniec/Mini-518px-345px/HipHop.jpg";
+import BachataLadyStyleIMG from "../../../Image/Taniec/Mini-518px-345px/BachataLadyStyle.jpg";
+import SalsaCubanaIMG from "../../../Image/Taniec/Mini-518px-345px/SalsaCubana.jpg";
+import RuedaDeCasinoIMG from "../../../Image/Taniec/Mini-518px-345px/RuedaDeCasino.jpg";
+import SprawdzGrafikIMG from "../../../Image/Taniec/Mini-518px-345px/SprawdzGrafik.jpg";
 
 function Dance() {
 	const history = useHistory();
@@ -32,17 +37,18 @@ function Dance() {
 		["Taniec Towarzyski", TaniecTowarzyskiIMG, "TaniecTowarzyski"],
 		["Taniec użytkowy", TaniecUzytkowyIMG, "TaniecUżytkowy"],
 		["Taniec Współczesny", TaniecWspolczesnyIMG, "TaniecWspółczesny"],
+
+		["MOVI KIDS", ZajeciaRuchDlaDzieciIMG, "ZajęciaRuchoweDlaDzieci"],
+		["Hip HOP", HipHopIMG, "HIPHOP"],
+		["Bachata Lady StyleS", BachataLadyStyleIMG, "BachataLadyStyle"],
+		["Salsa Cubana", SalsaCubanaIMG, "SalsaCubana"],
+		["Rueda De Casino", RuedaDeCasinoIMG, "RuedeDeCasino"],
 		[
 			"Techniki Tańca Klasycznego",
 			TechnikiTancaKlasycznegoIMG,
 			"TechnikiTańcaKlasycznego",
 		],
-		[
-			"Zajęcia Ruchowe Dla dzieci",
-			ZajeciaRuchDlaDzieciIMG,
-			"ZajęciaRuchoweDlaDzieci",
-		],
-		["Sprawdz grafik!", TechnikiTancaKlasycznegoIMG, "toGraphic"],
+		["Sprawdz grafik!", SprawdzGrafikIMG, "toGraphic"],
 	];
 
 	const createElements = elements.map((element) => (
