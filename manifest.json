@@ -1,6 +1,9 @@
 {
+	"lang": "PL",
+	"dir": "ltr",
 	"short_name": "MOVI",
 	"name": "MOVI taniec i ruch",
+	"description": "MOVI to nowe miejsce na tanecznej i sportowej mapie Śląska. Tworzymy je z myślą o wszystkich tych, którzy chcą rozpocząć lub kontynuować swoją taneczną przygodę, a także zadbać o swoje zdrowie i ciało",
 	"icons": [
 		{
 			"src": "favicon.ico",
